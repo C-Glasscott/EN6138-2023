@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="lication/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="lication/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verses to a Child</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Anne Bront&#235;</author>
+                        <title>"Verses to a Child"</title>
+                        <imprint>
+                            <date>August 21 1838</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <listWit>
+                    <witness xml:id="MS-P">
+                        <!--Return to this and fix-->
+                        <bibl type="manuscript">
+                            <title>Poems of Anne Bronte 1838-41</title>
+                            <msIdentifier>
+                                <settlement>New York</settlement>
+                                <repository>Morgan Library and Musuem</repository>
+                                <idno>MA 2696.5</idno>
+                            </msIdentifier>
+                        </bibl></witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+
+    <text n="POEM" xml:id="POE">
+        <!-- DON'T WORRY ABOUT CHANGING THIS; WE CAN DO SO LATER -->
+
+
+        <front>
+            <head>Verses to a Child</head>
+        </front>
+
+        <body>
+            <pb n="1" xml:id="VER_1"/>
+            <head>Verses to a Child</head>
+
+
+            <div type="stanza">
+                <l n="1">O raise those eyes to me again</l>
+                <l n="2">And smile again so joyously,</l>
+                <l n="3">And fear not love, it was not pain</l>
+                <l n="4">Nor grief that drew these tears from me;</l>
+                <l n="5">Beloved child thou canst not tell,</l>
+                <l n="6">The thoughts that in my bosome swell</l>
+                <!-- sic bosome -->
+                <l n="7">When e're I look on thee!</l>
+            </div>
+
+            <div type="stanza">
+                <l n="8">Thou knowest not that a glance of thine, </l>
+                <l n="9">Can bring back long departed years</l>
+                <l n="10">And that thy blue eyes magic shine</l>
+                <l n="11">Can overflow my own with tears,</l>
+
+                <pb n="2" xml:id="VER_2"/>
+
+                <l n="12">And that each feature soft and fair</l>
+                <l n="13">And every curl of golden hair,</l>
+                <l n="14">Some sweet remembrance bears.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="15">Just then thou didst recall to me </l>
+                <l n="16">A distant long forgotten scene:</l>
+                <l n="17">One smile and one sweet word from thee</l>
+                <l n="18">Dispelled the years rhat rolled between,</l>
+                <l n="19">I was a little child again, </l>
+                <l n="20">And every after joy and pain,</l>
+                <l n="21">Seemed never to have been. </l>
+            </div>
+
+            <div type="stanza">
+                <l n="22">Tall forest trees waved over me,</l>
+                <l n="23">To hide me from the heat of day,</l>
+                <l n="24">And by my side a child like thee</l>
+                <l n="25">Among the summer flowerets lay.</l>
+                <l n="26">He was thy sire thou merry child.</l>
+                <l n="27">Like thee he spoke, like thee he smiled,</l>
+                <l n="28">Like thee he used to play,</l>
+            </div>
+
+            <div type="stanza">
+                <l n="29">O <del> Mary </del> those were <add> calm and </add> hy days, </l>
+                <l n="30">We loved each other fondly then</l>
+
+                <pb n="3" xml:id="VER_3"/>
+
+                <l n="31">But human love too soon decays,</l>
+                <l n="32">And ours can never bloom again.</l>
+                <l n="33">I never thought to see the day</l>
+                <l n="34">When <del> his love and</del>
+                    <add> Florian's</add> friendship would decay,</l>
+                <l n="35">Like that of colder men.</l>
+
+            </div>
+
+            <div type="stanza">
+                <l n="36">Now <del>Mary</del>
+                    <add>Flora</add> thou hast but begun</l>
+                <l n="37">To sail on life's deceitful sea,</l>
+                <l n="38">O do not err as I have done,</l>
+                <l n="39">For I have trusted foolishly,</l>
+                <l n="40">The faith of every friend I loved,</l>
+                <l n="41">I never doubted till I proved </l>
+                <l n="42">Their hearts inconstancy.</l>
+
+            </div>
+
+            <div type="stanza">
+                <l n="43">'Tis mournful to look back upon </l>
+                <l n="44">Those <add>long</add> departed joys and cares,</l>
+                <l n="45">And I <app>
+                        <lem rend="underline">will </lem>
+                    </app>weep since thou alone </l>
+                <l n="46">Art witness to my <add place="above"> streaming</add> tears,</l>
+                <l n="47">This lingering love will not depart, </l>
+                <l n="48">I can not bannish from my heart,</l>
+                <!-- sic bannish -->
+                <l n="49">The friend of childish years,</l>
+
+            </div>
+
+            <pb n="4" xml:id="VER_4"/>
+
+            <div type="stanza">
+                <l n="50">But though thy Father loves me not,</l>
+                <l n="51">Yet I shall still be loved by thee,</l>
+                <l n="52">And though I am by him forgot,</l>
+                <l n="53">Say wilt not thou remember me! </l>
+                <l n="54">I will not cause <app>
+                        <lem wit="#MS-P" rend="underline">thy</lem>
+                    </app> heart to ache,</l>
+                <l n="55">
+                    <del>And</del> for thy regretted Father's sake,</l>
+                <l n="56">I'll love and cherrish thee.</l>
+                <!-- sic cherrish -->
+            </div>
+        </body>
+        <back>
+            <ab>56 lines</ab>
+            <closer>
+                <signed>Alexandrina Zenobia</signed>
+                <signed>Anne Bront&#235;</signed>
+                <dateline>August 21th 1938</dateline></closer>
+        </back>
+    </text>
+</TEI>

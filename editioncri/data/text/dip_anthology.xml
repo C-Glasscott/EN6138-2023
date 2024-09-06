@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Fragment (Diplomatic Encoding)</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Anne Bront&#235;</author>
+                        <title>"Tis Strange to Think"</title>
+                        <imprint>
+                            <date>1843</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <listWit>
+                    <!-- add other MS details -->
+                    <witness xml:id="MS-P">
+                        <bibl type="manuscript">
+                            <title>Anne Brontë Manuscript, 1842-45</title>
+                            <msIdentifier>
+                                <settlement>New York</settlement>
+                                <repository>Morgan Library and Museum</repository>
+                                <idno>MA 28</idno>
+                            </msIdentifier>
+                        </bibl></witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <!-- GIVE EACH <text> AN @n AND @xml:id -->
+    <text n="Verses to a Child" xml:id="VER">
+
+        <front>
+            <head>Verses to a Child</head>
+        </front>
+
+        <body>
+            <pb n="1" xml:id="VER_1" facs="data/images/single/VER_1.jpg/"/>
+            <head>Verses to a Child &#x2014;</head>
+
+            <div type="stanza">
+                <l n="1">O raise those eyes to me again</l>
+                <l n="2">And smile again so joyously,</l>
+                <l n="3">And fear not love, it was not pain</l>
+                <l n="4">Nor grief that drew these tears from <add>(me;</add></l>
+                <l n="5">Beloved child thou canst not tell,</l>
+                <l n="6">The thoughts that in my bosome <add>swell</add></l>
+                <!-- sic bosome -->
+                <l n="7">When e're I look on thee!</l>
+            </div>
+
+            <div type="stanza">
+                <l n="8">Thou knowest not that a glance <add>(of thine,</add>
+                </l>
+                <l n="9">Can bring back long departed years</l>
+                <l n="10">And that thy blue eyes magic shine</l>
+                <l n="11">Can overflow my own with tears,</l>
+
+                <pb n="2" xml:id="VER_2" facs="data/images/single/VER_2.jpg/"/>
+
+                <l n="12">And that each feature soft and fair</l>
+                <l n="13">And every curl of golden hair,</l>
+                <l n="14">Some sweet remembrance bears.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="15">Just then thou didst recall to me </l>
+                <l n="16">A distant long forgotten scene:</l>
+                <l n="17">One smile and one sweet word from <add>(thee</add></l>
+                <l n="18">Dispelled the years rhat rolled between,</l>
+                <l n="19">I was a little child again, </l>
+                <l n="20">And every after joy and pain,</l>
+                <l n="21">Seemed never to have been. </l>
+            </div>
+
+            <div type="stanza">
+                <l n="22">Tall forest trees waved over me,</l>
+                <l n="23">To hide me from the heat of day,</l>
+                <l n="24">And by my side a child like thee</l>
+                <l n="25">Among the summer flowerets lay.</l>
+                <l n="26">He was thy sire thou merry child.</l>
+                <l n="27">Like thee he spoke, like thee he <add>(smiled</add>,</l>
+                <l n="28">Like thee he used to play,</l>
+            </div>
+
+            <div type="stanza">
+                <l n="29">O <del> Mary</del> those were <add>calm and</add> happy days, </l>
+                <l n="30">We loved each other fondly then</l>
+
+                <pb n="3" xml:id="VER_3" facs="data/images/single/VER_3.jpg/"/>
+
+                <l n="31">But human love too soon decays,</l>
+                <l n="32">And ours can never bloom again.</l>
+                <l n="33">I never thought to see the day</l>
+                <l n="34">When <del> his love and</del>
+                    <add> Florian's</add> friendship would <add>decay,</add></l>
+                <l n="35">Like that of colder men.</l>
+
+            </div>
+
+            <div type="stanza">
+                <l n="36">Now <del>Mary</del>
+                    <add>Flora</add> thou hast but begun</l>
+                <l n="37">To sail on life's deceitful sea,</l>
+                <l n="38">O do not err as I have done,</l>
+                <l n="39">For I have trusted foolishly,</l>
+                <l n="40">The faith of every friend I loved,</l>
+                <l n="41">I never doubted till I proved </l>
+                <l n="42">Their hearts inconstancy.</l>
+
+            </div>
+
+            <div type="stanza">
+                <l n="43">'Tis mournful to look back upon</l>
+                <l n="44">Those <add>long</add> departed joys and cares,</l>
+                <l n="45">And I <hi rend="underline">will</hi> weep since thou alone</l>
+                <l n="46">Art witness to my <add>streaming</add> tears,</l>
+                <l n="47">This lingering love will not depart,</l>
+                <l n="48">I can not bannish from my heart,</l>
+                <!-- sic bannish -->
+                <l n="49">The friend of childish years,</l>
+
+            </div>
+
+            <pb n="4" xml:id="VER_4" facs="data/images/single/VER_4.jpg/"/>
+
+            <div type="stanza">
+                <l n="50">But though thy Father loves me not,</l>
+                <l n="51">Yet I shall still be loved by thee,</l>
+                <l n="52">And though I am by him forgot,</l>
+                <l n="53">Say wilt not thou remember me! </l>
+                <l n="54">I will not cause <hi rend="underline">thy</hi> heart to ache,</l>
+                <l n="55">
+                    <del>And</del> for thy regretted Father's sake,</l>
+                <l n="56">I'll love and cherrish thee.</l>
+                <!-- sic cherrish -->
+            </div>
+
+            <div>
+                <ab>56 lines</ab>
+                <closer>
+                    <signed>Alexandrina Zenobia</signed>
+                    <signed>Anne Bront&#235;</signed>
+                    <dateline>August 21th 1938</dateline></closer>
+            </div>
+        </body>
+    </text>
+
+    <text n="A Fragment" xml:id="FRG">
+
+        <front>
+            <head>A Fragment</head>
+            <!-- renamed to Self-Congratulation in Poems 1846 -->
+        </front>
+
+        <body>
+            <pb n="5" xml:id="FRG_1" facs="data/images/single/FRG_1.jpg/"/>
+
+            <head>A Fragment</head>
+
+            <div type="stanza">
+                <l n="1">"Maiden thou wert thoughtless <add>(once</add></l>
+                <l n="2">Of beauty or of grace</l>
+                <l n="3">Simple and homely in atire<!-- sic atire --></l>
+                <l n="4">Careless of form and face</l>
+                <l n="5">Then whence this change? and why so oft &#x2014;</l>
+                <l n="6">Dost smooth thy hazel hair</l>
+                <l n="7">And wherefore deck thy youthful form</l>
+                <l n="8">With such unwearied care?</l>
+            </div>
+
+            <div type="stanza">
+                <l n="9">Tell us - and cease to tire our ears</l>
+                <l n="10">With yonder hackneyed strain</l>
+                <l n="11">Why wilt thou play those <del>simple</del>
+                    <add>simple tunes</add></l>
+
+                <pb n="6" xml:id="FRG_2" facs="data/images/single/FRG_2.jpg/"/>
+                <l n="12">So often o'er again?"</l>
+                <l n="13">"Nay gentle friends I can but say</l>
+                <l n="14">That childhood's thoughts are <add>(gone</add></l>
+                <l n="15">Each year its own new feelings brings</l>
+                <l n="16">And years move swiftly on</l>
+            </div>
+
+            <div type="stanza">
+                <l n="17">And for those little simple airs</l>
+                <l n="18">I love to play them o'er &#x2014;</l>
+                <l n="19">So much I dare not promise <add>now</add></l>
+                <l n="20">To play them never more."</l>
+                <l n="21">I answered and it was enough</l>
+                <l n="22">They turned them to depart</l>
+                <l n="23">They could not read my secret thoughts</l>
+                <l n="24">Nor see my throbbing<del>s</del> heart.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="25">I've noticed many a youthful <add>(form</add></l>
+                <l n="26">Upon whose changeful face</l>
+                <l n="27">The inmost workings of the soul</l>
+                <l n="28">The gazer's eye might trace</l>
+
+                <pb n="7" xml:id="FRG_3" facs="data/images/single/FRG_3.jpg/"/>
+                <l n="29">The speaking eye the changing lip</l>
+                <l n="30">The ready blushing cheek</l>
+                <l n="31">The smiling or beclouded brow</l>
+                <l n="32">Their differnt feelings speak</l>
+            </div>
+
+            <div type="stanza">
+                <l n="33">But thank God! you might gaze on mine</l>
+                <l n="34">For hours and never know</l>
+                <l n="35">The secret changes of my soul</l>
+                <l n="36">From joy to bitter wo</l>
+                <l n="37">Last night as we sat round the <add>(fire</add></l>
+                <l n="38">Conversing merrily</l>
+                <l n="39">We heard without approaching <add>steps</add></l>
+                <l n="40">Of one well known to me.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="41">There was no trembling in my <add>(voice</add></l>
+                <l n="42">No blush upon my cheek</l>
+                <l n="43">No lustrous sparkle in my eyes</l>
+                <l n="44">Of hope or joy to speak</l>
+                <l n="45">But O my spirit burned within</l>
+
+                <pb n="8" xml:id="FRG_4" facs="data/images/single/FRG_4.jpg/"/>
+                <l n="46">My heart beat thick and fast</l>
+                <l n="47">He came not nigh - he went <del>away</del><add>away</add></l>
+                <l n="48">And then my joy was past</l>
+            </div>
+
+            <div type="stanza">
+                <l n="49">And yet my comrades marked it not</l>
+                <l n="50">My voice was still the same</l>
+                <l n="51">They saw me smile and o'er my face &#x2014;</l>
+                <l n="52">No signs of sadness came</l>
+                <l n="53">They little knew my hidden thoughts</l>
+                <l n="54">And they will never <del>kow</del><add>know</add></l>
+                <l n="55">The anguish of my drooping heart</l>
+                <l n="56">The bitter aching wo!</l>
+            </div>
+
+
+            <div>
+                <ab>56 lines</ab>
+                <closer><signed>Olivia Vernon</signed>
+                    <dateline>written January 1st 1840</dateline>
+                    <signed>Anne Bront&#235;</signed></closer>
+            </div>
+        </body>
+    </text>
+
+    <text n="The Bluebell" xml:id="BLB">
+
+        <front>
+            <head>The Bluebell</head>
+        </front>
+
+        <body>
+            <pb n="9" xml:id="BLB_1" facs="data/images/single/BLB_1.jpg/"/>
+
+            <head>The Bluebell &#x2014;</head>
+
+            <div type="stanza">
+                <l n="1">A fine and subtle spirit dwells</l>
+                <l n="2">In every little flower:</l>
+                <l n="3">Each one its own sweet feeling <add>breathes</add></l>
+                <l n="4">With more or less of power.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="5">There is a silent eloquence,</l>
+                <l n="6">In every wild bluebell,</l>
+                <l n="7">That fills my softened heart with bliss,</l>
+                <l n="8">That words could never tell</l>
+            </div>
+
+            <div type="stanza">
+                <l n="9">Yet I recall not long ago,</l>
+
+                <pb n="10" xml:id="BLB_2" facs="data/images/single/BLB_2.jpg/"/>
+
+                <l n="10">A bright and sunny day.</l>
+                <l n="11">'Twas when I led a toilsome life</l>
+                <l n="12">So many leauges away ;</l>
+                <!-- sic leauges -->
+            </div>
+
+            <div type="stanza">
+                <l n="13">That day along a sunny road</l>
+                <l n="14">All carelessly I strayed, </l>
+                <l n="15">Between two banks where smiling <add>(flowers</add></l>
+                <l n="16">The<del>re</del><add>ir</add> varied hues displayed.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="17">Before me rose a lofty hill</l>
+                <l n="18">Behind me lay the sea</l>
+                <l n="19">My heart was not so heavy <add>then</add></l>
+                <l n="20">As it was wont to be.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="21">Less harrassed than at other times</l>
+                <!-- sic harrassed -->
+                <l n="22">I saw the scene was fair,</l>
+                <l n="23">And spoke and <del>f</del> laughed to those around,</l>
+                <l n="24">As if I knew no care.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="25">But as I looked upon the bank</l>
+
+                <pb n="11" xml:id="BLB_3" facs="data/images/single/BLB_3.jpg/"/>
+
+                <l n="26">My wandering glances fell <del>u</del></l>
+                <l n="27">Upon a little trembling flower</l>
+                <l n="28">A single sweet bluebell.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="29">Whence came that rising in my <add>(throat</add></l>
+                <l n="30">That dimness in my eyes?</l>
+                <l n="31">Why did those burning drops <del>distill</del>
+                    <add>distill&#x2014;</add></l>
+                <l n="32">Those bitter feeling rise?</l>
+            </div>
+
+            <div type="stanza">
+                <l n="33">O that <del>Bluebell</del>
+                    <add>lone flower</add><note>This MS change shows Bronte adding additional
+                        personifcation of the Bluebell and refining the Romantic potency of her
+                        image</note> recalled to me</l>
+                <l n="34">My happy childhood's hours</l>
+                <l n="35">When blue bells <del>were</del>
+                    <add>seemed</add> like fairy gifts</l>
+                <l n="36">A prize among the flowers</l>
+            </div>
+
+            <div type="stanza">
+                <l n="37">Those sunny days of merriment</l>
+                <l n="38">When heart and soul were free.</l>
+                <l n="39">And when I dwelt with kindred hearts</l>
+                <l n="40">That loved and cared for me</l>
+            </div>
+            <pb n="12" xml:id="BLB_4" facs="data/images/single/BLB_4.jpg/"/>
+
+            <div type="stanza">
+                <l n="41">I had not then <del>to spend my days</del>
+                    <del>mid icy hearts</del>
+                    <add>mid heartless crowds</add></l>
+                <l n="42">To spend a thankless life</l>
+                <l n="43">In seaking after others' weal</l>
+                <!-- sic seaking -->
+                <l n="44">With anxious toil and strife</l>
+            </div>
+
+            <div type="stanza">
+                <l n="45">"Sad wanderer weep those blissful <add>(times</add></l>
+                <l n="46">That never may return!"</l>
+                <l n="47">The lovely floweret seemed to say</l>
+                <l n="48">And thus it made me mourn.</l>
+            </div>
+
+            <div>
+                <ab>44 lines</ab>
+                <closer>
+                    <signed>Anne Bront&#235;</signed>
+                    <dateline>August 22nd 1840</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+
+    <text n="An Orphan's Lament" xml:id="ORP">
+
+        <front>
+            <head>An Orphan's Lament</head>
+        </front>
+
+        <body>
+
+            <pb n="13" xml:id="ORP_1" facs="data/images/single/ORP_1.jpg/"/>
+
+            <head>An Orphan's Lament</head>
+
+            <div type="stanza">
+                <l n="1">She's gone - and twice the summer's <add>(sun</add></l>
+                <l n="2">Has gilt Regina's towers</l>
+                <l n="3">And melted wild Angora's snows</l>
+                <l n="4">And warmed Exina's bowers</l>
+            </div>
+
+            <div type="stanza">
+                <l n="5">The flowerets twice on hill and dale,</l>
+                <l n="6">Have bloomed and died away,</l>
+                <l n="7">And twice the rustling forest leaves</l>
+                <l n="8">Have fallen to decay,</l>
+            </div>
+
+            <pb n="14" xml:id="ORP_2" facs="data/images/single/ORP_2.jpg/"/>
+
+            <div type="stanza">
+                <l n="9">And thrice stern winter's icy hand</l>
+                <l n="10">Has checked the river's flow,</l>
+                <l n="11">And thrice times o'er the mountains <add>(thrown</add></l>
+                <l n="12">His spotless robe of snow.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="13">Two Summers Springs and Autumns <add>(sad</add></l>
+                <l n="14">Three Winters cold and grey&#x2014;</l>
+                <l n="15">And is it then so long ago</l>
+                <l n="16">That wild November day!</l>
+            </div>
+
+            <div type="stanza">
+                <l n="17">They say such tears as children weep,</l>
+                <l n="18">Will soon be dried away,</l>
+                <l n="19">That childish grief however strong</l>
+                <l n="20">Is only for a day.<!-- query full stop vs comma here --></l>
+            </div>
+
+            <div type="stanza">
+                <l n="21">And parted friends how <add>soe'er</add> dear</l>
+                <!-- consider placement before or after dear-after in CH -->
+                <l n="22">Will soon forgotten be;</l>
+                <l n="23">It may be so with other hearts</l>
+                <l n="24">It is not thus with me.</l>
+            </div>
+
+            <pb n="15" xml:id="ORP_3" facs="data/images/single/ORP_3.jpg/"/>
+            <div type="stanza">
+                <l n="25">My Mother thou wilt weep nomore
+                    <!-- query whether should be space in there --></l>
+                <l n="26">For thou art gone above</l>
+                <l n="27">But can I ever cease to mourn</l>
+                <l n="28">Thy fond and fervent love?</l>
+            </div>
+
+            <div type="stanza">
+                <l n="29">While that was mine the World to me<!-- confirm captialisation? --></l>
+                <l n="30">Was sunshine bright and fair</l>
+                <l n="31">No feeling rose within my <add>(heart</add></l>
+                <l n="32">But thou couldst read it there</l>
+            </div>
+
+            <div type="stanza">
+                <l n="33">And thou <del>wouldst</del><add>couldst</add> feel for all my joys</l>
+                <l n="34">And all my childish cares</l>
+                <l n="35">And never weary of my play</l>
+                <l n="36">Or scorn my foolish fears</l>
+            </div>
+
+            <div type="stanza">
+                <l n="37">Beneath thy sweet maternal <add>smile</add></l>
+                <l n="38">All pain and sorrow fled</l>
+                <l n="39">And even the very tears were <add>(sweet</add></l>
+                <l n="40">Upon <del>to<!-- hard to decipher --></del> thy bosom shed</l>
+            </div>
+
+            <pb n="16" xml:id="ORP_4" facs="data/images/single/ORP_4.jpg/"/>
+            <div type="stanza">
+                <l n="41">Thy loss can never be repaired</l>
+                <l n="42">I shall not <del>see</del><add>know</add>again</l>
+                <l n="43">While life remains the peaceful joy</l>
+                <l n="44">That filled my spirit then</l>
+            </div>
+
+            <div type="stanza">
+                <l n="45">Where shall I fina a heart like thine</l>
+                <l n="46">While life remains to me</l>
+                <l n="47">And where shall I bestow the <add>(love</add></l>
+                <l n="48">I ever bore for thee.</l>
+            </div>
+
+            <div>
+                <ab/>
+                <closer>
+                    <dateline>January 1st 1841</dateline>
+                    <signed>A H</signed>
+                    <signed>Anne Bront&#235;</signed></closer>
+            </div>
+        </body>
+    </text>
+
+    <text n="Lines Written at Thorp Green" xml:id="LTG">
+
+        <front>
+            <head>Lines Written at Thorp Green</head>
+        </front>
+
+        <body>
+            <pb n="17" xml:id="LTG_1" facs="data/images/single/LTG_1.jpg/"/>
+            <head>Lines written at Thorp Green</head>
+
+            <div type="stanza">
+                <l n="1">That summer sun whose genial <add>glow,</add></l>
+                <l n="2"><del>H</del><!-- Could that be a 'H'? J.T. --> Now cheers my drooping
+                    spirit so,</l>
+                <l n="3">Must cold and distant be,</l>
+                <l n="4">And only light our northern clime</l>
+                <l n="5">With feeble ray, before the time</l>
+                <l n="6">I long so much to see. </l>
+            </div>
+
+            <pb n="18" xml:id="LTG_2" facs="data/images/single/LTG_2.jpg/"/>
+
+            <div type="stanza">
+                <l n="7">And this soft whispering breeze that now,</l>
+                <l n="8">So gently cools my fevered brow,</l>
+                <l n="9">This too Alas! must turn &#x2014;</l>
+                <!-- query whether alas is capitalized or not in MS and consider Chitham -->
+                <l n="10">To a wild blast whose icy dart,</l>
+                <l n="11">Pierces and chills me to the heart</l>
+                <l n="12">Before I cease to mourn.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="13">And these bright flowers I love so <add>well,</add></l>
+                <l n="14">Verbina - Rose and sweet bluebell</l>
+                <!-- sic Verbina -->
+                <l n="15">Must droop and die away.</l>
+                <l n="16">Those thick green leaves with all their shade</l>
+                <l n="17">And rustling musick they must <add>(fade</add></l>
+                <!-- sic musick -->
+                <l n="18">And every one decay.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="19">But if the sunny Summer time</l>
+                <l n="20">And woods and meadows in their prime</l>
+                <l n="21">Are <del>seet</del> sweet to those who roam -</l>
+
+                <pb n="19" xml:id="LTG_3" facs="data/images/single/LTG_3.jpg/"/>
+                <l n="22">Far sweeter is the Winter bare</l>
+                <l n="23">With long dark nights and landscape drear</l>
+                <l n="24">To them that are at Home!</l>
+            </div>
+
+            <div>
+                <ab>24 lines</ab>
+                <closer>
+                    <signed>A B</signed>
+                    <dateline>August 19th 1841</dateline></closer>
+            </div>
+        </body>
+    </text>
+
+    <text n="Tis Strange to think" xml:id="TIS">
+
+        <front>
+            <head>A Fragment</head>
+        </front>
+
+        <body>
+            <!-- ****** MS page 1 ****** -->
+            <pb n="20" xml:id="TIS_1" facs="data/images/single/TIS_1.jpg/"/>
+            <!-- required to activate diplomatic view -->
+            <head>Tis Strange to Think</head>
+
+            <div type="stanza">
+                <l n="1">'Tis strange to think there was a time</l>
+                <l n="2">When mirth was not an empty name</l>
+                <l n="3">When laughter really cheered the heart</l>
+                <l n="4">And frequent smiles unbidden came</l>
+                <l n="5">And tears of grief would only flow</l>
+                <l n="6">In sympathy for other<del>'</del>s' <del>wo</del>wo.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="7">When speech expressed the inward thought</l>
+                <l n="8">And heart, to kindred heart was bare</l>
+                <l n="9">And Summer days were far too short</l>
+                <l n="10">For all the pleasures crowded there</l>
+                <!-- ****** MS page 2 ****** -->
+
+                <pb n="21" xml:id="TIS_2" facs="data/images/single/TIS_2.jpg/"/>
+                <l n="11">And Silence, Solitude and rest</l>
+                <l n="12">Now welcome to the weary breast</l>
+            </div>
+
+            <div type="stanza">
+                <l n="13">Were all unprized uncourted then</l>
+                <l n="14">And all the joy one spirit showed</l>
+                <l n="15">The other <del>warmly</del>
+                    <add>deeply</add> felt again</l>
+                <l n="16">And friendship like a river flowed</l>
+                <l n="17">Constant and strong its silent course</l>
+                <l n="18">For naught withstood its gentle force</l>
+            </div>
+
+            <div type="stanza">
+                <l n="19">When night the holy time of peace</l>
+                <l n="20">Was dreaded as the parting hour</l>
+                <l n="21">When firendly intercourse must cease</l>
+                <l n="22">And Silence must resume her power</l>
+                <l n="23">Though ever free from pains and woes</l>
+                <l n="24">She only brought calm repose.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="25">And that blessed dawn <del>of skies</del>
+                    <add>again</add></l>
+                <l n="26">Brought daylight to the blushing skies</l>
+                <l n="27">We woke <del>but</del>
+                    <add>and</add> not reluctant then</l>
+                <l n="28">To joyless labour did we rise</l>
+                <!-- ****** MS page 3 ****** -->
+
+                <pb n="22" xml:id="TIS_3" facs="data/images/single/TIS_3.jpg/"/>
+
+                <l n="29">But full of hope and glad and gay</l>
+                <l n="30">We welcomed <del>in</del> the
+                    <del>rising</del><add>returning</add>day.</l>
+            </div>
+
+            <closer>
+                <signed>A. B. &#x2014;</signed>
+                <dateline>Nov 21st 1843</dateline>
+            </closer>
+
+        </body>
+    </text>
+
+    <text n="Memory" xml:id="MEM">
+
+        <front>
+            <head>Memory</head>
+        </front>
+
+        <body>
+            <pb n="23" xml:id="MEM_1" facs="data/images/single/MEM_1.jpg/"/>
+            <head>Memory</head>
+
+
+            <div type="stanza">
+                <l n="1">Brightly the sun of summer shone,</l>
+                <l n="2">Green fields and waving woods upon</l>
+                <l n="3">And soft winds <del>murmured</del>
+                    <add>wandered</add> by.</l>
+                <l n="4">Above, a sky of purest blue</l>
+                <l n="5">Around, bright flowers of loveliest hue</l>
+                <l n="6">Allured the gazer's eye.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="7">But what were all these charms to me</l>
+                <l n="8">When one sweet breath of memory,</l>
+                <l n="9">Came gently wafting by <del>e</del>,</l>
+                <l n="10">I closed my eyes against the day,</l>
+                <l n="11">And called <del>wi</del> my willing soul away</l>
+                <l n="12">From earth and air and sky;</l>
+            </div>
+
+            <div type="stanza">
+                <l n="13">That I might simply fancy there,</l>
+                <l n="14">One little flower &#x2014; a primrose fair</l>
+                <l n="15">Just opening into sight.</l>
+
+                <pb n="24" xml:id="MEM_2" facs="data/images/single/MEM_2.jpg/"/>
+
+                <l n="16">As in the days of infancy,</l>
+                <l n="17">An opening primrose seemed to me,</l>
+                <l n="18">A source of <del>pure</del>
+                    <add>strange</add> delight<note>This change from 'pure' to 'strange' shows
+                        Bronte recalibrating her poetry's alignment with Romantic language and
+                        activley undermining the imagined 'purity' of the delights of nature in
+                        favour of more skeptical language </note>.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="19">Sweet memory ever smile on me,</l>
+                <l n="20">Nature's chief beauties spring from thee,</l>
+                <l n="21">O still thy tribute bring.</l>
+                <l n="22">Still make the golden crocus shine</l>
+                <l n="23">Among the flowers the most divine</l>
+                <l n="24">The glory of the spring.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="25">Still in the wall-flower's fragrance dwell</l>
+                <l n="26">And hover round the slight bluebell <del>s</del></l>
+                <l n="27">My childhood's darling flower.</l>
+                <l n="28">Smile on the little daisy still,</l>
+                <l n="29">The buttercup's bright goblet fill,</l>
+                <l n="30">With all thy former power,</l>
+            </div>
+
+            <pb n="25" xml:id="MEM_3" facs="data/images/single/MEM_3.jpg/"/>
+
+            <div type="stanza">
+                <l n="31">Forever hang thy dreamy spell,</l>
+                <l n="32">Round golden star and heatherbell,</l>
+                <l n="33">And <add>do</add> not pass away.</l>
+                <l n="34">From sparking frost, or wreathed snow,</l>
+                <l n="35">And whisper when the wild winds blow,</l>
+                <l n="36">Or rippling waters play.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="37">Is childhood then so all divine?</l>
+                <l n="38">Or memory is the glory thine</l>
+                <l n="39">That <del>hallows</del>
+                    <add>haloes</add> thus the past?</l>
+                <l n="40">Not all divine, <del>for childhood's</del>
+                    <add>its pangs of</add> grief</l>
+                <l n="41">Although perchance <del>its pangs were</del>
+                    <del>are</del>
+                    <add>their stay is</add> brief,</l>
+                <l n="42"><del>Was</del>
+                    <add>Are</add> bitter while <del>it past</del>
+                    <add>they last</add>.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="43">Nor is the glory all thine own,</l>
+                <l n="44"><del>It gilds</del>
+                    <add>For on</add> our earliest joys alone,</l>
+                <l n="45">That holy light is cast.</l>
+                <l n="46">With such a ray no spell of thine</l>
+
+                <pb n="26" xml:id="MEM_4" facs="data/images/single/MEM_4.jpg/"/>
+
+                <l n="47">Can make our later pleasures shine</l>
+                <l n="48">Though long ago they past.</l>
+            </div>
+
+            <div>
+                <ab>48 lines</ab>
+                <closer><signed>Anne Bront&#235;</signed>
+                    <dateline>May 29th 1849</dateline></closer>
+            </div>
+        </body>
+    </text>
+
+    <text n="Dreams" xml:id="DRE">
+
+        <front>
+            <head>Dreams</head>
+        </front>
+
+        <body>
+            <pb n="27" xml:id="DRE_1" facs="data/images/single/DRE_1.jpg/"/>
+
+            <head>Dreams</head>
+
+            <div type="stanza">
+                <l n="1">While on my lonely couch I lie </l>
+                <l n="2">I seldome feel myself alone</l>
+                <l n="3">For fancy fills my dreaming eye</l>
+                <l n="4">With scenes and pleasures of its own</l>
+            </div>
+
+            <div type="stanza">
+                <l n="5">Then I may cherish at my breast</l>
+
+                <pb n="28" xml:id="DRE_2" facs="data/images/single/DRE_2.jpg/"/>
+
+                <l n="6">An infant's form beloved and fair</l>
+                <l n="7">May smile and soothe it into rest</l>
+                <l n="8">With all a mother's fondest care</l>
+            </div>
+
+            <div type="stanza">
+                <l n="9">How sweet to feel its helpless frorm</l>
+                <l n="10"> Depending <del>thas</del>
+                    <add>thus</add> on me alone</l>
+                <l n="11">And while I hold it safe and warm</l>
+                <l n="12">What bliss to think it is my own.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="13">And glances then may meet my eyes,</l>
+                <l n="14">That daylight never showed to me,</l>
+                <l n="15">What raptures in my bosom<del>e</del> rise,</l>
+                <l n="16">Those earnest looks of love to see.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="17">To feel my hand so kindly prest;</l>
+                <l n="18">To know myself beloved at last,</l>
+                <l n="19">To think my heart has found a rest -</l>
+                <l n="20">My life of solitude is past.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="21">But then to wake and find it flown</l>
+                <l n="22">The dream of happiness destroyed,</l>
+
+                <pb n="29" xml:id="DRE_3" facs="data/images/single/DRE_3.jpg/"/>
+
+                <l n="23">To find myself unloved, alone,</l>
+                <l n="24">What tongue can speak the dreary void?</l>
+            </div>
+
+            <div type="stanza">
+                <div type="xout">
+                    <l n="25">A heart whence warm affections <add>flow</add>,</l>
+                    <l n="26">Creator thou hast given to me,</l>
+                    <l n="27">And am I only thus to know,</l>
+                    <l n="28">How sweet the joys of love would be?</l>
+                    <note>This stanza features a pencil X inicating hesitancy on Bronte's part as to
+                        whether or not to include this stanza. Bronte is usually emphatic and
+                        unmistakable when marking sections for deletion within her Manuscripts,
+                        underscoring the authorial uncertainty about leaving the poem on this
+                        disconsolate note.</note>
+                </div>
+            </div>
+
+            <div>
+                <ab/>
+                <closer><dateline>Spring 1845</dateline></closer>
+            </div>
+        </body>
+    </text>
+
+    <text n="Views of Life" xml:id="VOL">
+
+        <front>
+            <head>Views of Life</head>
+        </front>
+
+        <body>
+            <pb n="30" xml:id="VOL_1" facs="data/images/single/VOL_1.jpg/"/>
+            <head><!-- not title given in MS- consider options here --></head>
+
+            <ab>166 lines Wrote <add>the</add> first few verses Feb. or March 1844</ab>
+
+            <div type="stanza">
+                <l n="1">When sinks my heart in hope-less gloom:</l>
+                <l n="2">When life can shew<!-- SIC shew --> no joy for me:</l>
+                <l n="3">And I behold a yawning tomb,</l>
+                <l n="4">Where bowers and palaces should be</l>
+            </div>
+
+            <div type="stanza">
+                <l n="5">In vain, you talk of morbid dreams,</l>
+                <l n="6">In vain, you <del>we</del> gaily smiling say.</l>
+                <l n="7">That <del>wht</del> what to me so dreary seems,</l>
+                <l n="8">The healthy mind deems bright and gay.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="9">I too have smiled, and thought like you,</l>
+                <l n="10"> But madly smiled, and falsly deemed;<!-- sic --></l>
+                <l n="11">My present thoughts <del>are all too</del>
+                    <add>I know are</add> true,</l>
+                <l n="12">I'm waking, now, 'twas then I dreamed,</l>
+            </div>
+
+            <!-- Now aligning page beaks with single pages (rather than double) J.T. -->
+            <pb n="31" xml:id="VOL_12" facs="data/images/single/VOL_2.jpg/"/>
+            <div type="stanza">
+                <l n="13">I lately saw a sunset sky,</l>
+                <l n="14">And stood enraptured to behold,</l>
+                <l n="15">Its varied hues of glorious dye:</l>
+                <l n="16">First, flossy clouds of shining gold.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="17">These blushing took a rosy hue;</l>
+                <l n="18">Beneath them, shone a flood of green,</l>
+                <l n="19">Nor less divine the glorious blue,</l>
+                <l n="20">That smiled above them and between:</l>
+            </div>
+
+            <div type="stanza">
+                <l n="21">I cannot name each lovely <del>hue</del>
+                    <add>shade</add></l>
+                <l n="22">I cannot say how bright they shone;</l>
+                <l n="23">But one by one I saw them fade,</l>
+                <l n="24">And what reamained when <del>we</del>
+                    <add>they</add> were gone?</l>
+            </div>
+
+            <div type="stanza">
+                <!-- perhaps differnt drafting options in MS here to line 30 (may need to renumber lines -->
+                <!-- I think there are two cases lines 25 &27) here of there being two differnt options left open in the MS, return here -->
+                <l n="25">Dull clouds remained of somber hue</l>
+                <l n="26">Grey clouds remained of a gloomy <add>hue,</add></l>
+                <l n="27">Their <add>
+                        <del>brightest</del></add>
+                    <add>borrowed</add> glory now was o'er: </l>
+                <l n="28">And I when their borrowed charme was o'er </l>
+
+
+                <pb n="32" xml:id="VOL_3" facs="data/images/single/VOL_3.jpg/"/>
+
+
+                <l n="29">The sky grew dull and charmless too </l>
+                <l n="30">And cold and dim the very blue</l>
+                <l n="31">That smiled so softly <del>and</del> bright before.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="32">So gilded by the glow of <del>yoth</del>
+                    <add>youth</add>,</l>
+                <l n="33">Our varied life looks fair and gay,</l>
+                <l n="34">And so remains the naked truth,</l>
+                <l n="35">When that false light is past away.</l>
+            </div>
+            <!-- stanza in Chitham here not in MS from later publication -->
+            <div type="stanza">
+                <l n="36">When the young mother smiles above,</l>
+                <l n="37">The first born darling of her heart,</l>
+                <l n="38">Her bosom glows with warmest love,</l>
+                <l n="39">While tears of speechless rapture start:</l>
+            </div>
+
+            <div type="stanza">
+                <l n="40">Fond dreamer! little does she know,</l>
+                <l n="41">The anxious toil the suffering,</l>
+                <l n="42">The blasted hopes the burnig wo-<!-- em dash here? --></l>
+                <l n="43">The object of her joy will bring</l>
+            </div>
+
+            <pb n="33" xml:id="VOL_4" facs="data/images/single/VOL_4.jpg/"/>
+            <div type="stanza">
+                <l n="44">Her blinded eyes behold not now,</l>
+                <l n="45">What soon or late must be his doom,</l>
+                <l n="46">The anguish that will cloud his brow,</l>
+                <l n="47">The bed of death the dreary tomb.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="48">As little know the youthful pair</l>
+                <l n="49">In mutual love supremely blest</l>
+                <l n="50">What weariness and cold despair</l>
+                <l n="51">Err long will seize the aching breast.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="52">And even <del>shol</del> should love and faith re-main</l>
+                <l n="53">The greatest blessings life can shew</l>
+                <l n="54">Amid adversity and pain</l>
+                <l n="55">To shine throughout with cheering glow.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="56">They do not see how cruel death</l>
+                <l n="57">Comes on, their loving hearts to part</l>
+                <l n="58">One feels not now the gasping breath</l>
+                <l n="59">The rending of the earthbound (heart</l>
+            </div>
+
+            <pb n="34" xml:id="VOL_5" facs="data/images/single/VOL_5.jpg/"/>
+            <div>
+                <l n="60">The soul's and body's agony,</l>
+                <l n="61"> Err she may sink to her repose,</l>
+                <l n="62"> The sad survivor cannot see,</l>
+                <l n="63">The grave above his darling close.</l>
+            </div>
+
+            <div>
+                <l n="64">Nor how despairing and alone,</l>
+                <l n="65">He<del>s</del> then must wear his life away</l>
+                <l n="66">And linger feebly toiling on;</l>
+                <l n="67">And fainting <del>sing</del>
+                    <add>sink</add> into decay.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="68">O youth <del>will</del> may listen patiently,</l>
+                <l n="69">While sad experience tells her tale:</l>
+                <l n="70">But doubt sits smiling in his eye,</l>
+                <l n="71">For ardent hope will still prevail.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="72">He hears how feeble Pleasure dies,</l>
+                <l n="73">By guilt destroyed, and pain and wo.</l>
+                <l n="74">He turns to Hope &#x2014; and she replies,</l>
+                <l n="75">"Believe it not- it is not so!"</l>
+            </div>
+
+            <div type="stanza">
+                <l n="76">"Oh! heed not her not experience says,</l>
+                <l n="77">For thus she whispered once to me,</l>
+                <l n="78">She told me in my youthful days,</l>
+                <l n="79">How glorious <del>I</del> manhood's prime would be.</l>
+            </div>
+
+            <pb n="35" xml:id="VOL_6" facs="data/images/single/VOL_6.jpg/"/>
+            <div type="stanza">
+                <l n="80">When in the time of early spring,</l>
+                <l n="81">Too chill the winds that o'er me past,</l>
+                <l n="82">She said each coming day would bring,</l>
+                <l n="83">A fairer heaven a gentler blast</l>
+            </div>
+
+            <div>
+                <l n="84">And when the sun too seldom<del>e</del> beamed,</l>
+                <l n="85">The sky o'ercast, too darkly frowned,</l>
+                <l n="86">The frequent rain, too constant streamed;</l>
+                <l n="87">And mists too dreary gathered round.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="88">She told me summer's glorious ray,</l>
+                <l n="89">Would chase those vapours all away,</l>
+                <l n="90">And scatter glories round</l>
+                <l n="91">With sweetest music fill the trees,</l>
+                <l n="92">Load with rich scent the gentle breeze</l>
+                <l n="93">And strew with flowers the ground.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="94">But <del>while</del>
+                    <add>when</add> beneath that scorching ray</l>
+                <l n="95">I languished weary through the day,</l>
+                <l n="96">While birds refused to sing,</l>
+                <l n="97">Verdure decayed from field and tree,</l>
+                <l n="98">And panting nature mourned with me</l>
+                <l n="99">The freshness of the spring;</l>
+            </div>
+
+            <div type="stanza">
+                <l n="100">Wait, <del>b</del> but a little while, she said,</l>
+                <l n="101">Till summer's burning days are fled</l>
+                <l n="102">And Autumn shall restore,</l>
+
+                <pb n="36" xml:id="VOL_7" facs="data/images/single/VOL_7.jpg/"/>
+
+                <l n="103">With golden riches of her own,</l>
+                <l n="104">And summer's glories mellowed down</l>
+                <l n="105">The freshness you deplore.</l>
+            </div>
+
+            <div>
+                <l n="106">And long I waited, but in vain:</l>
+                <l n="107">That freshness never came again,</l>
+                <l n="108">Though summer passed away,</l>
+                <l n="109">Though Autumn's mists hung cold and chill</l>
+                <l n="110">And dropping nature languished still</l>
+                <l n="111">And <del>sung</del>
+                    <add>sunk</add> into decay.</l>
+            </div>
+
+            <div>
+                <l n="112">Till wintry blasts foreboding blew,</l>
+                <l n="113">Through leafless tress and then I knew</l>
+                <l n="114">That hope was all a dream,</l>
+                <l n="115">But thus fond youth she cheated me.</l>
+                <l n="116">And she will prove as false to thee,</l>
+                <l n="117">Though sweet her words may seem.</l>
+            </div>
+
+            <div>
+                <l n="118">Stern prophet! cease thy boding dire &#x2014;</l>
+                <l n="119">Thou canst not quench the ardent fire,</l>
+                <l n="120">That warms the breast of youth.</l>
+                <l n="121"><del>And</del>
+                    <hi rend="underline">O!</hi> let it cheer him while it may,</l>
+                <l n="122">And gently, gently die away,</l>
+                <l n="123">Chilled by the damps of truth.</l>
+            </div>
+
+            <pb n="37" xml:id="VOL_8" facs="data/images/single/VOL_8.jpg/"/>
+            <!-- changes manuscript here- consider encoding options -->
+            <!-- double check and confirm line numbering- discrepancy -->
+            <div type="stanza">
+                <l n="124">Tell him, that earth is not our rest!</l>
+                <l n="125">Its joys are empty &#x2014; frail at best;</l>
+                <l n="126">And point beyond the sky;</l>
+                <l n="127">But gleams of light may reach us here,</l>
+                <l n="128">And hope the <hi rend="underline">roughest</hi> path can cheer,</l>
+                <l n="129">Then do not <del>f</del> bid it fly.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="130">Though hope may promise joys that still,</l>
+                <l n="131">Unkindly time will ne'er fulfill,</l>
+                <l n="132">Or if they never come atall;<!-- sic atall --></l>
+                <l n="133">We never find them unalloyed,</l>
+                <l n="134">Hurtful perchance, or soon destroyed,</l>
+                <l n="135">They vanish, or they pall;</l>
+            </div>
+
+            <div type="stanza">
+                <l n="136">Yet hope itself a brightness throws,</l>
+                <l n="137">O'er all our labours, and our woes;</l>
+                <l n="138">While dark foreboding care,</l>
+                <l n="139">A thousand ills will oft portend,</l>
+                <l n="140">That Providence may ne'er intend,</l>
+                <l n="141">The trembling heart to bear;</l>
+            </div>
+
+            <div type="stanza">
+                <l n="142">Or if they come it oft appears,</l>
+                <l n="143">Our woes are lighter than our fears,</l>
+                <l n="144">And far more strongly born</l>
+                <l n="145">Then let us not enhance our doom,</l>
+                <l n="146">But e'en in midnight's blackest gloom,</l>
+                <l n="147">Expect the rising morn.</l>
+            </div>
+
+            <pb n="38" xml:id="VOL_9" facs="data/images/single/VOL_9.jpg/"/>
+            <div type="stanza">
+                <l n="148">Because the road is rough and long,</l>
+                <l n="149">Shall we despise the skylark's song,</l>
+                <l n="150">That cheers the wanderer's way?</l>
+                <l n="151">Or trample down with reckless feet.</l>
+                <l n="152"><del>The flowerets <add>that smile beneath</add> smiling at our
+                        feet</del></l>
+                <l n="153">The smiling flowerets bright and sweet</l>
+                <!-- tricky encoding here with an erased line-->
+                <l n="154">Because they soon decay?</l>
+            </div>
+
+            <div type="stanza">
+                <l n="155">Pass pleasant scenes unnoticed bye</l>
+                <l n="156">Because the next is bleak and drear,</l>
+                <l n="157">Or not enjoy a smiling sky,</l>
+                <l n="158">Because a tempest may be near?</l>
+            </div>
+
+            <div type="stanza">
+                <l n="159">No while we journey on our way,</l>
+                <l n="160">We'll notice every lovely thing,</l>
+                <l n="161">And ever as they pass away,</l>
+                <l n="162">To memory and hope we'll cling.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="163">And though that awful river flows,</l>
+                <l n="164">Before us when the journey's past,</l>
+                <l n="165">Perchance of all the pilgrim's woes &#x2014;</l>
+                <l n="166">Most dreadful &#x2014; Shrink not, &#x2014; 'tis the last</l>
+            </div>
+
+            <div type="stanza">
+                <l n="167">Though <del>icy</del> icey cold, and dark and deep</l>
+                <l n="168">Beyond it smiles that blessed shore;</l>
+                <l n="169">Where none shall suffer, none shall weep</l>
+                <l n="170">And <del>peace</del>
+                    <add>bliss</add> shall rule for evermore</l>
+            </div>
+
+            <div>
+                <signed>Anne Bront&#235;</signed>
+                <dateline>June 1845</dateline>
+            </div>
+        </body>
+    </text>
+
+    <text n="Z's Dream" xml:id="ZDR">
+
+        <front>
+            <head>Z's Dream</head>
+        </front>
+
+        <body>
+            <pb n="39" xml:id="ZDR_1" facs="data/images/single/ZDR_1.jpg/"/>
+            <head>Z-'s Dream <!-- hard to read- erased --></head>
+
+            <dateline> Sept. 19th 1846</dateline>
+
+            <div type="stanza">
+                <l n="1">I dreamt last night ; and in that <del>my</del> dream</l>
+                <l n="2">My boyhood's heart was mine again;</l>
+                <l n="3">These latter years did nothing seem</l>
+                <l n="4">With all their mingled joy and pain,</l>
+                <l n="5">Their thousand deeds if good and ill,</l>
+                <l n="6">Their hopes that life did not fulfil,</l>
+                <l n="7">Their glorious moments of success,</l>
+                <l n="8">Their love that closed in bitterness,</l>
+                <l n="9">Their hate that grew with growing strength,</l>
+                <l n="10">Their darling projects - dropped at length,</l>
+
+                <pb n="40" xml:id="ZDR_2" facs="data/images/single/ZDR_2.jpg/"/>
+
+                <l n="11">And higher aims that still prevail,-</l>
+                <l n="12">For I must perish else <del>ever</del> ere they fail,-</l>
+                <l n="13">That crowning object of my life,</l>
+                <l n="14">The end of all my toil and strife,</l>
+                <l n="15">Source of my virtues and my crimes,</l>
+                <l n="16">For which I've toiled and striven in vain,&#x2014;</l>
+                <l n="17">But, if I fail a thousand times,</l>
+                <l n="18">Still I will toil and strive again:-</l>
+                <l n="19">Yet even this was then forgot;</l>
+                <l n="20">My present heart and soul were <add>(not:</add></l>
+                <l n="21">All the rough lessons life has taught,</l>
+                <l n="22">That are become a part of me,</l>
+                <l n="23">A moment's sleep to nothing brought</l>
+                <l n="24">And <del>I was</del>
+                    <add>made me</add> what I used to be.</l>
+            </div>
+
+            <div type="stanza">
+                <l n="25">And I was roaming, light and gay,</l>
+                <l n="26">Upon a breezy, sunny day,</l>
+                <l n="27">A bold and careless youth:</l>
+                <l n="28">No guilty stain was on my mind;</l>
+
+                <pb n="41" xml:id="ZDR_3" facs="data/images/single/ZDR_3.jpg/"/>
+
+                <l n="29">And, if not over soft or kind,</l>
+                <l n="30">My heart was full of truth.</l>
+                <l n="31">It was a well-known mountain scene; &#x2014;</l>
+                <l n="32">Wild steeps, with rugged glens be-<add>(tween</add></l>
+                <l n="33">I should have thirsted to explore,</l>
+                <l n="34">Had I not trod them oft before.</l>
+                <l n="35">A younger boy was with me there</l>
+                <l n="36">His hand upon my shoulder leant;<!-- sic leant --></l>
+                <l n="37">His heart, like mine, was free from care,
+                    <!-- a word has been added and deleted not sure best approach --></l>
+                <l n="38">His <del>strength</del>
+                    <add>breath,</add> with sportive toil, was spent;</l>
+                <l n="39">For my rough pastimes he would share,</l>
+                <l n="40">And e<del>a</del>qual dangers loved to dare,</l>
+                <l n="41"><del>As</del>(Though<del>ts</del> seldom I would care to vie</l>
+                <l n="42">In learning's keen pursuit with him;</l>
+                <l n="43">I loved free air and open sky</l>
+                <l n="44">Better than books and tutors grim,)</l>
+                <l n="45">And we had wandered far that day</l>
+                <l n="46">O'er that<del>s</del> forbidden ground away &#x2014;</l>
+                <l n="47"><del>(I</del> Ground, to our rebel feet how dear;</l>
+                <l n="48">Danger and freedom both were there!-</l>
+
+                <pb n="42" xml:id="ZDR_4" facs="data/images/single/ZDR_4.jpg/"/>
+
+                <l n="49">Had climed <!-- sic climed- not noted in CH just written as "climbed" -->
+                    the steep and coursed the dale</l>
+                <l n="50">Until his strength began to fail.</l>
+                <l n="51"><del>He bade me pause</del></l>
+                <!-- erased line- He bade me pause- I think restarted on line below to make a new stanza- any difference between erased vs deleted?-->
+            </div>
+            <div type="stanza">
+                <l n="52">He bade me pause and breathe awhile,</l>
+                <l n="53">But spoke it with a <del>pa</del> happy smile.</l>
+
+                <!-- investigte whether or not to number deleted line; my instinct is to number them. J.T. -->
+                <l n="54"><del>And in my dream I longed to see</del></l>
+                <l n="55"><del>His fair young cheek so brightly glow</del></l>
+                <l n="56"><del>He turned his sparkling eyes to me</del></l>
+                <l n="57"><del>With looks no painter's art might show</del></l>
+                <l n="58"><del>Nor words doubt- but earnest mirth</del></l>
+                <l n="59"><del>And truthful love I there descried</del></l>
+                <l n="60"><del>And while I thought upon his worth</del></l>
+                <l n="61"><del>My bosom glowed with joy and pride</del></l>
+            </div>
+            <div type="stanza">
+                <l n="62">His lips were parted to inhale</l>
+                <l n="63">The breeze that swept the ferny dale,</l>
+                <l n="64">And chased the clouds accross the sky,</l>
+                <l n="65">And waved his locks in passing by,</l>
+                <l n="66"><del>And I</del>And fanned my cheek, (as real did seem</l>
+                <l n="67">This strange, untrue, but truthlike dream;)</l>
+
+                <pb n="43" xml:id="ZDR_5" facs="data/images/single/ZDR_5.jpg/"/>
+
+                <l n="68">And,<add><del>while</del></add>
+                    <!-- Unsure of best approach to this -->as we stood, I laughed to see</l>
+                <l n="69">His fair young cheek so brightly glow.</l>
+                <l n="70">He turned his sparkling eyes to me</l>
+                <l n="71">With looks no painter's art could show,</l>
+                <l n="72">Nor words portray;- but <hi rend="underline">earnest</hi><!-- is emph best tag for this purpose? Use <hi>. J.T. -->
+                    <del>mi</del>
+                    <add>(mirth</add></l>
+                <l n="73">And truthful love I there decried;</l>
+                <l n="74">And, while I thought upon his worth,</l>
+                <l n="75">My bosom<del>e</del> glowed with joy and <add>(pride.</add></l>
+            </div>
+
+            <div>
+                <l n="76">I could have kissed his forehead fair;</l>
+                <l n="77">I could have clasped him to my heart;</l>
+                <l n="78">But tenderness with me was rare,</l>
+                <l n="79">And I must take a rougher part:</l>
+                <l n="80">I seized him in my boistrous mirth;</l>
+                <l n="81"><del>As<!-- hard to decipher --></del> I <del>sto</del> bore him
+                    struggling to the earth,</l>
+                <l n="82">And grappling, strength for strength we strove, &#x2014;</l>
+
+                <pb n="44" xml:id="ZDR_6" facs="data/images/single/ZDR_6.jpg/"/>
+
+                <l n="83">He half in wrath,- I all for love;</l>
+                <l n="84">But I gave o'er the strife at length,</l>
+                <l n="85">Ashamed of my superior strength,-</l>
+                <l n="86">The rather that I marked his eye</l>
+                <l n="87">Kindle as if a change were nigh.</l>
+            </div>
+
+            <div>
+                <l n="88">We paused to breath a little space,<!-- sic breath --></l>
+                <l n="89">Reclining on the heather brae;</l>
+                <l n="90">But still I gazed upon his face</l>
+                <l n="91">To watch the shadows pass away.</l>
+                <l n="92">I grasped his hand, and it <hi rend="underline">was</hi><add>had</add>
+                    fled;-</l>
+                <!-- querey marking above this line- had? I think so, and have added this to line. J.T. -->
+                <l n="93">A smile - a laugh - and all was well</l>
+                <l n="94">Upon my breast he bent his head</l>
+                <l n="95">And into graver talk we fell, &#x2014;</l>
+                <l n="96">More serious - yet so blest did seem</l>
+                <l n="97">That calm communion <add><del>quiet conference</del></add> then,</l>
+                <l n="98">That, when I found it but a dream,</l>
+                <l n="99">I longed to sleep again.</l>
+            </div>
+
+            <pb n="45" xml:id="ZDR_7" facs="data/images/single/ZDR_7.jpg/"/>
+            <div>
+                <l n="100">At first, remembrance slowly woke,</l>
+                <l n="101">Surprise &#x2014; regret successive rose,</l>
+                <l n="102">That Love's strong cords <add><del>friendship's bonds</del></add>should
+                    thus be broke,</l>
+                <l n="103">And dearest friends turn deadliest foes.</l>
+                <l n="104">Then, like a cold, o'erwhelming flood</l>
+                <l n="105">Upon my soul it burst &#x2014;</l>
+                <l n="106">This heart had thirsted for his blood;</l>
+                <l n="107">This hand had a<del>l</del>layed that thirst!</l>
+                <l n="108">These eyes had watched, without a tear,</l>
+                <l n="109">His dying agony;</l>
+                <l n="110">These ears, unmoved, had heard his prayer;</l>
+                <l n="111"> This tongue had cursed him <del>suff</del> suffring<!-- sic suffring -->
+                    there,</l>
+                <l n="112">And mocked him bitterly!</l>
+            </div>
+
+            <div>
+                <l n="113">Unwanted weakness o'er me crept;</l>
+                <l n="114">I sighed &#x2014; nay, weaker still &#x2014; <hi rend="underline">I
+                        wept!</hi></l>
+                <l n="115">Wept, like a woman o'er the deed</l>
+
+                <pb n="46" xml:id="ZDR_8" facs="data/images/single/ZDR_8.jpg/"/>
+
+                <l n="116">I had been proud to do;-</l>
+                <l n="117">As I had made his bosom bleed;</l>
+                <l n="118">My own was bleeding too.</l>
+            </div>
+
+            <div>
+                <l n="119">Back foolish tears!- the man I slew</l>
+                <l n="120">Was not the boy I cherished so;</l>
+                <l n="121">And that young arm that clasped the friend</l>
+                <l n="122">Was not the same that stabbed the foe:</l>
+                <l n="123">By time and adverse thoughts estranged,</l>
+                <l n="124">And wrongs and vengence, both were changed.</l>
+                <l n="125">Repentence, now, were worse than vain:</l>
+                <l n="126">Time's current cannot backward run;</l>
+                <l n="127">And, be the action wrong or right,</l>
+                <l n="128">It is for ever done.</l>
+            </div>
+
+            <div>
+                <l n="129">Then reap the fruits - I've said his death</l>
+
+                <pb n="47" xml:id="ZDR_9" facs="data/images/single/ZDR_9.jpg/"/>
+
+                <l n="130">Should be <del>his</del>
+                    <add>my</add> country's gain:-</l>
+                <l n="131">If not - then, I have spent my breath,</l>
+                <l n="132">And split his blood in vain:</l>
+                <l n="133">And I have laboured hard and long,</l>
+                <l n="134">But little good attained;</l>
+                <l n="135">My foes are many, yet, and strong,</l>
+                <l n="136">Not half the battle's gained;</l>
+                <l n="137">For, still, the greater deeds I've done,</l>
+                <l n="138">The more <del>are yet</del><add>I have</add> to do,</l>
+                <l n="139">The faster I can journey on,</l>
+                <l n="140">The farther I must go.</l>
+                <l n="141">If Fortune favoured for a while,</l>
+                <l n="142">I could not rest beneath her smile,</l>
+                <l n="143">Nor triumph in success:</l>
+                <l n="144">When I have gained one river's <add>(shore</add></l>
+                <l n="145">A wilder torrent stretched before,</l>
+                <l n="146">Defies me with its deafening roar;</l>
+                <l n="147">And onward I must press.</l>
+            </div>
+
+            <pb n="48" xml:id="ZDR_10" facs="data/images/single/ZDR_10.jpg/"/>
+
+            <div>
+                <l n="148">And, much I doubt, this work of <add>strife,</add></l>
+                <l n="149">In blood and death begun,</l>
+                <l n="150">Will call for many a victim more</l>
+                <l n="151">Before the cause is won.-</l>
+                <l n="152">Well! my own life, I'd freely give</l>
+                <l n="153"><del>E</del> Ere I would fail in my design;-</l>
+                <l n="154">The cause must prosper if I live,</l>
+                <l n="155">And I will die if it decline:</l>
+                <l n="156">Advanced thus far, I'll not recede;-</l>
+                <l n="157">Whether to vanquish or to bleed,</l>
+                <l n="158">Onward, unchecked, I must proceed.</l>
+                <l n="159">Be Death, or Victory mine!</l>
+            </div>
+
+            <div>
+                <ab>150 lines</ab>
+                <signed>C L-</signed>
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,77 @@
+/* ************************* */
+
+/* EVT 2.0 CUSTOM STYLESHEET */
+
+/* ***************************************************************** */
+
+/*                                                                   */
+
+/* Add here your CSS to customize the style of the elements          */
+
+/* If you'll not see any changes, try adding !important to the rule  */
+
+/*                                                                   */
+
+/* For generic TEI elements, use the tagName as class                */
+
+/* e.g. <del/> => .del{ # your style goes here # }                   */
+
+/*                                                                   */
+
+/* ***************************************************************** */
+
+/* Section below creates X-shaped crossings out of <div type=xout"> */
+.div[data-type="xout"] {
+  position: relative;
+  overflow: hidden;
+  width: 300px; /* Set a fixed width (adjust as needed) */
+}
+
+.div[data-type="xout"] span::before,
+.div[data-type="xout"] span::after {
+  content: "";
+  display: block;
+  width: 300px; /* Use absolute width (adjust as needed) */
+  height: 1px;
+  background-color: #000; /* Adjust color as needed */
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Use absolute left position (adjust as needed) */
+  transform: translateY(-50%) rotate(22deg);
+}
+
+.div[data-type="xout"] span::after {
+  transform: translateY(-50%) rotate(-22deg);
+}
+/* xout ends */
+
+.ADD {
+  vertical-align: super;
+  font-size: smaller;
+}
+.DEL {
+  text-decoration: line-through;
+}
+.term {
+	background-color: coral;
+}
+
+.figDesc {
+	display: block;
+	border-left: 5px solid #b30000;
+	background-color: #ffe6e6;
+	padding: 5px 5px 5px 8px;
+	margin-bottom: 3%;
+	text-align: justify;
+	font-size: 95%;
+	font-style: italic;
+}
+
+span.analogue span.analogue__text span.quote {
+	font-style: italic;
+}
+
+span.quote sup.iconbis-evt_quote-left,
+span.quote sup.iconbis-evt_quote-right {
+	display: none;
+}
