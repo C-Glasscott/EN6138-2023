@@ -45,7 +45,7 @@
         </front>
 
         <body>
-            <pb n="1" xml:id="VER_1" facs="data/images/single/VER_1.jpg/"/>
+            <pb n="1" xml:id="VER_1" facs="data/images/single/VER_1.jpg"/>
             <head>Verses to a Child &#x2014;</head>
 
             <div type="stanza">
@@ -66,7 +66,7 @@
                 <l n="10">And that thy blue eyes magic shine</l>
                 <l n="11">Can overflow my own with tears,</l>
 
-                <pb n="2" xml:id="VER_2" facs="data/images/single/VER_2.jpg/"/>
+                <pb n="2" xml:id="VER_2" facs="data/images/single/VER_2.jpg"/>
 
                 <l n="12">And that each feature soft and fair</l>
                 <l n="13">And every curl of golden hair,</l>
@@ -97,7 +97,7 @@
                 <l n="29">O <del> Mary</del> those were <add>calm and</add> happy days, </l>
                 <l n="30">We loved each other fondly then</l>
 
-                <pb n="3" xml:id="VER_3" facs="data/images/single/VER_3.jpg/"/>
+                <pb n="3" xml:id="VER_3" facs="data/images/single/VER_3.jpg"/>
 
                 <l n="31">But human love too soon decays,</l>
                 <l n="32">And ours can never bloom again.</l>
