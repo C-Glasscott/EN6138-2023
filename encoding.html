@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Anne Brontë Poems Digital Scholarly Edition</title>
+        <title>Anne Brontë’s Poetry of Childhood: A Digital Scholarly Edition</title>
         <link rel="icon" type="image/x-icon" href="/UGLogo2.png">
         <!-- Bootstrap core CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -40,8 +40,8 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html"
-                                        >Background</a>
+                                    <a class="nav-link active" aria-current="page"
+                                        href="background.html">Background</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Editorial Methodology</a>
@@ -71,6 +71,134 @@
         <div class="col-lg-8 mx-auto p-3 py-md-5">
             <main>
                 <h1>Encoding Methodology</h1>
+                <h4>Introduction</h4>
+                <p>This digital scholarly edition of a selection of Anne Brontë's poetry has been
+                    produced alongside my written thesis on Brontë’s work as part of my PhD project.
+                    Anne Brontë's intriguing and layered body of poetry occupies a liminal space
+                    within the Brontë family oeuvre, being traditionally overlooked in terms of
+                    critical analysis. This edition aims to redress this gap by presenting a
+                    manuscript-centred edition accompanied by editorial analysis.</p>
+                <p>The following document outlines the methodology used during the creation of this
+                    digital scholarly edition of a selection of Brontë's poems. Step by step details
+                    about the encoding methodology and process are provided here to document the
+                    process of representing and implementing editorial decisions in a digital
+                    medium.</p>
+                <p>This edition features ten poems with themes relating to my thesis topic of
+                    childhood. The poems are presented in two separate editions. One is a diplomatic
+                    edition in which full diplomatic transcriptions of the poems are presented
+                    alongside the corresponding manuscript images, keeping focus on the texts of the
+                    manuscript versions. The critical edition of the poems presents a text which
+                    maintains the editorial preference for following the manuscript, but with an
+                    interface which provdes users with the option to examine the variations made by
+                    Brontë in later published versions.</p>
+                <p>The edition was prepared using the Oxygen XML Editor. The critical and diplomatic
+                    editions were prepared as separate XML files that adhere to the Text Encoding
+                    Initiative Guidelines. This standards-based method ensure platform-independent
+                    interoperability of the files and provides flexibility to produce a functional
+                    interactive edition that is inviting and user-friendly.</p>
+                <p>Definitions of different elements from the official TEI Guidelines have been
+                    included where appropriate throughout the document. I have provided links to the
+                    relevant sections of the TEI Guidelines, where appropriate.</p>
+                <p>Developing a consistent approach to the encoding of the edition was complex at
+                    times. There were certain fixed technical requirements, however, at times more
+                    creativity was needed to arrive at decisions which were both TEI compliant and
+                    achieved the desired visual effect when the edition is rendered online via
+                    Edition Visualization Technology (EVT). All of these decisions and methods are
+                    outlined here in a step by step guide to the editorial principles and
+                    construction of the edition. EVT is "a light-weight, open source tool
+                    specifically designed to create digital editions from TEI XML-encoded texts,
+                    freeing the scholar from the burden of web programming and enabling the final
+                    user to browse, explore and study digital editions by means of a user-friendly
+                    interface" (Turco et al).</p>
+                <h4>Encoding process</h4>
+                <div class="container mt-5">
+                    <h5>TEI Header</h5>
+                    <p>In order to be compliant with the TEI Guidelines it is necessary to begin all
+                        documents with the element <code>&lt;teiHeader&gt;</code>, which must
+                        contain certain crucial information about the document, its text/s and
+                        encoding. While there are a number of possible elements which can be
+                        contained within <code>&lt;teiHeader&gt;</code>, the element
+                            <code>&lt;fileDesc&gt;</code> is the only one that is mandatory for all
+                        documents. [TEI Guidelines <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD2"
+                            >2.2</a>].</p>
+                </div>
+                <div class="container mt-5">
+                    <h5>File description</h5>
+                    <p>The <code>&lt;fileDesc&gt;</code> element "contains a full bibliographic
+                        description of an electronic file" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD2"
+                            >[2.2]</a>. Within this element it is also mandatory to include the
+                        following elements : <code>&lt;titleStmt&gt;</code>,
+                            <code>&lt;publicationStmt&gt;</code> and <code>&lt;sourceDesc&gt;</code>
+                        <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD1"
+                            >[2.1]</a>. </p>
+                </div>
+                <div class="container mt-5">
+                    <h5>Title statement</h5>
+                    <p>The element <code>&lt;titleStmt&gt;</code> "groups information about the
+                        title of a work and those responsible for its content" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD21"
+                            >[2.2.1]</a>. This must include the title of the file and usually also
+                        includes information on the authors and/or editors of the file as well as
+                        any other parties who are responsible for the production of the document. </p>
+                    <pre class="code-block">
+&lt;fileDesc&gt;
+    &lt;titleStmt&gt;
+        &lt;title&gt;Anne Brontë’s Poetry of Childhood: A Digital Scholarly Edition&lt;/title&gt;
+    &lt;/titleStmt&gt;
+&lt;/fileDesc&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Publication statement</h5>
+                    <p>The purpose of &lt;publicationStmt&gt; is “to name the agency by which a
+                        resource is made available (for example, a publisher or distributor) and to
+                        supply any additional information about the way in which it is made
+                        available such as licensing conditions, identifying numbers, etc.” <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24"
+                            >[2.2.4]</a>. </p>
+                    <pre class="code-block">
+&lt;publicationStmt&gt;
+    &lt;p&gt;Publication Information&lt;/p&gt;
+    &lt;publisher&gt;University of Galway&lt;/publisher&gt;
+    &lt;pubPlace&gt;Galway, Ireland&lt;/pubPlace&gt;
+    &lt;date&gt;2024&lt;/date&gt;
+    &lt;availability&gt;
+        &lt;p&gt;This is an open access work licensed under a Creative Commons Attribution 4.0
+            International license.&lt;/p&gt;
+    &lt;/availability&gt;
+&lt;/publicationStmt&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5></h5>
+                    <p>T<code>&lt;publicationStmt&gt;</code>
+                    </p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5></h5>
+                    <p>T<code>&lt;publicationStmt&gt;</code>
+                    </p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5></h5>
+                    <p>T<code>&lt;publicationStmt&gt;</code>
+                    </p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5></h5>
+                    <p>T<code>&lt;publicationStmt&gt;</code>
+                    </p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5></h5>
+                    <p>T<code>&lt;publicationStmt&gt;</code>
+                    </p>
+                    <pre class="code-block"></pre>
+                </div>
                 <div class="container mt-5">
                     <h5>&lt;publicationStmt&gt;</h5>
                     <p>The purpose of <code>&lt;publicationStmt&gt;</code> is “to name the agency by
@@ -92,9 +220,11 @@
                     <p>For the manuscripts I decided to adopt the sigla used by Edward Chitham in
                         his 1979 comprehensive print edition of The Poems of Anne Brontë (updated
                         and reissued in 2021) to facilitate easy cross-referencing of the
-                        manuscripts by readers. For example: <code>&lt;witness xml:id="MS-P"&gt;</code></p>
+                        manuscripts by readers. For example: <code>&lt;witness
+                            xml:id="MS-P"&gt;</code></p>
                     <p>This id was then used when encoding variations to indicate which readings can
-                        be found in each witness: <code>&lt;rdg wit="#ACE"&gt;,&lt;/rdg&gt;</code></p>
+                        be found in each witness: <code>&lt;rdg
+                        wit="#ACE"&gt;,&lt;/rdg&gt;</code></p>
                 </div>
             </main>
             <footer class="pt-5 my-5 mx-5 text-muted border-top">[Copyright statement / re-use
