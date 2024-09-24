@@ -170,62 +170,151 @@
 &lt;/publicationStmt&gt;</pre>
                 </div>
                 <div class="container mt-5">
-                    <h5></h5>
-                    <p>T<code>&lt;publicationStmt&gt;</code>
-                    </p>
-                    <pre class="code-block"></pre>
+                    <h5>Source description</h5>
+                    <p>The <code>&lt;sourceDesc&gt;</code> element "describes the source(s) from
+                        which an electronic text was derived or generated, typically a bibliographic
+                        description in the case of a digitized text" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD3"
+                            >[2.2.7]</a>.</p>
+                    <p>In the case of this edition, this primarily means including information about
+                        the textual witnesses, which include printed and manuscript documents. The
+                            <code>&lt;sourceDesc&gt;</code> element spans the breadth of
+                        bibliographic information of all witness and contains a variety of
+                        elements:</p>
                 </div>
                 <div class="container mt-5">
-                    <h5></h5>
-                    <p>T<code>&lt;publicationStmt&gt;</code>
-                    </p>
-                    <pre class="code-block"></pre>
-                </div>
-                <div class="container mt-5">
-                    <h5></h5>
-                    <p>T<code>&lt;publicationStmt&gt;</code>
-                    </p>
-                    <pre class="code-block"></pre>
-                </div>
-                <div class="container mt-5">
-                    <h5></h5>
-                    <p>T<code>&lt;publicationStmt&gt;</code>
-                    </p>
-                    <pre class="code-block"></pre>
-                </div>
-                <div class="container mt-5">
-                    <h5></h5>
-                    <p>T<code>&lt;publicationStmt&gt;</code>
-                    </p>
-                    <pre class="code-block"></pre>
-                </div>
-                <div class="container mt-5">
-                    <h5>&lt;publicationStmt&gt;</h5>
-                    <p>The purpose of <code>&lt;publicationStmt&gt;</code> is “to name the agency by
-                        which a resource is made available (for example, a publisher or distributor)
-                        and to supply any additional information about the way in which it is made
-                        available such as licensing conditions, identifying numbers, etc.”
-                        [2.2.4].</p>
+                    <h5>Structured bibliographic citation</h5>
+                    <p>The first element included within the <code>&lt;sourceDesc&gt;</code> is
+                            <code>&lt;biblStruct&gt;</code> which "contains a structured
+                        bibliographic citation, in which only bibliographic sub-elements appear and
+                        in a specified order" <a
+                            href="https://tei-c.org/Vault/P5/3.2.0/doc/tei-p5-doc/en/html/CO.html#COBITY"
+                            >[3.11.1]</a>.</p>
+                    <p>One examples is as follows:</p>
                     <pre class="code-block">
-&lt;publicationStmt&gt;
-    &lt;p&gt;Publication Information&lt;/p&gt;
-&lt;/publicationStmt&gt;</pre>
+&lt;biblStruct&gt;
+    &lt;monogr&gt;
+        &lt;author&gt;Anne Brontë&lt;/author&gt;
+        &lt;title&gt;"Tis Strange to Think"&lt;/title&gt;
+        &lt;imprint&gt;
+            &lt;date&gt;1846&lt;/date&gt;
+        &lt;/imprint&gt;
+    &lt;/monogr&gt;
+&lt;/biblStruct&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Witnesses</h5>
+                    <p>As this is a digital critical edition, there are a number of different
+                        witnesses being documented and encoded. These witnesses are the original
+                        Anne Brontë manuscripts and any printed versions of the poems which appeared
+                        within Brontë's lifetime.</p>
+                    <p>The information for the witnesses which are used in each poem is included in
+                        the <code>&lt;listWit&gt;</code> element which "lists definitions for all
+                        the witnesses referred to by a critical apparatus, optionally grouped
+                        hierarchically" <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPLL"
+                            >[12.1.4.2.]</a>
+                        <code>&lt;listWit&gt;</code> is included in the
+                            <code>&lt;sourceDesc&gt;</code> section of the &lt;teiHeader&gt;.</p>
+                    <p>Each witness within <code>&lt;listWit&gt;</code> is identified by a
+                            <code>&lt;wit&gt;</code> element.</p>
+                    <p>For example:</p>
+                    <pre class="code-block">
+&lt;witness xml:id="MS-Q"&gt;
+    &lt;listWit&gt;
+        &lt;bibl type="manuscript"&gt;
+            &lt;title&gt;Anne Brontë Manuscript 1842-5&lt;/title&gt;
+            &lt;msIdentifier&gt;
+                &lt;settlement&gt;New York&lt;/settlement&gt;
+                &lt;repository&gt;Morgan Library and Musuem &lt;/repository&gt;
+                &lt;idno&gt;MA 28&lt;/idno&gt;
+            &lt;/msIdentifier&gt;
+        &lt;/bibl&gt;
+    &lt;/listWit&gt;
+&lt;/witness&gt;</pre>
                 </div>
                 <div class="container mt-5">
                     <h5>Witness id elements</h5>
                     <p>Each witness needs to be encoded with a unique @xml:id identifier so that it
                         can be linked to variations within the text. For the printed texts the sigla
                         used were a form of initials for the text e.g. for the 1846 Poems by Currer,
-                        Ellis and Acton Bell: <code>&lt;witness xml:id="ACE"&gt;</code></p>
+                        Ellis and Acton Bell:</p>
+                    <pre class="code-block">&lt;witness xml:id="ACE"&gt;</pre>
                     <p>For the manuscripts I decided to adopt the sigla used by Edward Chitham in
                         his 1979 comprehensive print edition of The Poems of Anne Brontë (updated
                         and reissued in 2021) to facilitate easy cross-referencing of the
-                        manuscripts by readers. For example: <code>&lt;witness
-                            xml:id="MS-P"&gt;</code></p>
+                        manuscripts by readers. For example:</p>
+                    <pre class="code-block">&lt;witness xml:id="MS-P"&gt;</pre>
                     <p>This id was then used when encoding variations to indicate which readings can
-                        be found in each witness: <code>&lt;rdg
-                        wit="#ACE"&gt;,&lt;/rdg&gt;</code></p>
+                        be found in each witness:</p>
+                    <pre class="code-block">&lt;rdg wit="#ACE"&gt;,&lt;/rdg&gt;</pre>
                 </div>
+                <div class="container mt-5">
+                    <h5>Witness information</h5>
+                    <p>When providing information about the text within the <code>&lt;wit&gt;</code>
+                        element, I used the <code>&lt;bibl&gt;</code> element to group relevant
+                        bibliographic information about the witnesses.</p>
+                    <p>For manuscripts, this includes the manuscript title, with information about
+                        the repository where the manuscript is housed and its catalogue number
+                        included within the <code>&lt;msIdentifier&gt;</code> element:</p>
+                    <pre class="code-block">
+&lt;bibl type="manuscript"&gt;
+    &lt;title&gt;Anne Brontë Manuscript, 1838-41&lt;/title&gt;
+    &lt;msIdentifier&gt;
+        &lt;settlement&gt;New York&lt;/settlement&gt;
+        &lt;repository&gt;Morgan Library and Museum&lt;/repository&gt;
+        &lt;idno&gt;MA 2696.5&lt;/idno&gt;
+    &lt;/msIdentifier&gt;
+&lt;/bibl&gt;</pre>
+                    <p>The information included in the <code>&lt;bibl&gt;</code> element for
+                        published books provides basic bibliographic information on the text:</p>
+                    <pre class="code-block">
+&lt;bibl type="book"&gt;
+    &lt;title&gt;Poems by Currer, Ellis, and Acton Bell&lt;/title&gt;
+    &lt;author&gt;Charlotte Brontë&lt;/author&gt;
+    &lt;author&gt;Emily Brontë&lt;/author&gt;
+    &lt;author&gt;Anne Brontë&lt;/author&gt;
+    &lt;date&gt;1846&lt;/date&gt;
+    &lt;publisher&gt;Aylott and Jones&lt;/publisher&gt;
+&lt;/bibl&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Texts</h5>
+                    <p>BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</p>
+                    <pre class="code-block"></pre>
+                </div>
+                
+                <div class="container mt-5">
+                    <h5>Texts</h5>
+                    <p></p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Texts</h5>
+                    <p></p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Texts</h5>
+                    <p></p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Texts</h5>
+                    <p></p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Texts</h5>
+                    <p></p>
+                    <pre class="code-block"></pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Texts</h5>
+                    <p></p>
+                    <pre class="code-block"></pre>
+                </div>
+            
             </main>
             <footer class="pt-5 my-5 mx-5 text-muted border-top">[Copyright statement / re-use
                 license]</footer>
