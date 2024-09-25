@@ -44,14 +44,14 @@
                                         href="background.html">Background</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Editorial Methodology</a>
+                                    <a class="nav-link" href="editorial.html">Editorial Introduction</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="encoding.html">Encoding
                                         Methodology</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="editiondip/">Diplomatic Edition</a>
+                                    <a class="nav-link" href="editiondip/">Documentary Edition</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="editioncri/">Critical Edition</a>
@@ -84,14 +84,14 @@
                     process of representing and implementing editorial decisions in a digital
                     medium.</p>
                 <p>This edition features ten poems with themes relating to my thesis topic of
-                    childhood. The poems are presented in two separate editions. One is a diplomatic
+                    childhood. The poems are presented in two separate editions. One is a documentary
                     edition in which full diplomatic transcriptions of the poems are presented
                     alongside the corresponding manuscript images, keeping focus on the texts of the
                     manuscript versions. The critical edition of the poems presents a text which
                     maintains the editorial preference for following the manuscript, but with an
                     interface which provdes users with the option to examine the variations made by
                     Brontë in later published versions.</p>
-                <p>The edition was prepared using the Oxygen XML Editor. The critical and diplomatic
+                <p>The edition was prepared using the Oxygen XML Editor. The critical and documentary
                     editions were prepared as separate XML files that adhere to the Text Encoding
                     Initiative Guidelines. This standards-based method ensure platform-independent
                     interoperability of the files and provides flexibility to produce a functional
@@ -280,41 +280,295 @@
                 </div>
                 <div class="container mt-5">
                     <h5>Texts</h5>
-                    <p>BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</p>
-                    <pre class="code-block"></pre>
-                </div>
-                
-                <div class="container mt-5">
-                    <h5>Texts</h5>
-                    <p></p>
-                    <pre class="code-block"></pre>
-                </div>
-                <div class="container mt-5">
-                    <h5>Texts</h5>
-                    <p></p>
-                    <pre class="code-block"></pre>
-                </div>
-                <div class="container mt-5">
-                    <h5>Texts</h5>
-                    <p></p>
-                    <pre class="code-block"></pre>
+                    <p>Each poem was initially encoded in its own TEI XML document to allow for ease
+                        of testing features in Edition Visualisation Technology (EVT) software.
+                        These individual files were them combined into one complete file for the
+                        documentary version and a second for the critical version of the edition.</p>
+                    <p>Each poem in the combined file is encoded in a separate
+                            <code>&lt;text&gt;</code> element. In order to link the poem to images
+                        of the manuscripts they need to be identified as separate texts within the
+                        final document. Therefore, each poem’s title is recorded with the
+                            <code>@n</code> attribute and given a unique <code>@xml:id</code> which
+                        is a contraction of the poem’s name. This information is recorded within the
+                            <code>&lt;text&gt;</code> element to ensure that the entire poem is
+                        correctly recorded as a discrete text:</p>
+                    <pre class="code-block">&lt;text n="Tis Strange to think" xml:id="TIS"&gt;</pre>
                 </div>
                 <div class="container mt-5">
-                    <h5>Texts</h5>
-                    <p></p>
-                    <pre class="code-block"></pre>
+                    <h5>Front matter and titles</h5>
+                    <p>After the <code>&lt;text&gt;</code> element the encoding of the poem itself
+                        can begin. The first aspect of the poem to consider is the title of the
+                        poem. The preferred method of encoding paratextual information such as the
+                        title or information on a title page is by tagging it with the
+                            <code>&lt;front&gt;</code> element which "contains any prefatory matter
+                        (headers, abstracts, title page, prefaces, dedications, etc.) found at the
+                        start of a document, before the main body" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSTITL"
+                            >[4.6]</a>.</p>
+                    <p>Within the <code>&lt;front&gt;</code> element the correct choice for encoding
+                        the poem’s title is the <code>&lt;head&gt;</code> element which "contains
+                        any type of heading, for example the title of a section, or the heading of a
+                        list, glossary, manuscript description, etc." <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSHD"
+                            >[4.2.1]</a>.</p>
+                    <p>An example would look as follows:</p>
+                    <pre class="code-block">
+&lt;front&gt;
+    &lt;head&gt;Tis Strange to Think&lt;/head&gt;
+&lt;/front&gt;</pre>
                 </div>
                 <div class="container mt-5">
-                    <h5>Texts</h5>
-                    <p></p>
-                    <pre class="code-block"></pre>
+                    <h5>Text body</h5>
+                    <p>After the completion of the <code>&lt;front&gt;</code> element, the text of
+                        the poem is encoded within a <code>&lt;body&gt;</code> element. The text
+                        body element “contains the whole body of a single unitary text, excluding
+                        any front or back matter” <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html"
+                            >[4]</a>.</p>
                 </div>
                 <div class="container mt-5">
-                    <h5>Texts</h5>
-                    <p></p>
-                    <pre class="code-block"></pre>
+                    <h5>Manuscript images</h5>
+                    <p>The edition features parallel images of the manuscripts alongside
+                        transcriptions of the text. Therefore, images of the manuscript need to be
+                        linked to the texts so that EVT will recognise which images to display.</p>
+                    <p>The first step for this process is to give each image a unique filename using
+                        an <code>@xml:id</code> attribute. This way, once the image with the
+                        corresponding filename is placed in the relevant data folder of EVT
+                        (\data\images\single), the software will recognise the link and display the
+                        appropriate image. The <code>@xml:id</code> attribute is placed within a
+                            <code>&lt;pb/&gt;</code> element, which indicates a page break. This
+                        allows the images and the text to become fully linked so that turning the
+                        virtual page of the manuscript will lead to the appropriate portion of
+                        transcribed text appearing on screen. Therefore, at every change of image a
+                        new numbered <code>&lt;pb&gt;</code> element indicates which image should be
+                        displayed.</p>
+                    <p>For example, the first instance of page-image alignment in a document might
+                        be encoded as follows:</p>
+                    <pre class="code-block">&lt;pb n="1" xml:id="TIS_1" facs="data/images/single/TIS_1.jpg/&gt;</pre>
+                    <p>With "TIS_1" referring to the image file "TIS_1.jpg" housed in the relevant
+                        EVT data folder.</p>
+                    <p>A subsequent change of image would then look like this:</p>
+                    <pre class="code-block">&lt;pb n="2" xml:id="TIS_2" facs="data/images/single/TIS_2.jpg/&gt;</pre>
                 </div>
-            
+                <h5>Textual features</h5>
+                <div class="container mt-5">
+                    <h5>Text structure</h5>
+                    <p>When encoding the poems, there are some benefits to signifying changes in
+                        stanzas. Both <code>&lt;lg&gt;</code> and <code>&lt;div&gt;</code> would
+                        work in this capacity, however EVT’s default configuration did not recognise
+                            <code>&lt;lg&gt;</code> as a discrete stanza so I decided to use
+                            <code>&lt;div&gt;</code> as follows:</p>
+                    <pre class="code-block">&lt;div type="stanza"&gt;</pre>
+                    <p>This allows the poem to render correctly in EVT without additional
+                        customisation and clearly demarcates between different stanzas while using
+                        valid TEI markup.</p>
+                    <p>I decided to label and number each individual line of poetry within each
+                        text. This makes it straightforward to find and refer to verse lines and is
+                        the preferred practice for using EVT. This method also generates the line
+                        numbering-feature in EVT:</p>
+                    <pre class="code-block">&lt;l n="26"&gt;Upon whose changeful face&lt;/l&gt;</pre>
+                    <p>Line numbering caused some complications when creating the critical version
+                        of some poems which include full line deletions within the manuscript.
+                            <strong>**N.B. CIARA: YOU NEED TO COMPLETE THIS PARAGRAPH**</strong></p>
+                </div>
+                <h5>Manuscript features</h5>
+                <div class="container mt-5">
+                    <h5>Deletions and additions</h5>
+                    <p>Deletions and additions are a significant feature of interest when creating
+                        the edition. By examining the changes Brontë is making on the page I can
+                        illuminate and analyse the conscious development of her critical and poetic
+                        voice.</p>
+                    <p>In the documentary edition, the recommended approach for a deletion is to use
+                        the <code>&lt;del&gt;</code> element which "contains a letter, word, or
+                        passage deleted, marked as deleted, or otherwise indicated as superfluous or
+                        spurious in the copy text by an author, scribe, or a previous annotator or
+                        corrector" <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COEDADD"
+                            >[3.5.3]</a>. Within EVT this element is visualised as a strikethrough
+                        which accurately fits Brontë's authorial habit of striking through deleted
+                        words.</p>
+                    <p>For words added by Brontë above the main line of the text,
+                            <code>&lt;add&gt;</code> was used. This element "contains letters,
+                        words, or phrases inserted in the source text by an author, scribe, or a
+                        previous annotator or corrector" <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COEDADD"
+                            >[3.5.3]</a> and EVT displays the encoded text above the line. </p>
+                    <p>Deletions and above-line additions often feature in pairs within the
+                        manuscripts, here is an example of the encoding within the documentary
+                        edition, where Brontë deleted the word "peace" and replaced it with the word
+                        "bliss" above the line:</p>
+                    <pre class="code-block">
+&lt;l n="170"&gt;And &lt;del&gt;peace&lt;/del&gt;
+    &lt;add&gt;bliss&lt;/add&gt; shall rule for evermore&lt;/l&gt;</pre>
+                    <p>A different approach was needed within the critical edition as the deletions
+                        and additions only apply to the MS, meaning that just
+                            <code>&lt;del&gt;</code> or <code>&lt;add&gt;</code> by itself could
+                        give the impression that the feature occurs in all versions of the text.
+                        Therefore, in the critical version I decided to nest these features within
+                        the critical apparatus encoding framework of <code>&lt;app&gt;</code> and
+                            <code>&lt;lem&gt;</code>, to make it clear that the changes only relate
+                        to one specific witness.</p>
+                    <p>Here is an example of a deletion within the critical version:</p>
+                    <pre class="code-block">
+&lt;app&gt;
+    &lt;lem wit="#MS-P"&gt;
+        &lt;del&gt;songs&lt;/del&gt;
+    &lt;/lem&gt;
+&lt;/app&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Emphasis</h5>
+                    <p>At times Brontë underlines certain words within her manuscripts. In printed
+                        texts this usually corresponds to the capitalisation of the words.</p>
+                    <p>In order to accurately convey this phenomenon within the manuscript, the most
+                        effective element is <code>&lt;hi&gt;</code> which "marks a word or phrase
+                        as graphically distinct from the surrounding text" <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COHQHE"
+                            >[3.3.2.2]</a>.</p>
+                    <p>This leads EVT to render the text as underlined, ensuring that the text is
+                        accurate and the reader can see the additional emphasis relating to the word
+                        in question. An example:</p>
+                    <pre class="code-block">&lt;hi rend="underline"&gt;will&lt;/hi&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Extra-texual manuscript information</h5>
+                    <p>Brontë often records the poem’s total number of lines somewhere within the
+                        manuscript, most often on either the first or final page. As it is often
+                        placed in isolation rather than as part of a particular pre-existing element
+                        of text, I use the anonymous block element, <code>&lt;ab&gt;</code>, in the
+                        relevant location to record these notes. This element "contains any
+                        component-level unit of text, acting as a container for phrase or inter
+                        level elements analogous to, but without the same constraints as, a
+                        paragraph" <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASE"
+                            >[17.3]</a>, making it flexible for this use-case. For example:</p>
+                    <pre class="code-block">&lt;ab&gt;24 lines&lt;/ab&gt;</pre>
+                    <p>Many of Anne Brontë's manuscripts include a signature and date after the
+                        poem. In order to record this information in the document while demarcating
+                        it from the body of the poem I opted for the <code>&lt;closer&gt;</code>
+                        element after the text of the poem. This element "groups together
+                        salutations, datelines, and similar phrases appearing as a final group at
+                        the end of a division, especially of a letter" <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSOC"
+                            >[4.2.2]</a>.</p>
+                    <p>The <code>&lt;closer&gt;</code> is contained within a
+                            <code>&lt;div&gt;</code> element so that EVT is able to correctly
+                        process the text of the closer as a discrete and valid portion of text.</p>
+                    <p>Within the <code>&lt;closer&gt;</code> element, the signature is then
+                        indicated with a <code>&lt;signed&gt;</code> element while a date is
+                        included in the <code>&lt;dateline&gt;</code> element. For example:</p>
+                    <pre class="code-block">
+&lt;div&gt;
+    &lt;closer&gt;
+        &lt;signed&gt;A B&lt;/signed&gt;
+        &lt;dateline&gt;August 19th 1841&lt;/dateline&gt;
+    &lt;/closer&gt;
+&lt;/div&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Witness variation</h5>
+                    <p>For this edition, I chose to document the variations between different
+                        versions of the texts produced by Brontë to get a sense of how later
+                        editions of the poem differ from the original manuscript. These changes
+                        often comprise spelling changes and punctuation, although substantive
+                        textual changes also occur and provide valuable insights into Brontë's
+                        literary, philosophical and aesthetic approach.</p>
+                    <p>All variations between the witnesses are recorded in an
+                            <code>&lt;app&gt;</code> element. The <code>&lt;app&gt;</code> element
+                        "contains one entry in a critical apparatus, with an optional lemma and
+                        usually one or more readings or notes on the relevant passage" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPEN"
+                            >[13.1.1]</a>.</p>
+                    <p>This edition is one that foregrounds the manuscript because part of the
+                        function of creating this digital edition is to provide direct access to
+                        Brontë's original versions of these poems for the first time by including
+                        images of original manuscripts. This gives the edition user the opportunity
+                        to encounter important manuscript features such as Brontë's original
+                        punctuation and crucial revisions in an immediate and unfiltered way.</p>
+                    <p>The critical edition also includes the 1846 versions of the texts. This
+                        version presents the user with the evolution of the poem's texts,
+                        illuminating the textual history of the poems.</p>
+                    <p>Therefore, it was appropriate to designate <code>&lt;lem&gt;</code> as
+                        referring to manuscripts as <code>&lt;lem&gt;</code> "contains the lemma, or
+                        base text, of a textual variation" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPLL"
+                            >[1.1]</a>. Meanwhile, the variant readings from 1846 Poems are
+                        indicated by <code>&lt;rdg&gt;</code> which "contains a single reading
+                        within a textual variation" <a
+                            href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPLL"
+                            >[12.1]</a></p>
+                    <p>A typical <code>&lt;app&gt;</code> in which there are different readings
+                        between the MS and other witness is encoded as follows:</p>
+                    <pre class="code-block">
+&lt;l n="21"&gt;When &lt;app&gt;
+        &lt;lem wit="#MS-Q"&gt;friendly intercourse&lt;/lem&gt;
+        &lt;rdg wit="#ACE"&gt;speech and mirth at once&lt;/rdg&gt;
+    &lt;/app&gt;
+&lt;/l&gt;</pre>
+                    <p>Where a word or punctuation mark is not present in all versions of the text
+                        then only those witnesses which do include a feature in that textual
+                        position are included within the <code>&lt;app&gt;</code>.</p>
+                    <p>For example:</p>
+                    <pre class="code-block">
+&lt;l n="28"&gt;… might trace&lt;app&gt;
+        &lt;rdg wit="#ACE"&gt;;&lt;/rdg&gt;
+    &lt;/app&gt;
+&lt;/l&gt;</pre>
+                </div>
+                <div class="container mt-5">
+                    <h5>Editorial notes</h5>
+                    <p>The <code>&lt;note&gt;</code> element is the obvious choice for inline notes.
+                        The element "contains a note or annotation" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONONO"
+                            >[3.9.1]</a> that renders as an interactable coloured dot similar to an
+                        asterisk within EVT, allowing extra information to be provided without
+                        unduly cluttering the reading view of the poems.</p>
+                    <p>It has been used throughout the edition to highlight or expand on interesting
+                        features of the MS. The content comprises of concise comments on MS
+                        deletions or rewrites or relevant extra-textual info such as title
+                        changes.</p>
+                    <p>For example:</p>
+                    <pre class="code-block">
+&lt;note&gt;This poem is entitled "A Fragment" in both the MS and Chitham and was named
+    "Self-Congratulation" in 1846 Poems.&lt;/note&gt;</pre>
+                    <p>More significant editorial commentary has been included in individual
+                        editor's provided at the bottom of each poem. Placed after the text of the
+                        poem and the inclusion of closing info this info is nested within a new
+                            <code>&lt;div type="editor’s_note"&gt;</code>.</p>
+                    <p>There is then a <code>&lt;head&gt;</code> element to allow me to title the
+                        note in a way that is visible to the reader. Finally the text of the note
+                        itself is contained within <code>&lt;p&gt;</code> element which "marks
+                        paragraphs in prose" <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COPA"
+                            >[3.1]</a> These choices ensure that change in author and type of
+                        information here is made clear both for the internal working of the xml file
+                        and for the user of the edition.</p>
+                    <p>Here is an example:</p>
+                    <pre class="code-block">
+&lt;div type="editor’s_note"&gt;
+    &lt;head&gt;Editor's Note&lt;/head&gt;
+    &lt;p&gt; This 1838 poem is an early Gondal poem exploring themes of family, regret and nostalgia and
+        was not published during Bronte's lifetime. (…)&lt;/p&gt;
+&lt;/div&gt;</pre>
+                    <p>In terms of content, each note provides some background to the textual
+                        history of the poem, including information on the composition, manuscript
+                        location and whether they were published by Brontë herself or posthumously.
+                        I then provide concise critical summaries of each poem before highlighting
+                        and analysing the most striking features of the MS and/or revisions to the
+                        1846 publications.</p>
+                </div>
+                <h4>Works cited</h4>
+                <ul>
+                    <li>Chitham, Edward, editor. <em>The Poems of Anne Brontë: A New Text and
+                        Commentary</em>. Macmillan, 1979.</li>
+                    <li>TEI Consortium, eds. <em>TEI P5: Guidelines for Electronic Text Encoding and
+                        Interchange</em>. [4.8.0.]. [02/09/2024]. TEI Consortium.
+                        <a href="http://www.tei-c.org/Guidelines/P5/">http://www.tei-c.org/Guidelines/P5/</a>.</li>
+                    <li>Turco, Roberto Rosselli Del, et al. 'Edition Visualization Technology: A
+                        Simple Tool to Visualize TEI-Based Digital Editions’'. <em>Journal of the Text
+                        Encoding Initiative</em>, no. 8, Dec. 2014.,
+                        <a href="https://doi.org/10.4000/jtei.1077">https://doi.org/10.4000/jtei.1077</a>.</li>
+                </ul>
             </main>
             <footer class="pt-5 my-5 mx-5 text-muted border-top">[Copyright statement / re-use
                 license]</footer>
