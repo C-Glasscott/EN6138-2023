@@ -197,10 +197,11 @@
                     <pre class="code-block">
 &lt;biblStruct&gt;
     &lt;monogr&gt;
-        &lt;author&gt;Anne Brontë&lt;/author&gt;
-        &lt;title&gt;"Tis Strange to Think"&lt;/title&gt;
+        &lt;author&gt;Anne Bront&#235;&lt;/author&gt;
+        &lt;editor&gt;Ciara Glasscott&lt;/editor&gt;
+        &lt;title&gt;Anne Brontë’s Poetry of Childhood: A Digital Scholarly Edition&lt;/title&gt;
         &lt;imprint&gt;
-            &lt;date&gt;1846&lt;/date&gt;
+            &lt;date&gt;2024&lt;/date&gt;
         &lt;/imprint&gt;
     &lt;/monogr&gt;
 &lt;/biblStruct&gt;</pre>
@@ -340,7 +341,7 @@
                         corresponding filename is placed in the relevant data folder of EVT
                         (\data\images\single), the software will recognise the link and display the
                         appropriate image. The <code>@xml:id</code> attribute is placed within a
-                            <code>&lt;pb/&gt;</code> element, which indicates a page break. This
+                            <code>&lt;pb&gt;</code> element, which indicates a page break. This
                         allows the images and the text to become fully linked so that turning the
                         virtual page of the manuscript will lead to the appropriate portion of
                         transcribed text appearing on screen. Therefore, at every change of image a
@@ -372,8 +373,32 @@
                         numbering-feature in EVT:</p>
                     <pre class="code-block">&lt;l n="26"&gt;Upon whose changeful face&lt;/l&gt;</pre>
                     <p>Line numbering caused some complications when creating the critical version
-                        of some poems which include full line deletions within the manuscript.
-                            <strong>**N.B. CIARA: YOU NEED TO COMPLETE THIS PARAGRAPH**</strong></p>
+                        of some poems which include two possible line options in the MS with neither
+                        crossed out. This particularly applies to "Views of Life" which was later
+                        published in 1846, meaning there is a second version to consider. In the
+                        documentary edition I numbered each line as it appears in the MS.</p>
+                    <p>However, in the critical edition I needed to create a distinction to make the
+                        situation visually apparent for the user. Therefore, I put the MS option
+                        which was not used in the 1846 version in a non-numbered
+                            <code>&lt;l&gt;</code> element. This line is further enclosed by an
+                            <code>&lt;app&gt;</code> element and identified as a MS reading. Then
+                        the line which appears in both the MS and 1846 follows with typical
+                        encoding, including a numbered <code>&lt;l&gt;</code> element. This approach
+                        allows all of the text to feature in the critical edition while signalling
+                        to the reader that these lines in the MS are alternative options and keeping
+                        the overall line count to Brontë's intended 166 lines.</p>
+                    <p>Here is an example:</p>
+                    <pre class="code-block">
+&lt;l&gt;
+    &lt;app&gt;
+        &lt;lem wit="#MS-R"&gt;Their &lt;add&gt;
+                &lt;del&gt;brightest&lt;/del&gt;&lt;/add&gt;
+            &lt;add&gt;borrowed&lt;/add&gt; glory now was o'er:&lt;/lem&gt;
+    &lt;/app&gt;
+&lt;/l&gt;
+&lt;l n="26"&gt;And when their borrowed charm was o'er&lt;app&gt;
+        &lt;rdg wit="#ACE"&gt;,&lt;/rdg&gt;
+    &lt;/app&gt;&lt;/l&gt;</pre>
                 </div>
                 <h5>Manuscript features</h5>
                 <div class="container mt-5">
@@ -539,10 +564,11 @@
                         editor's provided at the bottom of each poem. Placed after the text of the
                         poem and the inclusion of closing info this info is nested within a new
                             <code>&lt;div type="editor’s_note"&gt;</code>.</p>
-                    <p>There is then a <code>&lt;head&gt;</code> element to allow me to title the
-                        note in a way that is visible to the reader. Finally the text of the note
-                        itself is contained within <code>&lt;p&gt;</code> element which "marks
-                        paragraphs in prose" <a
+                    <p>These notes are designated “Editor’s Note”, using the
+                            <code>&lt;head&gt;</code> element to ensure clear visual demarcation for
+                        the user between the manuscript text and my commentary. Finally the text of
+                        the note itself is contained within <code>&lt;p&gt;</code> element which
+                        "marks paragraphs in prose" <a
                             href="https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#COPA"
                             >[3.1]</a> These choices ensure that change in author and type of
                         information here is made clear both for the internal working of the xml file
@@ -551,8 +577,8 @@
                     <pre class="code-block">
 &lt;div type="editor’s_note"&gt;
     &lt;head&gt;Editor's Note&lt;/head&gt;
-    &lt;p&gt; This 1838 poem is an early Gondal poem exploring themes of family, regret and nostalgia and
-        was not published during Bronte's lifetime. (…)&lt;/p&gt;
+    &lt;p&gt;“Verses to a Child,” which is dated 10 July 1838 but was not published during
+    Bront&#235;’s lifetime, is an early Gondal poem exploring themes of family, regret and nostalgia. (…)&lt;/p&gt;
 &lt;/div&gt;</pre>
                     <p>In terms of content, each note provides some background to the textual
                         history of the poem, including information on the composition, manuscript
