@@ -45,7 +45,7 @@
                             <title>Anne Brontë Manuscript 1842-5</title>
                             <msIdentifier>
                                 <settlement>New York</settlement>
-                                <repository>Morgan Library and Musuem </repository>
+                                <repository>Morgan Library and Museum </repository>
                                 <idno>MA 28</idno>
                             </msIdentifier></bibl></witness>
                     <witness xml:id="MS-R">
@@ -60,14 +60,14 @@
                             <title>Anne Brontë's "Views of Life"</title>
                             <msIdentifier>
                                 <settlement>New York</settlement>
-                                <repository>Morgan Library and Musuem </repository>
+                                <repository>Morgan Library and Museum </repository>
                                 <idno>MA 2696.8</idno>
                             </msIdentifier></bibl></witness>
                     <witness xml:id="MS-T">
                         <bibl type="manuscript">
                             <msIdentifier>
                                 <settlement>Haworth</settlement>
-                                <repository>Bronte Parsonage Musuem</repository>
+                                <repository>Bronte Parsonage Museum</repository>
                                 <idno>BPM 135</idno>
                             </msIdentifier>
                         </bibl></witness>
@@ -77,7 +77,7 @@
                             <title><!-- unknown --></title>
                             <msIdentifier>
                                 <settlement>Haworth</settlement>
-                                <repository>Bronte Parsonage Musuem</repository>
+                                <repository>Bronte Parsonage Museum</repository>
                                 <idno>[ADD ID / CALL NUMBER FROM INSTITUTION, IF AVAILABLE]</idno>
                             </msIdentifier>
                         </bibl></witness>
@@ -102,7 +102,7 @@
         </front>
 
         <body>
-            <pb n="1" xml:id="VER_1" facs="data/images/single/VER_1.jpg/"/>
+            <pb n="1" xml:id="VER_1" facs="data/images/single/VER_1.jpg"/>
             <head>Verses to a Child &#x2014;</head>
 
             <div type="stanza">
@@ -123,7 +123,7 @@
                 <l n="10">And that thy blue eyes magic shine</l>
                 <l n="11">Can overflow my own with tears,</l>
 
-                <pb n="2" xml:id="VER_2" facs="data/images/single/VER_2.jpg/"/>
+                <pb n="2" xml:id="VER_2" facs="data/images/single/VER_2.jpg"/>
 
                 <l n="12">And that each feature soft and fair</l>
                 <l n="13">And every curl of golden hair,</l>
@@ -156,7 +156,7 @@
                     days, </l>
                 <l n="30">We loved each other fondly then</l>
 
-                <pb n="3" xml:id="VER_3" facs="data/images/single/VER_3.jpg/"/>
+                <pb n="3" xml:id="VER_3" facs="data/images/single/VER_3.jpg"/>
 
                 <l n="31">But human love too soon decays,</l>
                 <l n="32">And ours can never bloom again.</l>
@@ -192,7 +192,7 @@
 
             </div>
 
-            <pb n="4" xml:id="VER_4" facs="data/images/single/VER_4.jpg/"/>
+            <pb n="4" xml:id="VER_4" facs="data/images/single/VER_4.jpg"/>
 
             <div type="stanza">
                 <l n="50">But though thy Father loves me not,</l>
@@ -238,7 +238,7 @@
         </front>
 
         <body>
-            <pb n="5" xml:id="FRG_1" facs="data/images/single/FRG_1.jpg/"/>
+            <pb n="5" xml:id="FRG_1" facs="data/images/single/FRG_1.jpg"/>
 
             <head>A Fragment</head>
 
@@ -296,7 +296,7 @@
                         <rdg wit="#ACE">simple tunes</rdg>
                     </app></l>
 
-                <pb n="6" xml:id="FRG_2" facs="data/images/single/FRG_2.jpg/"/>
+                <pb n="6" xml:id="FRG_2" facs="data/images/single/FRG_2.jpg"/>
                 <l n="12">So often o'er again?<app>
                         <lem wit="#MS-P">"</lem>
                     </app></l>
@@ -363,7 +363,7 @@
                         <rdg wit="#ACE">gazer well might trace;</rdg>
                     </app></l>
 
-                <pb n="7" xml:id="FRG_3" facs="data/images/single/FRG_3.jpg/"/>
+                <pb n="7" xml:id="FRG_3" facs="data/images/single/FRG_3.jpg"/>
                 <l n="29">The speaking eye<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> the changing lip<app>
@@ -438,7 +438,7 @@
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
 
-                <pb n="8" xml:id="FRG_4" facs="data/images/single/FRG_4.jpg/"/>
+                <pb n="8" xml:id="FRG_4" facs="data/images/single/FRG_4.jpg"/>
                 <l n="46">My heart beat <app>
                         <lem wit="#MS-P">thick and fast</lem>
                         <rdg wit="#ACE">full and fast!</rdg>
@@ -516,7 +516,7 @@
         </front>
 
         <body>
-            <pb n="9" xml:id="BLB_1" facs="data/images/single/BLB_1.jpg/"/>
+            <pb n="9" xml:id="BLB_1" facs="data/images/single/BLB_1.jpg"/>
 
             <head>The Bluebell &#x2014;</head>
 
@@ -537,7 +537,7 @@
             <div type="stanza">
                 <l n="9">Yet I recall not long ago,</l>
 
-                <pb n="10" xml:id="BLB_2" facs="data/images/single/BLB_2.jpg/"/>
+                <pb n="10" xml:id="BLB_2" facs="data/images/single/BLB_2.jpg"/>
 
                 <l n="10">A bright and sunny day.</l>
                 <l n="11">'Twas when I led a toilsome life</l>
@@ -570,7 +570,7 @@
             <div type="stanza">
                 <l n="25">But as I looked upon the bank</l>
 
-                <pb n="11" xml:id="BLB_3" facs="data/images/single/BLB_3.jpg/"/>
+                <pb n="11" xml:id="BLB_3" facs="data/images/single/BLB_3.jpg"/>
 
                 <l n="26">My wandering glances fell <del>u</del></l>
                 <l n="27">Upon a little trembling flower</l>
@@ -602,7 +602,7 @@
                 <l n="39">And when I dwelt with kindred hearts</l>
                 <l n="40">That loved and cared for me</l>
             </div>
-            <pb n="12" xml:id="BLB_4" facs="data/images/single/BLB_4.jpg/"/>
+            <pb n="12" xml:id="BLB_4" facs="data/images/single/BLB_4.jpg"/>
 
             <div type="stanza">
                 <l n="41">I had not then <del>to spend my days</del>
@@ -651,7 +651,7 @@
 
         <body>
 
-            <pb n="13" xml:id="ORP_1" facs="data/images/single/ORP_1.jpg/"/>
+            <pb n="13" xml:id="ORP_1" facs="data/images/single/ORP_1.jpg"/>
 
             <head>An Orphan's Lament</head>
 
@@ -669,7 +669,7 @@
                 <l n="8">Have fallen to decay,</l>
             </div>
 
-            <pb n="14" xml:id="ORP_2" facs="data/images/single/ORP_2.jpg/"/>
+            <pb n="14" xml:id="ORP_2" facs="data/images/single/ORP_2.jpg"/>
 
             <div type="stanza">
                 <l n="9">And thrice stern winter's icy hand</l>
@@ -700,7 +700,7 @@
                 <l n="24">It is not thus with me.</l>
             </div>
 
-            <pb n="15" xml:id="ORP_3" facs="data/images/single/ORP_3.jpg/"/>
+            <pb n="15" xml:id="ORP_3" facs="data/images/single/ORP_3.jpg"/>
             <div type="stanza">
                 <l n="25">My Mother thou wilt weep nomore </l>
                 <l n="26">For thou art gone above</l>
@@ -729,7 +729,7 @@
                 <l n="40">Upon <del>to</del> thy bosom shed</l>
             </div>
 
-            <pb n="16" xml:id="ORP_4" facs="data/images/single/ORP_4.jpg/"/>
+            <pb n="16" xml:id="ORP_4" facs="data/images/single/ORP_4.jpg"/>
             <div type="stanza">
                 <l n="41">Thy loss can never be repaired</l>
                 <l n="42">I shall not <del>see</del><add>know</add>again</l>
@@ -770,7 +770,7 @@
         </front>
 
         <body>
-            <pb n="17" xml:id="LTG_1" facs="data/images/single/LTG_1.jpg/"/>
+            <pb n="17" xml:id="LTG_1" facs="data/images/single/LTG_1.jpg"/>
             <head>Lines written at Thorp Green</head>
 
             <div type="stanza">
@@ -782,7 +782,7 @@
                 <l n="6">I long so much to see. </l>
             </div>
 
-            <pb n="18" xml:id="LTG_2" facs="data/images/single/LTG_2.jpg/"/>
+            <pb n="18" xml:id="LTG_2" facs="data/images/single/LTG_2.jpg"/>
 
             <div type="stanza">
                 <l n="7">And this soft whispering breeze that now,</l>
@@ -809,7 +809,7 @@
                 <l n="20">And woods and meadows in their prime</l>
                 <l n="21">Are <del>seet</del> sweet to those who roam -</l>
 
-                <pb n="19" xml:id="LTG_3" facs="data/images/single/LTG_3.jpg/"/>
+                <pb n="19" xml:id="LTG_3" facs="data/images/single/LTG_3.jpg"/>
                 <l n="22">Far sweeter is the Winter bare</l>
                 <l n="23">With long dark nights and landscape drear</l>
                 <l n="24">To them that are at Home!</l>
@@ -841,7 +841,7 @@
                     collection</note></head>
         </front>
         <body>
-            <pb n="20" xml:id="TIS_1" facs="data/images/single/TIS_1.jpg/"/>
+            <pb n="20" xml:id="TIS_1" facs="data/images/single/TIS_1.jpg"/>
             <div type="stanza">
                 <l n="1">'Tis strange to think there <app>
                         <lem wit="#MS-Q">was</lem>
@@ -880,7 +880,7 @@
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
 
-                <pb n="21" xml:id="TIS_2" facs="data/images/single/TIS_2.jpg/"/>
+                <pb n="21" xml:id="TIS_2" facs="data/images/single/TIS_2.jpg"/>
 
                 <l n="11">And <app>
                         <lem wit="#MS-Q">Silence, Solitude</lem>
@@ -972,7 +972,7 @@
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
 
-                <pb n="22" xml:id="TIS_3" facs="data/images/single/TIS_3.jpg/"/>
+                <pb n="22" xml:id="TIS_3" facs="data/images/single/TIS_3.jpg"/>
 
                 <l n="29">But full of hope<app>
                         <rdg wit="#ACE">,</rdg>
@@ -1012,7 +1012,7 @@
         </front>
 
         <body>
-            <pb n="23" xml:id="MEM_1" facs="data/images/single/MEM_1.jpg/"/>
+            <pb n="23" xml:id="MEM_1" facs="data/images/single/MEM_1.jpg"/>
             <head>Memory</head>
 
 
@@ -1074,7 +1074,7 @@
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
 
-                <pb n="24" xml:id="MEM_2" facs="data/images/single/MEM_2.jpg/"/>
+                <pb n="24" xml:id="MEM_2" facs="data/images/single/MEM_2.jpg"/>
 
                 <l n="16">As in the days of infancy,</l>
                 <l n="17">An opening primrose seemed to me<app>
@@ -1134,7 +1134,7 @@
                     </app></l>
             </div>
 
-            <pb n="25" xml:id="MEM_3" facs="data/images/single/MEM_3.jpg/"/>
+            <pb n="25" xml:id="MEM_3" facs="data/images/single/MEM_3.jpg"/>
 
             <div type="stanza">
                 <l n="31"><app>
@@ -1218,7 +1218,7 @@
                         <rdg wit="#ACE">,</rdg>
                     </app> no spell of thine</l>
 
-                <pb n="26" xml:id="MEM_4" facs="data/images/single/MEM_4.jpg/"/>
+                <pb n="26" xml:id="MEM_4" facs="data/images/single/MEM_4.jpg"/>
 
                 <l n="47">Can make our later pleasures shine<app>
                         <rdg wit="#ACE">,</rdg>
@@ -1257,7 +1257,7 @@
         </front>
 
         <body>
-            <pb n="27" xml:id="DRE_1" facs="data/images/single/DRE_1.jpg/"/>
+            <pb n="27" xml:id="DRE_1" facs="data/images/single/DRE_1.jpg"/>
 
             <head>Dreams</head>
 
@@ -1271,7 +1271,7 @@
             <div type="stanza">
                 <l n="5">Then I may cherish at my breast</l>
 
-                <pb n="28" xml:id="DRE_2" facs="data/images/single/DRE_2.jpg/"/>
+                <pb n="28" xml:id="DRE_2" facs="data/images/single/DRE_2.jpg"/>
 
                 <l n="6">An infant's form beloved and fair</l>
                 <l n="7">May smile and soothe it into rest</l>
@@ -1304,7 +1304,7 @@
                 <l n="21">But then to wake and find it flown</l>
                 <l n="22">The dream of happiness destroyed,</l>
 
-                <pb n="29" xml:id="DRE_3" facs="data/images/single/DRE_3.jpg/"/>
+                <pb n="29" xml:id="DRE_3" facs="data/images/single/DRE_3.jpg"/>
 
                 <l n="23">To find myself unloved, alone,</l>
                 <l n="24">What tongue can speak the dreary void?</l>
@@ -1347,7 +1347,7 @@
         </front>
 
         <body>
-            <pb n="30" xml:id="VOL_1" facs="data/images/single/VOL_1.jpg/"/>
+            <pb n="30" xml:id="VOL_1" facs="data/images/single/VOL_1.jpg"/>
             <head></head>
 
             <ab>166 lines</ab>
@@ -1405,7 +1405,7 @@
             </div>
 
          
-            <pb n="31" xml:id="VOL_12" facs="data/images/single/VOL_2.jpg/"/>
+            <pb n="31" xml:id="VOL_12" facs="data/images/single/VOL_2.jpg"/>
             <div type="stanza">
                 <l n="13">I lately saw a sunset sky,</l>
                 <l n="14">And stood enraptured to behold<app>
@@ -1478,7 +1478,7 @@
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
 
-                <pb n="32" xml:id="VOL_3" facs="data/images/single/VOL_3.jpg/"/>
+                <pb n="32" xml:id="VOL_3" facs="data/images/single/VOL_3.jpg"/>
 
                 <l n="27"><app>
                         <lem wit="#MS-R">The sky grew dull and charmless too</lem>
@@ -1550,7 +1550,7 @@
                     </app></l>
             </div>
 
-            <pb n="33" xml:id="VOL_4" facs="data/images/single/VOL_4.jpg/"/>
+            <pb n="33" xml:id="VOL_4" facs="data/images/single/VOL_4.jpg"/>
             <div type="stanza">
                 <l n="41">Her blinded eyes behold not now<app>
                         <lem wit="#MS-R">,</lem>
@@ -1626,7 +1626,7 @@
                     </app></l>
             </div>
 
-            <pb n="34" xml:id="VOL_5" facs="data/images/single/VOL_5.jpg/"/>
+            <pb n="34" xml:id="VOL_5" facs="data/images/single/VOL_5.jpg"/>
             <div>
                 <l n="57">The soul's and body's agony,</l>
                 <l n="58">
@@ -1717,7 +1717,7 @@
                     </app> manhood's prime would be.</l>
             </div>
 
-            <pb n="35" xml:id="VOL_6" facs="data/images/single/VOL_6.jpg/"/>
+            <pb n="35" xml:id="VOL_6" facs="data/images/single/VOL_6.jpg"/>
             <div type="stanza">
                 <l n="77">When<app>
                         <rdg wit="#ACE">,</rdg>
@@ -1820,7 +1820,7 @@
                     </app></l>
                 <l n="99">And Autumn shall restore,</l>
 
-                <pb n="36" xml:id="VOL_7" facs="data/images/single/VOL_7.jpg/"/>
+                <pb n="36" xml:id="VOL_7" facs="data/images/single/VOL_7.jpg"/>
 
                 <l n="100">With golden riches of her own,</l>
                 <l n="101">And <app>
@@ -1907,7 +1907,7 @@
                     </app></l>
             </div>
 
-            <pb n="37" xml:id="VOL_8" facs="data/images/single/VOL_8.jpg/"/>
+            <pb n="37" xml:id="VOL_8" facs="data/images/single/VOL_8.jpg"/>
            
             <div type="stanza">
                 <l n="121">Tell him, that earth is not our <app>
@@ -1998,7 +1998,7 @@
                 <l n="144">Expect the rising morn.</l>
             </div>
 
-            <pb n="38" xml:id="VOL_9" facs="data/images/single/VOL_9.jpg/"/>
+            <pb n="38" xml:id="VOL_9" facs="data/images/single/VOL_9.jpg"/>
             <div type="stanza">
                 <l n="145">Because the road is rough and long,</l>
                 <l n="146">Shall we despise the skylark's song,</l>
@@ -2118,7 +2118,7 @@
         </front>
 
         <body>
-            <pb n="39" xml:id="ZDR_1" facs="data/images/single/ZDR_1.jpg/"/>
+            <pb n="39" xml:id="ZDR_1" facs="data/images/single/ZDR_1.jpg"/>
             <head>Z-'s Dream <note>The original Gondal name here has been erased in the MS</note>
             </head>
 
@@ -2136,7 +2136,7 @@
                 <l n="9">Their hate that grew with growing strength,</l>
                 <l n="10">Their darling projects - dropped at length,</l>
 
-                <pb n="40" xml:id="ZDR_2" facs="data/images/single/ZDR_2.jpg/"/>
+                <pb n="40" xml:id="ZDR_2" facs="data/images/single/ZDR_2.jpg"/>
 
                 <l n="11">And higher aims that still prevail,-</l>
                 <l n="12">For I must perish else <del>ever</del> ere they fail,-</l>
@@ -2161,7 +2161,7 @@
                 <l n="27">A bold and careless youth:</l>
                 <l n="28">No guilty stain was on my mind;</l>
 
-                <pb n="41" xml:id="ZDR_3" facs="data/images/single/ZDR_3.jpg/"/>
+                <pb n="41" xml:id="ZDR_3" facs="data/images/single/ZDR_3.jpg"/>
 
                 <l n="29">And, if not over soft or kind,</l>
                 <l n="30">My heart was full of truth.</l>
@@ -2185,7 +2185,7 @@
                 <l n="47"><del>(I</del> Ground, to our rebel feet how dear;</l>
                 <l n="48">Danger and freedom both were there!-</l>
 
-                <pb n="42" xml:id="ZDR_4" facs="data/images/single/ZDR_4.jpg/"/>
+                <pb n="42" xml:id="ZDR_4" facs="data/images/single/ZDR_4.jpg"/>
 
                 <l n="49">Had climed the steep and coursed the dale</l>
                 <l n="50">Until his strength began to fail.</l>
@@ -2213,7 +2213,7 @@
                 <l n="66"><del>And I</del>And fanned my cheek, (as real did seem</l>
                 <l n="67">This strange, untrue, but truthlike dream;)<note/></l>
 
-                <pb n="43" xml:id="ZDR_5" facs="data/images/single/ZDR_5.jpg/"/>
+                <pb n="43" xml:id="ZDR_5" facs="data/images/single/ZDR_5.jpg"/>
 
                 <l n="68">And,<add><del>while</del></add> as we stood, I laughed to see</l>
                 <l n="69">His fair young cheek so brightly glow.</l>
@@ -2236,7 +2236,7 @@
                 <l n="81"><del>As</del> I <del>sto</del> bore him struggling to the earth,</l>
                 <l n="82">And grappling, strength for strength we strove, &#x2014;</l>
 
-                <pb n="44" xml:id="ZDR_6" facs="data/images/single/ZDR_6.jpg/"/>
+                <pb n="44" xml:id="ZDR_6" facs="data/images/single/ZDR_6.jpg"/>
 
                 <l n="83">He half in wrath,- I all for love;</l>
                 <l n="84">But I gave o'er the strife at length,</l>
@@ -2262,7 +2262,7 @@
                 <l n="99">I longed to sleep again.</l>
             </div>
 
-            <pb n="45" xml:id="ZDR_7" facs="data/images/single/ZDR_7.jpg/"/>
+            <pb n="45" xml:id="ZDR_7" facs="data/images/single/ZDR_7.jpg"/>
             <div>
                 <l n="100">At first, remembrance slowly woke,</l>
                 <l n="101">Surprise &#x2014; regret successive rose,</l>
@@ -2289,7 +2289,7 @@
                         wept!</hi></l>
                 <l n="115">Wept, like a woman o'er the deed</l>
 
-                <pb n="46" xml:id="ZDR_8" facs="data/images/single/ZDR_8.jpg/"/>
+                <pb n="46" xml:id="ZDR_8" facs="data/images/single/ZDR_8.jpg"/>
 
                 <l n="116">I had been proud to do;-</l>
                 <l n="117">As I had made his bosom bleed;</l>
@@ -2312,7 +2312,7 @@
             <div>
                 <l n="129">Then reap the fruits - I've said his death</l>
 
-                <pb n="47" xml:id="ZDR_9" facs="data/images/single/ZDR_9.jpg/"/>
+                <pb n="47" xml:id="ZDR_9" facs="data/images/single/ZDR_9.jpg"/>
 
                 <l n="130">Should be <del>his</del>
                     <add>my</add> country's gain:-</l>
@@ -2335,7 +2335,7 @@
                 <l n="147">And onward I must press.</l>
             </div>
 
-            <pb n="48" xml:id="ZDR_10" facs="data/images/single/ZDR_10.jpg/"/>
+            <pb n="48" xml:id="ZDR_10" facs="data/images/single/ZDR_10.jpg"/>
 
             <div>
                 <l n="148">And, much I doubt, this work of <add>strife,</add></l>
