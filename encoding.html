@@ -19,6 +19,35 @@
                 padding: 15px;
                 border-radius: 5px;
                 font-family: monospace;
+            }
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                text-align: justify;
+            }
+            .right-aligned {
+                float: right;
+                margin-left: 20px;
+                width: 500px; /* Adjust the width as needed */
+                border: 1px solid #ccc; /* Subtle border */
+                padding: 5px;
+            }
+            .right-aligned img {
+                width: 100%; /* Ensure the homepage image fits within the figure */
+                height: auto; /* Maintain aspect ratio */
+            }
+            .right-aligned figcaption {
+                text-align: center;
+                font-size: 0.8em;
+                font-style: italic;
+                color: #555;
+            }
+            .declaration {
+                font-style: italic;
+                background-color: #f0f8ff; /* Light blue color */
+                border: 1px solid #add8e6; /* Light blue border */
+                padding: 10px;
+                border-radius: 5px; /* Rounded corners */
             }</style>
         <!-- Favicons -->
         <!-- <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico"> -->
@@ -75,6 +104,10 @@
             <main>
                 <h1>Encoding Methodology</h1>
                 <h4>Introduction</h4>
+                <figure class="right-aligned">
+                    <img src="code_sample.png" alt="Drawing in pencil by Charlotte Brontë">
+                    <figcaption>TEI encoding of "A Fragment" for critical edition.</figcaption>
+                </figure>
                 <p>This digital scholarly edition of a selection of Anne Brontë's poetry has been
                     produced alongside my written thesis on Brontë’s work as part of my PhD project.
                     Anne Brontë's intriguing and layered body of poetry occupies a liminal space

@@ -12,6 +12,36 @@
             rel="stylesheet"
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
             crossorigin="anonymous">
+        <style>
+            .container {
+                width: 60%;
+                margin: 0 auto;
+                text-align: justify;
+            }
+            .right-aligned {
+                float: right;
+                margin-left: 20px;
+                width: 250px; /* Adjust the width as needed */
+                border: 1px solid #ccc; /* Subtle border */
+                padding: 5px;
+            }
+            .right-aligned img {
+                width: 100%; /* Ensure the homepage image fits within the figure */
+                height: auto; /* Maintain aspect ratio */
+            }
+            .right-aligned figcaption {
+                text-align: center;
+                font-size: 0.8em;
+                font-style: italic;
+                color: #555;
+            }
+            .declaration {
+                font-style: italic;
+                background-color: #f0f8ff; /* Light blue color */
+                border: 1px solid #add8e6; /* Light blue border */
+                padding: 10px;
+                border-radius: 5px; /* Rounded corners */
+            }</style>
         <!-- Favicons -->
         <!-- <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico"> -->
     </head>
@@ -35,11 +65,12 @@
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="background.html"
-                                        >Background</a>
+                                    <a class="nav-link active" aria-current="page"
+                                        href="background.html">Background</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="editorial.html">Editorial Introduction</a>
+                                    <a class="nav-link" href="editorial.html">Editorial
+                                        Introduction</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="encoding.html">Encoding
@@ -66,8 +97,15 @@
         <div class="col-lg-8 mx-auto p-3 py-md-5">
             <main>
                 <h1>Background</h1>
-                <img src="bluebell_header.jpg" alt="Image detail from manuscript of The Bluebell" style="width: 100%;">
                 <h4>Biography</h4>
+                <figure class="right-aligned">
+                    <img src="Anne_Bronte_CB.jpg" alt="Drawing in pencil by Charlotte Brontë">
+                    <figcaption>Anne Brontë: Drawing in pencil by <a
+                            href="https://en.wikipedia.org/wiki/Charlotte_Bront%C3%AB" class="extiw"
+                            title="w:Charlotte Brontë">Charlotte Brontë</a>, Public Domain, <a
+                            href="https://commons.wikimedia.org/w/index.php?curid=2337510"
+                        >Link</a>.</figcaption>
+                </figure>
                 <p>Anne Brontë was born in Bradford in 1820 as the youngest of six children to
                     Patrick and Maria Brontë. Along with her surviving sisters Charlotte and Emily,
                     Anne became an author of fiction and poetry. The Brontë family gained an
@@ -110,6 +148,13 @@
                     them. She is the only Brontë not to be buried in the Haworth cemetery as befits
                     her outward looking gaze.</p>
                 <h4>Publishing history of Anne Brontë’s poetry</h4>
+                <figure class="right-aligned">
+                    <img src="signatures.jpg"
+                        alt="Brontë sisters' signatures as Currer, Ellis and Acton Bell">
+                    <figcaption>Brontë sisters' signatures as Currer, Ellis and Acton Bell, Public
+                        Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=6339973"
+                            >Link</a></figcaption>
+                </figure>
                 <p>A selection of sixteen of Anne Brontë's poems were included by the sisters in
                     their joint poetry collection <em>Poems by Currer, Ellis and Acton Bell</em>
                     which was published by Aylott and Jones with self-financing by the sisters in
@@ -144,27 +189,38 @@
                     possible. Thanks also to University of Galway Digital Humanities Manager, David
                     Kelly, for his invaluable advice and expertise with the construction of the
                     edition and website.</p>
-                <h4>Works cited</h4>     
+                <h4>Works cited</h4>
                 <ul>
-                    <li>Bauman, Susan R. 'In the Market for Fame: The Victorian Publication History of the Brontë Poems'. <em>Victorian Review</em>, vol. 30, no. 1, 2004, pp. 44–71.</li>
-                    <li>Brontë, Anne, Charlotte Brontë and Emily Brontë. <em>Poems by Currer, Ellis & Acton Bell</em>. Aylott and Jones, 1846</li>
-                    <li>Bell, Acton. 'The Narrow Way'. <em>Frazer’s Magazine</em>, Apr. 1747, p. 142.</li>
-                    <li>Brontë, Charlotte. 'Biographical Notice of Ellis and Acton Bell (1850)'. <em>Agnes Grey</em>, by Anne Brontë, edited by Robert Inglesfield and Hilda Marsden, Oxford University Press, 1998.</li>
-                    <li>Chitham, Edward, editor. <em>The Poems of Anne Brontë: A New Text and Commentary</em>. Macmillan, 1979.</li>
-                    <li>---. <em>The Poems of Anne Brontë: Second, Revised Edition with a New Introduction</em>. Edward Everett Root, 2021.</li>
-                    <li>Gaskell, Elizabeth. <em>The Life of Charlotte Brontë</em>. Edited by Angus Easson, Oxford University Press, 1996.</li>   
+                    <li>Bauman, Susan R. 'In the Market for Fame: The Victorian Publication History
+                        of the Brontë Poems'. <em>Victorian Review</em>, vol. 30, no. 1, 2004, pp.
+                        44–71.</li>
+                    <li>Brontë, Anne, Charlotte Brontë and Emily Brontë. <em>Poems by Currer, Ellis
+                            & Acton Bell</em>. Aylott and Jones, 1846</li>
+                    <li>Bell, Acton. 'The Narrow Way'. <em>Frazer’s Magazine</em>, Apr. 1747, p.
+                        142.</li>
+                    <li>Brontë, Charlotte. 'Biographical Notice of Ellis and Acton Bell (1850)'.
+                            <em>Agnes Grey</em>, by Anne Brontë, edited by Robert Inglesfield and
+                        Hilda Marsden, Oxford University Press, 1998.</li>
+                    <li>Chitham, Edward, editor. <em>The Poems of Anne Brontë: A New Text and
+                            Commentary</em>. Macmillan, 1979.</li>
+                    <li>---. <em>The Poems of Anne Brontë: Second, Revised Edition with a New
+                            Introduction</em>. Edward Everett Root, 2021.</li>
+                    <li>Gaskell, Elizabeth. <em>The Life of Charlotte Brontë</em>. Edited by Angus
+                        Easson, Oxford University Press, 1996.</li>
                 </ul>
             </main>
             <footer class="pt-5 my-5 mx-5 text-muted border-top">
-                <p>With the exception of manuscript images, which
-                    are licensed by the holding institutions, this work is licensed under <a
-                        href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank"
-                        rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img
+                <p>With the exception of manuscript images, which are licensed by the holding
+                    institutions, this work is licensed under <a
+                        href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
+                        target="_blank" rel="license noopener noreferrer"
+                        style="display:inline-block;">CC BY 4.0<img
                             style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""
-                        ><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""
-                        ></a></p>
+                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+                            alt=""><img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+                            alt=""></a></p>
             </footer>
         </div>
     </body>
