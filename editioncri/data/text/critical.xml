@@ -6,18 +6,27 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>[ADD POEM TITLE HERE]</title>
+                <title><title>Anne Brontë’s Poetry of Childhood: A Digital Scholarly
+                    Edition</title></title>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <publisher>University of Galway</publisher>
+                <pubPlace>Galway, Ireland</pubPlace>
+                <date>2024</date>
+                <availability>
+                    <p>This is an open access work licensed under a Creative Commons Attribution 4.0
+                        International license.</p>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
                         <author>Anne Bront&#235;</author>
-                        <title>"[ADD POEM TITLE]"</title>
+                        <editor>Ciara Glasscott</editor>
+                        <title>"<title>Anne Brontë’s Poetry of Childhood: A Digital Scholarly
+                                Edition</title></title>
                         <imprint>
-                            <date>[ADD DATE]</date>
+                            <date>2024</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -40,10 +49,10 @@
                                 <idno>MA 28</idno>
                             </msIdentifier></bibl></witness>
                     <witness xml:id="MS-R">
-                        <bibl type="manuscript"><title><!-- return --></title><msIdentifier>
+                        <bibl type="manuscript"><title>When sinks my heart in hopeless gloom</title><msIdentifier>
                                 <settlement>New York</settlement>
                                 <repository>New York Public Library- Berg Collection</repository>
-                                <idno/>
+                                <idno>MSS 186118</idno>
                             </msIdentifier></bibl>
                     </witness>
                     <witness xml:id="MS-S">
@@ -54,6 +63,14 @@
                                 <repository>Morgan Library and Musuem </repository>
                                 <idno>MA 2696.8</idno>
                             </msIdentifier></bibl></witness>
+                    <witness xml:id="MS-T">
+                        <bibl type="manuscript">
+                            <msIdentifier>
+                                <settlement>Haworth</settlement>
+                                <repository>Bronte Parsonage Musuem</repository>
+                                <idno>BPM 135</idno>
+                            </msIdentifier>
+                        </bibl></witness>
                     <witness xml:id="MS-V">
                         <!--Return to this and fix-->
                         <bibl type="manuscript">
@@ -79,8 +96,6 @@
 
 
     <text n="Verses to a Child" xml:id="VTC">
-        <!-- I've added the poem title and an ID for this and Tis Strange, below: this enables 
-            the appearance of the poem title in the EVT drop-down menu: JT -->
 
         <front>
             <head>Verses to a Child</head>
@@ -201,12 +216,15 @@
 
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p> This 1838 poem is an early Gondal poem exploring themes of family, regret and
-                    nostalgia and was not published during Bronte's lifetime. In the manuscript,
-                    Bronte changes the child's name from 'Mary' to the pastoral 'Flora' and the
-                    unnamed father is christened 'Florian'. With these changes Bronte is affirming
-                    Flora's symbloic status as a Romantic child of nature. Moroever, this
-                    strenghtens the narrative association between father and daughter within the
+                <p> “Verses to a Child,” which is dated 10 July 1838 but was not published during
+                    Bront&#235;’s lifetime, is an early Gondal poem exploring themes of family,
+                    regret and nostalgia. The poem has the ‘signature’ of Alexandria Zenobia, a
+                    prominent character within the Gondal universe. In the amendments to the
+                    manuscript , which is now held at the Morgan Library and Museum, Bront&#235;
+                    changes the child's name from 'Mary' to the pastoral 'Flora' and the unnamed
+                    father is christened 'Florian'. With these changes Bront&#235; is affirming
+                    Flora's symbolic association with nature and innocence. Moreover, this
+                    strengthens the narrative association between father and daughter within the
                     poem.</p>
             </div>
         </body>
@@ -478,12 +496,15 @@
             </div>
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p>This poem was written in 1840 as a Gondal poem and later published by Bronte in
-                    the 1846 'Poems by Currer, Ellis, and Acton Bell' under the name
-                    'Self-Congratulation'. In the 1846 version, Bronte consistently removes more
-                    old-fashioned language which associates it with Gondal to create a more neutral
-                    affect. For example, 'thy' and 'wo' become the more modern 'your' and woe' and
-                    the fantasy elements such as the signature of Olivia Vernon are removed.</p>
+                <p>“A Fragment” written in 1840 as a Gondal poem and the manuscript is now held at
+                    the New York Public Library. It was later published by Bront&#235; in the 1846
+                    Poems by Currer, Ellis, and Acton Bell under the name 'Self-Congratulation' ,
+                    creating a layer of ironic distance to the speaker’s declaration of her newfound
+                    maturity and emotional control. In the 1846 version, Bront&#235; consistently
+                    removes more old-fashioned language which associates it with Gondal to create a
+                    more neutral affect. For example, 'thy' and 'wo' become the more modern 'your'
+                    and ‘woe' and the fantasy elements such as the signature of Olivia Vernon are
+                    removed.</p>
             </div>
         </body>
     </text>
@@ -610,12 +631,14 @@
             </div>
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p> This 1840 poem explores themes of nature, nostalgia and was not published during
-                    Bronte's lifetime. Within the manuscript Bronte refining her critical eye, for
-                    example experimenting with rewrites in lines 42-43, where she ultimately opts
-                    for the aesthetically satisfying internal rhymes of 'heartless' and 'thankless'.
-                    Bronte also changes 'Bluebell' to 'lone flower' which enhances the
-                    personification and Romantic potency of the flower within the poem. </p>
+                <p> “The Bluebell” is an 1840 poem explores themes of nature, nostalgia and was not
+                    published during Bront&#235;'s lifetime; the manuscript is now held at the
+                    Morgan Library and Museum. Brontë is honing her critical eye within her
+                    manuscript edits, for example experimenting with revisions in lines 42-43, where
+                    she ultimately opts for the aesthetically satisfying internal rhymes of
+                    'heartless' and 'thankless'. Bront&#235; also changes 'Bluebell' to 'lone
+                    flower' which enhances the personification and Romantic potency of the flower
+                    within the poem.</p>
             </div>
         </body>
     </text>
@@ -666,12 +689,12 @@
                 <l n="17">They say such tears as children weep,</l>
                 <l n="18">Will soon be dried away,</l>
                 <l n="19">That childish grief however strong</l>
-                <l n="20">Is only for a day.<!-- query full stop vs comma here --></l>
+                <l n="20">Is only for a day.</l>
             </div>
 
             <div type="stanza">
                 <l n="21">And parted friends how <add>soe'er</add> dear</l>
-                <!-- consider placement before or after dear-after in CH -->
+
                 <l n="22">Will soon forgotten be;</l>
                 <l n="23">It may be so with other hearts</l>
                 <l n="24">It is not thus with me.</l>
@@ -679,8 +702,7 @@
 
             <pb n="15" xml:id="ORP_3" facs="data/images/single/ORP_3.jpg/"/>
             <div type="stanza">
-                <l n="25">My Mother thou wilt weep nomore
-                    <!-- query whether should be space in there --></l>
+                <l n="25">My Mother thou wilt weep nomore </l>
                 <l n="26">For thou art gone above</l>
                 <l n="27">But can I ever cease to mourn</l>
                 <l n="28">Thy fond and fervent love?</l>
@@ -704,7 +726,7 @@
                 <l n="37">Beneath thy sweet maternal <add>smile</add></l>
                 <l n="38">All pain and sorrow fled</l>
                 <l n="39">And even the very tears were <add>(sweet</add></l>
-                <l n="40">Upon <del>to<!-- hard to decipher --></del> thy bosom shed</l>
+                <l n="40">Upon <del>to</del> thy bosom shed</l>
             </div>
 
             <pb n="16" xml:id="ORP_4" facs="data/images/single/ORP_4.jpg/"/>
@@ -731,11 +753,12 @@
             </div>
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p>"An Orphan's Lament" is an unpublished Gondal poem written by Bronte in 1841.
-                    This poem uses the imaginative potential of the Gondal genre as a springboard to
-                    delve into the topic of grief and provides a staunch defense of the emotional
-                    depth and capacity of children. The fair copy manuscript is clean with minor
-                    changes. </p>
+                <p>"An Orphan's Lament" is an unpublished Gondal poem written by Bront&#235; in
+                    1841, now held at the Morgan Library and Museum. This poem uses the imaginative
+                    potential of the Gondal genre as a springboard to delve into the topic of grief
+                    and provides a staunch defence of the emotional depth and capacity of children.
+                    The fair copy manuscript is largely intact with minor changes and bears the
+                    Gondal signature of A.H. above Bront&#235;’s own.</p>
             </div>
         </body>
     </text>
@@ -765,7 +788,7 @@
                 <l n="7">And this soft whispering breeze that now,</l>
                 <l n="8">So gently cools my fevered brow,</l>
                 <l n="9">This too Alas! must turn &#x2014;</l>
-                <!-- query whether alas is capitalized or not in MS and consider Chitham -->
+                
                 <l n="10">To a wild blast whose icy dart,</l>
                 <l n="11">Pierces and chills me to the heart</l>
                 <l n="12">Before I cease to mourn.</l>
@@ -773,8 +796,7 @@
 
             <div type="stanza">
                 <l n="13">And these bright flowers I love so <add>well,</add></l>
-                <l n="14">Verbina - Rose and sweet bluebell</l>
-                <!-- sic Verbina -->
+                <l n="14">Verbina<note>Sic Verbina</note> - Rose and sweet bluebell</l>
                 <l n="15">Must droop and die away.</l>
                 <l n="16">Those thick green leaves with all their shade</l>
                 <l n="17">And rustling musick they must <add>(fade</add></l>
@@ -801,13 +823,13 @@
             </div>
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p>"Lines Written at Thorp Green" is a short 1841 poem not published by Bronte (not
-                    to be confused with an 1840 poem which shares the same title in her mauscripts
-                    form before Bronte published under the new title "Appeal" in 1846). This poem
+                <p>"Lines Written at Thorp Green" is a short 1841 poem not published by Bront&#235;
+                    (and not to be confused with an 1840 poem published by Brontë under the new
+                    title "Appeal" in 1846) and is held at the Morgan Library and Museum. This poem
                     shows a speaker's instinctive enjoyment of natural beauty being overtaken by the
                     desire to be among family, linking nature, memory and nostalgia. The slightly
-                    unconventional capitaisations of the flower names enchances their importance to
-                    the speaker and the overall message of the poem.</p>
+                    unconventional capitalisations of the flower names 'Verbina' [sic] and 'Rose'
+                    enhance their importance to the speaker and the overall message of the poem.</p>
             </div>
         </body>
     </text>
@@ -824,7 +846,7 @@
                 <l n="1">'Tis strange to think there <app>
                         <lem wit="#MS-Q">was</lem>
                         <rdg wit="#ACE">WAS</rdg>
-                        <!-- check -->
+                      
                     </app> a time</l>
                 <l n="2"> When mirth was not an empty name<app>
                         <rdg wit="#ACE">,</rdg>
@@ -861,7 +883,7 @@
                 <pb n="21" xml:id="TIS_2" facs="data/images/single/TIS_2.jpg/"/>
 
                 <l n="11">And <app>
-                        <lem wit="#MS-Q">Silence,Solitude</lem>
+                        <lem wit="#MS-Q">Silence, Solitude</lem>
                         <rdg wit="#ACE">silence, solitude,</rdg>
                     </app> and rest<note>Changes to caapitals here</note><app>
                         <rdg wit="#ACE">,</rdg>
@@ -966,20 +988,19 @@
             </div>
             <div>
                 <ab/>
-                <closer><signed>A. B.</signed> -
-                    <dateline>Nov 21st 1843</dateline></closer>
+                <closer><signed>A. B.</signed> - <dateline>Nov 21st 1843</dateline></closer>
             </div>
-            
+
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p>This poem, originally written in 1843, was renamed to "Past Days" in the 1846
-                    publication. This is apt as the poem comprises a speaker's reminiscence,
-                    combining nature, companionship, and family to represent contentment for the
-                    speaker. The 1846 version reverses the manuscript capitalisations of
-                    'Summer','Solitude' and 'Silence' to create a more standard text. Nonetheless,
-                    the italicsised words in the MS 'was', 'reluctant' and 'labour' are fully
-                    capitalised for emphasis in 1846, adding emptional emphasis to the opening and
-                    ending of the poem. </p>
+                <p>"’Tis Strange to Think" was written in 1843, with the manuscript now held at the
+                    Morgan Library and Museum, and later renamed "Past Days" in the 1846
+                    publication. The new name is apt as the poem comprises a speaker's reminiscence,
+                    combining nature, companionship and family to represent contentment. The 1846
+                    version reverses the manuscript capitalisations of ‘Summer’, ‘Solitude' and
+                    'Silence' to create a more standard text. Nonetheless, the 1846 text is keen to
+                    add emphasis to the opening and ending of the poem, with the words ‘was',
+                    'reluctant' and 'labour' being fully capitalised. </p>
             </div>
         </body>
     </text>
@@ -1171,7 +1192,7 @@
                             <add>their stay is <del>are</del></add> brief,</lem>
                         <rdg wit="#ACE">(Although, perchance, their stay be brief)</rdg>
                     </app></l>
-                <!-- return to issue of del in MS vs ACE -->
+               
                 <l n="42"><app>
                         <lem wit="#MS-V"><del>Was</del>
                             <add>Are</add></lem>
@@ -1215,14 +1236,16 @@
             </div>
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p> 'Memory' was written in 1844 and published in "Poems by Currer, Ellis and Acton
-                    Bell" in 1846. This poem questions the role and scope of notalgia when it comes
-                    to childhood and memory. This is underlined by the editorial changes made for
-                    the 1846 version, such as Bronte's capitalisation of 'Memory' and the
-                    capitalisation of 'ALL' in the phrase 'not all divine'. Additionally, swapping
-                    'pure delight' to 'strange delight' shows Bronte recalibrating her poetry's
-                    alignment with Romantic language and activley undermining the imagined 'purity'
-                    of the delights of nature in favour of more skeptical language. </p>
+                <p>“Memory” was written in 1844 and published in Poems by Currer, Ellis and Acton
+                    Bell in 1846. The manuscript was lost to public access for decades before being
+                    recently added to the Brontë Parsonage Museum collection in Haworth. This poem
+                    questions the role and scope of nostalgia when it comes to childhood and memory.
+                    This is underlined by the editorial changes made for the 1846 version, such as
+                    Bront&#235;'s capitalisation of 'Memory' and the capitalisation of 'ALL' in the
+                    phrase 'not ALL divine'. Additionally, swapping 'pure delight' to 'strange
+                    delight' shows Bront&#235; recalibrating her poetry's alignment with Romantic
+                    language and actively undermining the imagined 'purity' of the delights of
+                    nature in favour of more sceptical language. </p>
             </div>
         </body>
     </text>
@@ -1302,15 +1325,17 @@
             </div>
             <div type="editor's_note">
                 <head>Editor's note</head>
-                <p>In this unpublished 1845 poem Bronte explores the possibilities and hazards of
-                    the classic Wordsworthian imaginative flight of fancy in a domestic context. The
-                    speaker turns to a Romanticised daydream of motherhood as an escape ffrom
-                    lonliness which is only further magnified by her despairing return to
-                    reality.The final stanza features a pencil X inicating hesitancy on Bronte's
-                    part as to whether or not to include this stanza. Bronte is usually emphatic and
-                    unmistakable when marking sections for deletion within her Manuscripts,
-                    underscoring the authorial uncertainty about leaving the poem on this
-                    disconsolate note.</p>
+                <p> “Dreams” is an 1845 poem that was recently added to the Brontë Parsonage Museum
+                    collection in Haworth. In this unpublished poem Bront&#235; explores the
+                    possibilities and hazards of the classic Wordsworthian imaginative flight of
+                    fancy in a domestic context. The speaker turns to a Romanticised daydream of
+                    motherhood as an escape from loneliness which is only further magnified by her
+                    despairing return to reality. The final stanza features an X-shaped overstrike
+                    in pencil, indicating hesitancy on Bront&#235;'s part as to whether or not to
+                    include this stanza. Bront&#235; is usually emphatic and unambiguous when
+                    marking sections for deletion within her manuscripts, so this mark underscores
+                    the authorial uncertainty about whether or not to leave the poem on an
+                    unresolved questioning of divine wisdom.</p>
             </div>
         </body>
     </text>
@@ -1323,13 +1348,15 @@
 
         <body>
             <pb n="30" xml:id="VOL_1" facs="data/images/single/VOL_1.jpg/"/>
-            <head><!-- not title given in MS- consider options here --></head>
+            <head></head>
 
-            <ab>166 lines Wrote <add>the</add> first few verses Feb. or March 1844</ab>
+            <ab>166 lines</ab>
+            <ab>Wrote <add>the</add> first few verses Feb. or March 1844</ab>
 
             <div type="stanza">
                 <l n="1">When sinks my heart in <app>
                         <lem wit="MS-R">hope-less gloom:</lem>
+                        <note>Poem not titled in MS but called "Views of Life" in 1846</note>
                     </app></l>
                 <l n="2">When life can <app>
                         <lem wit="#MS-R">shew</lem>
@@ -1377,7 +1404,7 @@
                     </app>,</l>
             </div>
 
-            <!-- Now aligning page beaks with single pages (rather than double) J.T. -->
+         
             <pb n="31" xml:id="VOL_12" facs="data/images/single/VOL_2.jpg/"/>
             <div type="stanza">
                 <l n="13">I lately saw a sunset sky,</l>
@@ -1432,54 +1459,56 @@
             </div>
 
             <div type="stanza">
-                <!-- question how to address differnt line numbering bewteen the two versions from hereon out-possibly put app and both line numbers? -->
-                <!-- I think there are two cases lines 25 &27) here of there being two differnt options left open in the MS, return here -->
-                <app>
-                    <lem wit="#MS-R">
-                        <l n="25">Dull clouds remained of somber hue</l>
-                        <l n="26">Grey clouds remained of a gloomy <add>hue,</add></l></lem>
-                    <rdg wit="#ACE">
-                        <l n="25">Dull clouds remained of sombre hue,</l></rdg>
-                </app>
-                <app>
-                    <lem wit="#MS-R">
-                        <l n="27">Their <add>
+               
+
+                <l n="25">Dull clouds remained of <app>
+                        <lem wit="#MS-R">somber hue</lem>
+                        <rdg wit="#ACE">sombre hue,</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#MS-R">Grey clouds remained of a gloomy <add>hue,</add></lem>
+                    </app></l>
+
+                <l><app>
+                        <lem wit="#MS-R">Their <add>
                                 <del>brightest</del></add>
-                            <add>borrowed</add> glory now was o'er:</l>
-                        <l n="28">And I when their borrowed charme was o'er</l></lem>
-                    <rdg wit="#ACE"><l n="26">And when their borrowed charm was o'er,</l></rdg>
-                </app>
+                            <add>borrowed</add> glory now was o'er:</lem>
+                    </app></l>
+                <l n="26">And when their borrowed charm was o'er<app>
+                        <rdg wit="#ACE">,</rdg>
+                    </app></l>
 
                 <pb n="32" xml:id="VOL_3" facs="data/images/single/VOL_3.jpg/"/>
 
-                <!-- check stanza placements -->
-                <app>
-                    <lem wit="#MS-R">
-                        <l n="29">The sky grew dull and charmless too </l>
-                        <l n="30">And cold and dim the very blue</l></lem>
-                    <rdg wit="#ACE"><l n="27">The azure sky had faded too</l></rdg>
-                </app>
-                <l n="31">That smiled so softly <app>
+                <l n="27"><app>
+                        <lem wit="#MS-R">The sky grew dull and charmless too</lem>
+                        <rdg wit="#ACE">The azure sky had faded too</rdg>
+                    </app>
+                </l>
+                <l><app>
+                        <lem wit="#MS-R">And cold and dim the very blue</lem>
+                    </app></l>
+                <l n="28">That smiled so softly <app>
                         <lem wit="#MS-R"><del>and</del></lem>
                     </app> bright before.</l>
             </div>
 
             <div type="stanza">
-                <l n="32">So<app>
+                <l n="29">So<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> gilded by the glow of <app>
                         <lem wit="#MS-R"><del>yoth</del>
                             <add>youth,</add></lem>
                         <rdg wit="#ACE">youth,</rdg>
                     </app></l>
-                <l n="33">Our varied life looks fair and gay<app>
+                <l n="30">Our varied life looks fair and gay<app>
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="34">And so remains the naked truth,</l>
-                <l n="35">When that false light is past away.</l>
+                <l n="31">And so remains the naked truth,</l>
+                <l n="32">When that false light is past away.<note>The following stanza is added in
+                        the 1846 version</note></l>
             </div>
-            <!-- stanza in Chitham here not in MS from later publication -->
             <app>
                 <rdg wit="#ACE"><div type="stanza">
                         <l>Why blame ye, then, my keener sight,</l>
@@ -1489,44 +1518,44 @@
                     </div></rdg>
             </app>
             <div type="stanza">
-                <l n="36">When the young mother smiles above<app>
+                <l n="33">When the young mother smiles above<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
-                <l n="37">The <app>
+                <l n="34">The <app>
                         <lem wit="#MS-R">first born</lem>
                         <rdg wit="#ACE">first-born</rdg>
                     </app> darling of her heart,</l>
-                <l n="38">Her bosom glows with warmest love,</l>
-                <l n="39">While tears of speechless rapture start<app>
+                <l n="35">Her bosom glows with warmest love,</l>
+                <l n="36">While tears of speechless rapture start<app>
                         <lem wit="#MS-R">:</lem>
                         <rdg wit="#ACE">.</rdg>
                     </app></l>
             </div>
 
             <div type="stanza">
-                <l n="40">Fond dreamer! little does she know<app>
+                <l n="37">Fond dreamer! little does she know<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
-                <l n="41">The anxious toil<app>
+                <l n="38">The anxious toil<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> the suffering,</l>
-                <l n="42">The blasted hopes<app>
+                <l n="39">The blasted hopes<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> the burnig <app>
                         <lem wit="#MS-R">wo-</lem>
                         <rdg wit="#ACE">woe,</rdg>
                     </app></l>
-                <l n="43">The object of her joy will bring<app>
+                <l n="40">The object of her joy will bring<app>
                         <rdg wit="#ACE">.</rdg>
                     </app></l>
             </div>
 
             <pb n="33" xml:id="VOL_4" facs="data/images/single/VOL_4.jpg/"/>
             <div type="stanza">
-                <l n="44">Her blinded eyes behold not now<app>
+                <l n="41">Her blinded eyes behold not now<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
-                <l n="45">What<app>
+                <l n="42">What<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> soon or late<app>
                         <rdg wit="#ACE">,</rdg>
@@ -1534,25 +1563,25 @@
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="46">The anguish that will cloud his brow,</l>
-                <l n="47">The bed of death<app>
+                <l n="43">The anguish that will cloud his brow,</l>
+                <l n="44">The bed of death<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> the dreary tomb.</l>
             </div>
 
             <div type="stanza">
-                <l n="48">As little know the youthful pair<app>
+                <l n="45">As little know the youthful pair<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="49">In mutual love supremely blest<app>
+                <l n="46">In mutual love supremely blest<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="50">What weariness<app>
+                <l n="47">What weariness<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> and cold despair<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="51"><app>
+                <l n="48"><app>
                         <lem wit="#MS-R">Err</lem>
                         <rdg wit="#ACE">Ere</rdg>
                     </app> long<app>
@@ -1561,37 +1590,37 @@
             </div>
 
             <div type="stanza">
-                <l n="52">And even <del>shol</del> should <app>
+                <l n="49">And even <del>shol</del> should <app>
                         <lem wit="#MS-R">love and faith re-main</lem>
                         <rdg wit="#ACE">Love and Faith remain,</rdg>
                     </app></l>
-                <l n="53"><app>
+                <l n="50"><app>
                         <rdg wit="#ACE">(</rdg>
                     </app>The greatest blessings life can <app>
                         <lem wit="#MS-R">shew</lem>
                         <rdg wit="#ACE">show)</rdg>
                     </app></l>
-                <l n="54">Amid adversity and pain<app>
+                <l n="51">Amid adversity and pain<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="55">To shine throughout with cheering glow<app>
+                <l n="52">To shine throughout with cheering glow<app>
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
             </div>
 
             <div type="stanza">
-                <l n="56">They do not see how cruel <app>
+                <l n="53">They do not see how cruel <app>
                         <lem wit="#MS-R">death</lem>
                         <rdg wit="#ACE">Death</rdg>
                     </app></l>
-                <l n="57">Comes on, their loving hearts to part<app>
+                <l n="54">Comes on, their loving hearts to part<app>
                         <rdg wit="#ACE">:</rdg>
                     </app></l>
-                <l n="58">One feels not now the gasping breath<app>
+                <l n="55">One feels not now the gasping breath<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="59">The rending of the <app>
+                <l n="56">The rending of the <app>
                         <lem>earthbound(heart</lem>
                         <rdg wit="#ACE">earth-bound heart,&#x2014;</rdg>
                     </app></l>
@@ -1599,35 +1628,35 @@
 
             <pb n="34" xml:id="VOL_5" facs="data/images/single/VOL_5.jpg/"/>
             <div>
-                <l n="60">The soul's and body's agony,</l>
-                <l n="61">
+                <l n="57">The soul's and body's agony,</l>
+                <l n="58">
                     <app>
                         <lem wit="#MS-R">Err</lem>
                         <rdg wit="#ACE">Ere</rdg>
                     </app> she may sink to her repose,</l>
-                <l n="62"> The sad survivor cannot see<app>
+                <l n="59"> The sad survivor cannot see<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
-                <l n="63">The grave above his darling close<app>
+                <l n="60">The grave above his darling close<app>
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
             </div>
 
             <div>
-                <l n="64">Nor how<app>
+                <l n="61">Nor how<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> despairing and alone,</l>
-                <l n="65">He<del>s</del> then must wear his life away<app>
+                <l n="62">He<del>s</del> then must wear his life away<app>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="66">And linger <app>
+                <l n="63">And linger <app>
                         <rdg wit="#ACE">,</rdg>
                     </app>feebly toiling on<app>
                         <lem wit="#MS-R">;</lem>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="67">And fainting <app>
+                <l n="64">And fainting <app>
                         <lem wit="#MS-R"><del>sing</del>
                             <add>sink</add></lem>
                         <rdg wit="#ACE">sink</rdg>
@@ -1635,22 +1664,22 @@
             </div>
 
             <div type="stanza">
-                <l n="68"><app>
+                <l n="65"><app>
                         <lem wit="#MS-R">O youth <del>will</del></lem>
                         <rdg wit="#ACE">Oh, Youth</rdg>
                     </app> may listen patiently,</l>
-                <l n="69">While sad <app>
+                <l n="66">While sad <app>
                         <lem wit="#MS-R">experience</lem>
                         <rdg wit="#ACE">Experience</rdg>
                     </app> tells her tale<app>
                         <lem wit="#MS-R">:</lem>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="70">But <app>
+                <l n="67">But <app>
                         <lem wit="#MS-R">doubt</lem>
                         <rdg wit="#ACE">Doubt</rdg>
                     </app> sits smiling in his eye,</l>
-                <l n="71">For ardent <app>
+                <l n="68">For ardent <app>
                         <lem wit="#MS-R">hope</lem>
                         <rdg wit="#ACE">Hope</rdg>
                     </app> will still prevail<app>
@@ -1660,50 +1689,50 @@
             </div>
 
             <div type="stanza">
-                <l n="72">He hears how feeble Pleasure dies,</l>
-                <l n="73">By guilt destroyed, and pain and <app>
+                <l n="69">He hears how feeble Pleasure dies,</l>
+                <l n="70">By guilt destroyed, and pain and <app>
                         <lem wit="#MS-R">wo.</lem>
                         <rdg wit="#ACE">woe;</rdg>
                     </app></l>
-                <l n="74">He turns to Hope &#x2014; and she replies,</l>
-                <l n="75">"Believe it not- it is not so!"</l>
+                <l n="71">He turns to Hope &#x2014; and she replies,</l>
+                <l n="72">"Believe it not- it is not so!"</l>
             </div>
 
             <div type="stanza">
-                <l n="76"><app>
+                <l n="73"><app>
                         <lem wit="#MS-R">"Oh! heed not her not experience says,</lem>
                         <rdg wit="#ACE">"Oh, heed her not!" Experience says;</rdg>
                     </app></l>
-                <l n="77"><app>
+                <l n="74"><app>
                         <rdg wit="#ACE">"</rdg>
                     </app>For thus she whispered once to me,<app>
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="78">She told me<app>
+                <l n="75">She told me<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> in my youthful days,</l>
-                <l n="79">How glorious <app>
+                <l n="76">How glorious <app>
                         <lem wit="#MS-R"><del>I</del></lem>
                     </app> manhood's prime would be.</l>
             </div>
 
             <pb n="35" xml:id="VOL_6" facs="data/images/single/VOL_6.jpg/"/>
             <div type="stanza">
-                <l n="80">When<app>
+                <l n="77">When<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> in the time of early <app>
                         <lem wit="#MS-R">spring</lem>
                         <rdg wit="#ACE">Spring</rdg>
                     </app>,</l>
-                <l n="81">Too chill the winds that o'er me <app>
+                <l n="78">Too chill the winds that o'er me <app>
                         <lem wit="#MS-R">past</lem>
                         <rdg wit="#ACE">pass'd</rdg>
                     </app>past,</l>
-                <l n="82">She said<app>
+                <l n="79">She said<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> each coming day would bring,</l>
-                <l n="83">A fairer heaven<app>
+                <l n="80">A fairer heaven<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> a gentler blast<app>
                         <rdg wit="#ACE">.</rdg>
@@ -1711,46 +1740,46 @@
             </div>
 
             <div>
-                <l n="84"><app>
+                <l n="81"><app>
                         <rdg wit="#ACE">"</rdg>
                     </app>And when the sun too <app>
                         <lem wit="#MS-R">seldom<del>e</del></lem>
                         <rdg wit="#ACE">seldom</rdg>
                     </app> beamed,</l>
-                <l n="85">The sky<app>
+                <l n="82">The sky<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> o'ercast, too darkly frowned,</l>
-                <l n="86">The <app>
+                <l n="83">The <app>
                         <lem wit="#MS-R">frequent</lem>
                         <rdg wit="#ACE">soaking</rdg>
                     </app> rain, too constant streamed;</l>
-                <l n="87">And mists too dreary gathered round<app>
+                <l n="84">And mists too dreary gathered round<app>
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
             </div>
 
             <div type="stanza">
-                <l n="88"><app>
+                <l n="85"><app>
                         <rdg wit="#ACE">"</rdg>
                     </app>She told me<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> summer's glorious ray<app>
                         <lem wit="#MS-R">,</lem>
                     </app>,</l>
-                <l n="89">Would chase those vapours all away,</l>
-                <l n="90">And scatter glories round<app>
+                <l n="86">Would chase those vapours all away,</l>
+                <l n="87">And scatter glories round<app>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="91">With sweetest music fill the trees,</l>
-                <l n="92">Load with rich scent the gentle breeze<app>
+                <l n="88">With sweetest music fill the trees,</l>
+                <l n="89">Load with rich scent the gentle breeze<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="93">And strew with flowers the ground.</l>
+                <l n="90">And strew with flowers the ground.</l>
             </div>
 
             <div type="stanza">
-                <l n="94"><app>
+                <l n="91"><app>
                         <rdg wit="#ACE">"</rdg>
                     </app>But <app>
                         <lem wit="#MS-R"><del>while</del>
@@ -1759,23 +1788,23 @@
                     </app> beneath that scorching ray<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="95">I languished<app>
+                <l n="92">I languished<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> weary through the day,</l>
-                <l n="96">While birds refused to sing,</l>
-                <l n="97">Verdure decayed from field and tree,</l>
-                <l n="98">And panting<app>
+                <l n="93">While birds refused to sing,</l>
+                <l n="94">Verdure decayed from field and tree,</l>
+                <l n="95">And panting<app>
                         <lem wit="MS-R">nature</lem>
                         <rdg wit="#ACE">Nature</rdg>
                     </app> mourned with me</l>
-                <l n="99">The freshness of the <app>
+                <l n="96">The freshness of the <app>
                         <lem wit="#MS-R">spring;</lem>
                         <rdg wit="#ACE">Spring.</rdg>
                     </app></l>
             </div>
 
             <div type="stanza">
-                <l n="100">
+                <l n="97">
                     <app>
                         <lem wit="#MS-R">Wait,</lem>
                         <rdg wit="#ACE">"'Wait</rdg>
@@ -1783,42 +1812,42 @@
                     <del>b</del> but a little while,<app>
                         <rdg wit="#ACE">'</rdg>
                     </app> she said,</l>
-                <l n="101">Till <app>
+                <l n="98">Till <app>
                         <lem wit="#MS-R">summer's</lem>
                         <rdg wit="#ACE">Summer's</rdg>
                     </app> burning days are fled<app>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="102">And Autumn shall restore,</l>
+                <l n="99">And Autumn shall restore,</l>
 
                 <pb n="36" xml:id="VOL_7" facs="data/images/single/VOL_7.jpg/"/>
 
-                <l n="103">With golden riches of her own,</l>
-                <l n="104">And <app>
+                <l n="100">With golden riches of her own,</l>
+                <l n="101">And <app>
                         <lem wit="#MS-R">summer's</lem>
                         <rdg wit="#ACE">Summer's</rdg>
                     </app>glories mellowed down<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="105">The freshness you deplore.<app>
+                <l n="102">The freshness you deplore.<app>
                         <rdg wit="#ACE">'</rdg>
                     </app></l>
             </div>
 
             <div>
-                <l n="106">And long I waited, but in vain:</l>
-                <l n="107">That freshness never came again,</l>
-                <l n="108">Though <app>
+                <l n="103">And long I waited, but in vain:</l>
+                <l n="104">That freshness never came again,</l>
+                <l n="105">Though <app>
                         <lem wit="#MS-R">summer</lem>
                         <rdg wit="#ACE">Summer</rdg>
                     </app> passed away,</l>
-                <l n="109">Though Autumn's mists hung cold and chill<app>
+                <l n="106">Though Autumn's mists hung cold and chill<app>
                         <rdg wit="#ACE">.</rdg>
                     </app></l>
-                <l n="110">And dropping nature languished still<app>
+                <l n="107">And dropping nature languished still<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="111">And<app>
+                <l n="108">And<app>
                         <lem wit="#MS-R">
                             <del>sung</del>
                             <add>sunk</add></lem>
@@ -1827,22 +1856,22 @@
             </div>
 
             <div>
-                <l n="112"><app>
+                <l n="109"><app>
                         <rdg wit="#ACE">"</rdg>
                     </app>Till wintry blasts foreboding blew<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
-                <l n="113">Through leafless tress <app>
+                <l n="110">Through leafless tress <app>
                         <rdg wit="#ACE">&#x2014;</rdg>
                     </app>and then I knew</l>
-                <l n="114">That <app>
+                <l n="111">That <app>
                         <lem wit="#MS-R">hope</lem>
                         <rdg wit="#ACE">Hope</rdg>
                     </app> was all a dream<app>
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">.</rdg>
                     </app></l>
-                <l n="115">But thus<app>
+                <l n="112">But thus<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> fond youth<app>
                         <rdg wit="#ACE">,</rdg>
@@ -1850,188 +1879,190 @@
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="116">And she will prove as false to thee,</l>
-                <l n="117">Though sweet her words may seem.</l>
+                <l n="113">And she will prove as false to thee,</l>
+                <l n="114">Though sweet her words may seem.</l>
             </div>
 
             <div>
-                <l n="118">Stern prophet! cease<app>
+                <l n="115">Stern prophet! cease<app>
                         <lem wit="#MS-R">cease</lem>
                         <rdg wit="#ACE">Cease</rdg>
                     </app> thy boding dire &#x2014;</l>
-                <l n="119">Thou canst not quench the ardent fire,<app>
+                <l n="116">Thou canst not quench the ardent fire,<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
-                <l n="120">That warms the breast of youth.</l>
-                <l n="121"><app>
+                <l n="117">That warms the breast of youth.</l>
+                <l n="118"><app>
                         <lem wit="#MS-R"><del>And</del>
                             <hi rend="underline">O!</hi></lem>
                         <rdg wit="#ACE">Oh,</rdg>
                     </app> let it cheer him while it may,</l>
-                <l n="122">And gently, gently die away<app>
+                <l n="119">And gently, gently die away<app>
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">&#x2014;</rdg>
                     </app></l>
-                <l n="123">Chilled by the damps of truth.<app>
+                <l n="120">Chilled by the damps of truth.<app>
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">!</rdg>
                     </app></l>
             </div>
 
             <pb n="37" xml:id="VOL_8" facs="data/images/single/VOL_8.jpg/"/>
-            <!-- changes manuscript here- consider encoding options -->
-            <!-- double check and confirm line numbering- discrepancy -->
+           
             <div type="stanza">
-                <l n="124">Tell him, that earth is not our <app>
+                <l n="121">Tell him, that earth is not our <app>
                         <lem wit="MS-S">rest!</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="125">Its joys are empty &#x2014; frail at best;</l>
-                <l n="126">And point beyond the sky<app>
+                <l n="122">Its joys are empty &#x2014; frail at best;</l>
+                <l n="123">And point beyond the sky<app>
                         <lem wit="MS-S">;</lem>
                         <rdg wit="#ACE">.</rdg>
                     </app></l>
-                <l n="127">But gleams of light may reach us here<app>
+                <l n="124">But gleams of light may reach us here<app>
                         <lem wit="#MS-S">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="128">And hope the <app>
+                <l n="125">And hope the <app>
                         <lem wit="#MS-S"><hi rend="underline">roughest</hi></lem>
                         <rdg wit="#ACE">ROUGHEST</rdg>
                     </app> path can cheer,<app>
                         <lem wit="#MS-S">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="129">Then do not <del>f</del> bid it fly<app>
+                <l n="126">Then do not <del>f</del> bid it fly<app>
                         <lem wit="#MS-S">.</lem>
                         <rdg wit="#ACE">!</rdg>
                     </app></l>
             </div>
 
             <div type="stanza">
-                <l n="130">Though hope may promise joys<app>
+                <l n="127">Though hope may promise joys<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> that still,<app>
                         <lem wit="#MS-S">,</lem>
                     </app></l>
-                <l n="131">Unkindly time will ne'er fulfill<app>
+                <l n="128">Unkindly time will ne'er fulfill<app>
                         <lem wit="#MS-S">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="132">Or if they never come <app>
+                <l n="129">Or if they never come <app>
                         <lem wit="#Ms-S">atall;</lem>
                         <rdg wit="#ACE">at all,</rdg>
                     </app></l>
-                <l n="133">We never find them unalloyed,<app>
+                <l n="130">We never find them unalloyed,<app>
 
                         <rdg wit="#ACE">&#x2014;</rdg>
                     </app></l>
-                <l n="134">Hurtful perchance, or soon destroyed,</l>
-                <l n="135">They vanish<app>
+                <l n="131">Hurtful perchance, or soon destroyed,</l>
+                <l n="132">They vanish<app>
                         <lem wit="#MS-S">,</lem>
                     </app> or they pall;</l>
             </div>
 
             <div type="stanza">
-                <l n="136">Yet hope <app>
+                <l n="133">Yet hope <app>
                         <lem wit="#MS-S">itself</lem>
                         <rdg wit="#ACE">ITSELF</rdg>
                     </app> a brightness throws,</l>
-                <l n="137">O'er all our labours, and our woes;</l>
-                <l n="138">While dark foreboding <app>
+                <l n="134">O'er all our labours, and our woes;</l>
+                <l n="135">While dark foreboding <app>
                         <lem wit="#MS-S">care,</lem>
                         <rdg wit="#ACE">Care</rdg>
                     </app></l>
-                <l n="139">A thousand ills will oft portend,</l>
-                <l n="140">That Providence may ne'er intend<app>
+                <l n="136">A thousand ills will oft portend,</l>
+                <l n="137">That Providence may ne'er intend<app>
                         <lem wit="#MS-S">,</lem>
                     </app></l>
-                <l n="141">The trembling heart to bear<app>
+                <l n="138">The trembling heart to bear<app>
                         <lem wit="#MS-S">;</lem>
                         <rdg wit="#ACE">.</rdg>
                     </app></l>
             </div>
 
             <div type="stanza">
-                <l n="142">Or if they come<app>
+                <l n="139">Or if they come<app>
                         <lem wit="#MS-S">,</lem>
                     </app> it oft appears,</l>
-                <l n="143">Our woes are lighter than our fears,</l>
-                <l n="144">And far more <app>
+                <l n="140">Our woes are lighter than our fears,</l>
+                <l n="141">And far more <app>
                         <lem wit="#MS-S">strongly born</lem>
                         <rdg wit="#ACE">bravely borne.</rdg>
                     </app></l>
-                <l n="145">Then let us not enhance our doom<app>
+                <l n="142">Then let us not enhance our doom<app>
                         <lem wit="#MS-S">,</lem>
                     </app></l>
-                <l n="146">But e'en in midnight's blackest gloom<app>
+                <l n="143">But e'en in midnight's blackest gloom<app>
                         <lem wit="#MS-S">,</lem>
                     </app></l>
-                <l n="147">Expect the rising morn.</l>
+                <l n="144">Expect the rising morn.</l>
             </div>
 
             <pb n="38" xml:id="VOL_9" facs="data/images/single/VOL_9.jpg/"/>
             <div type="stanza">
-                <l n="148">Because the road is rough and long,</l>
-                <l n="149">Shall we despise the skylark's song,</l>
-                <l n="150">That cheers the wanderer's way?</l>
-                <l n="151">Or trample down<app>
+                <l n="145">Because the road is rough and long,</l>
+                <l n="146">Shall we despise the skylark's song,</l>
+                <l n="147">That cheers the wanderer's way?</l>
+                <l n="148">Or trample down<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> with reckless feet.</l>
-                <app>
-                    <lem><l n="152"><del>The flowerets <add>that smile beneath</add> smiling at our
-                                feet</del></l>
-                        <l n="153">The smiling flowerets bright and sweet</l></lem>
-                    <rdg wit="#ACE"><l>The smiling flowerets, bright and sweet,</l>/></rdg>
-                </app>
-                <!-- tricky encoding here with an erased line- how to handle the ACE version?-->
-                <l n="154">Because they soon decay?</l>
+                <l><app>
+                        <lem wit="#MS-R"><del>The flowerets <add>that smile beneath</add> smiling at
+                                our feet</del></lem>
+                    </app></l>
+               
+                <l n="149">The smiling flowerets<app>
+                        <rdg wit="#ACE">,</rdg>
+                    </app> bright and sweet<app>
+                        <rdg wit="#ACE">,</rdg>
+                    </app></l>
+                <l n="150">Because they soon decay?</l>
             </div>
 
             <div type="stanza">
-                <l n="155">Pass pleasant scenes unnoticed <app>
+                <l n="151">Pass pleasant scenes unnoticed <app>
                         <lem wit="#MS-S">bye</lem>
                         <rdg wit="#ACE">by,</rdg>
                     </app></l>
-                <l n="156">Because the next is bleak and drear<app>
+                <l n="152">Because the next is bleak and drear<app>
                         <lem wit="#MS-S">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="157">Or not enjoy a smiling sky,</l>
-                <l n="158">Because a tempest may be near?</l>
+                <l n="153">Or not enjoy a smiling sky,</l>
+                <l n="154">Because a tempest may be near?</l>
             </div>
 
             <div type="stanza">
-                <l n="159">No<app>
+                <l n="155">No<app>
                         <rdg wit="#ACE">!</rdg>
                     </app> while we journey on our way,</l>
-                <l n="160">We'll notice every lovely thing<app>
+                <l n="156">We'll notice every lovely thing<app>
                         <lem wit="#MS-S">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="161">And ever<app>
+                <l n="157">And ever<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> as they pass away,</l>
-                <l n="162">To memory and hope we'll cling.</l>
+                <l n="158">To memory and hope we'll cling.</l>
             </div>
 
             <div type="stanza">
-                <l n="163">And though that awful river flows<app>
+                <l n="159">And though that awful river flows<app>
                         <lem wit="#MS-S">,</lem>
                     </app></l>
-                <l n="164">Before us<app>
+                <l n="160">Before us<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> when the journey's past,</l>
-                <l n="165">Perchance of all the pilgrim's woes<app>
+                <l n="161">Perchance of all the pilgrim's woes<app>
                         <lem wit="#MS-S">&#x2014;</lem>
                     </app></l>
-                <l n="166">Most dreadful &#x2014; Shrink not, &#x2014; 'tis the last<app>
+                <l n="162">Most dreadful &#x2014; Shrink not, &#x2014; 'tis the last<app>
                         <rdg wit="#ACE">!</rdg>
                     </app></l>
             </div>
 
             <div type="stanza">
-                <l n="167">Though <app>
+                <l n="163">Though <app>
                         <lem><del>icy</del> icey</lem>
                         <rdg wit="#ACE">icy</rdg>
                     </app> cold, and dark<app>
@@ -2039,14 +2070,14 @@
                     </app> and deep<app>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="168">Beyond it smiles that blessed shore<app>
+                <l n="164">Beyond it smiles that blessed shore<app>
                         <lem wit="#MS-S">;</lem>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="169">Where none shall suffer, none shall weep<app>
+                <l n="165">Where none shall suffer, none shall weep<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="170">And <app>
+                <l n="166">And <app>
                         <lem wit="#MS-R"><del>peace</del>
                             <add>bliss</add></lem>
                         <rdg wit="#ACE">bliss</rdg>
@@ -2058,6 +2089,24 @@
             <div>
                 <signed>Anne Bront&#235;</signed>
                 <dateline>June 1845</dateline>
+            </div>
+            <div type="editor's_note">
+                <head>Editor's Note</head>
+                <p>“Views of Life” was an extended project which was started in Spring 1844 and
+                    finished in June 1845. The manuscript is split between the Berg Collection at
+                    the New York Public Library and the Pierpoint Morgan Museum. In the manuscript
+                    the poem is untitled and 166 lines long and it was later published as “Views of
+                    Life” at 170 lines in the 1846 Poems. The poem traces a dialogue between Youth
+                    and Experience, in which the jaded pessimism of Experience is presented in
+                    extended detail before Youth’s invocation of Hope ultimately triumphs in the
+                    final verses. The seventh stanza has been rewritten with two line options for
+                    each of the lines 25-27 in the manuscript. However, Brontë’s line selection in
+                    the 1846 publication indicates her final decision, opting for the versions of
+                    the lines which prefers ‘dull clouds’ to ‘grey clouds’ and ‘borrowed charm’ to
+                    ‘transient glory’. Moreover, Brontë introduces internal repetition by following
+                    up with the line ‘The sky grew dull and charmless too’ as line 27. These changes
+                    combine to reduce the appeal of this image of nature, emphasising the cynicism
+                    of Experience in this moment. </p>
             </div>
         </body>
     </text>
@@ -2071,7 +2120,7 @@
         <body>
             <pb n="39" xml:id="ZDR_1" facs="data/images/single/ZDR_1.jpg/"/>
             <head>Z-'s Dream <note>The original Gondal name here has been erased in the MS</note>
-                <!-- hard to read- erased --></head>
+            </head>
 
             <dateline> Sept. 19th 1846</dateline>
 
@@ -2122,8 +2171,7 @@
                 <l n="34">Had I not trod them oft before.</l>
                 <l n="35">A younger boy was with me there</l>
                 <l n="36">His hand upon my shoulder leant;<!-- sic leant --></l>
-                <l n="37">His heart, like mine, was free from care,
-                    <!-- a word has been added and deleted not sure best approach --></l>
+                <l n="37">His heart, like mine, was free from care, </l>
                 <l n="38">His <del>strength</del>
                     <add>breath,</add> with sportive toil, was spent;</l>
                 <l n="39">For my rough pastimes he would share,</l>
@@ -2139,17 +2187,15 @@
 
                 <pb n="42" xml:id="ZDR_4" facs="data/images/single/ZDR_4.jpg/"/>
 
-                <l n="49">Had climed <!-- sic climed- not noted in CH just written as "climbed" -->
-                    the steep and coursed the dale</l>
+                <l n="49">Had climed the steep and coursed the dale</l>
                 <l n="50">Until his strength began to fail.</l>
                 <l n="51"><del>He bade me pause</del></l>
-                <!-- erased line- He bade me pause- I think restarted on line below to make a new stanza- any difference between erased vs deleted?-->
             </div>
             <div type="stanza">
                 <l n="52">He bade me pause and breathe awhile,</l>
                 <l n="53">But spoke it with a <del>pa</del> happy smile.</l>
 
-                <!-- investigte whether or not to number deleted line; my instinct is to number them. J.T. -->
+
                 <l n="54"><del>And in my dream I longed to see</del></l>
                 <l n="55"><del>His fair young cheek so brightly glow</del></l>
                 <l n="56"><del>He turned his sparkling eyes to me</del></l>
@@ -2169,12 +2215,11 @@
 
                 <pb n="43" xml:id="ZDR_5" facs="data/images/single/ZDR_5.jpg/"/>
 
-                <l n="68">And,<add><del>while</del></add>
-                    <!-- Unsure of best approach to this -->as we stood, I laughed to see</l>
+                <l n="68">And,<add><del>while</del></add> as we stood, I laughed to see</l>
                 <l n="69">His fair young cheek so brightly glow.</l>
                 <l n="70">He turned his sparkling eyes to me</l>
                 <l n="71">With looks no painter's art could show,</l>
-                <l n="72">Nor words portray;- but <hi rend="underline">earnest</hi><!-- is emph best tag for this purpose? Use <hi>. J.T. -->
+                <l n="72">Nor words portray;- but <hi rend="underline">earnest</hi>
                     <del>mi</del>
                     <add>(mirth</add></l>
                 <l n="73">And truthful love I there decried;</l>
@@ -2188,8 +2233,7 @@
                 <l n="78">But tenderness with me was rare,</l>
                 <l n="79">And I must take a rougher part:</l>
                 <l n="80">I seized him in my boistrous mirth;</l>
-                <l n="81"><del>As<!-- hard to decipher --></del> I <del>sto</del> bore him
-                    struggling to the earth,</l>
+                <l n="81"><del>As</del> I <del>sto</del> bore him struggling to the earth,</l>
                 <l n="82">And grappling, strength for strength we strove, &#x2014;</l>
 
                 <pb n="44" xml:id="ZDR_6" facs="data/images/single/ZDR_6.jpg/"/>
@@ -2208,7 +2252,7 @@
                 <l n="91">To watch the shadows pass away.</l>
                 <l n="92">I grasped his hand, and it <hi rend="underline">was</hi><add>had</add>
                     fled;-</l>
-                <!-- querey marking above this line- had? I think so, and have added this to line. J.T. -->
+
                 <l n="93">A smile - a laugh - and all was well</l>
                 <l n="94">Upon my breast he bent his head</l>
                 <l n="95">And into graver talk we fell, &#x2014;</l>
@@ -2314,14 +2358,17 @@
             </div>
             <div type="editor's_note">
                 <head>Editor's Note</head>
-                <p> Written in 1846, "Z-'s Dream" is one of Bronte's final Gondal poems which uses a
-                    dream sequence to explore male relationships. Within the poem Bronte
-                    interrogates ideas around gender and violence as well as themes of regret via
-                    the invocation of the lost innocence of youth. Within the manuscript, Bronte
-                    reconfigures one section quite drastically. The new lines show Bronte
-                    emphasising the unnamed boy's external and internal connection to nature. The
-                    dipiction of the weather and environment is mediated via its interactions with
-                    the child while he is shown appreciating these elements.</p>
+                <p>Written in 1846, "Z-'s Dream" is one of Bront&#235;'s final Gondal poems and is
+                    held at the Brontë Parsonage Museum. The title has been partly erased, making
+                    the original Gondal name illegible and the ending bears the Gondal signature “C.
+                    L.”. Within the poem Brontë uses a dream sequence to explore male relationships.
+                    From this springboard Brontë interrogates ideas around gender and violence as
+                    well as themes of regret via the invocation of the lost innocence of youth.
+                    Within the manuscript, Brontë reconfigures one section quite drastically. The
+                    new lines show Brontë emphasising the young friend's external and internal
+                    connection to nature. Depiction of the weather and environment is mediated via
+                    its interactions with the child while he is shown appreciating these elements.
+                </p>
             </div>
         </body>
 

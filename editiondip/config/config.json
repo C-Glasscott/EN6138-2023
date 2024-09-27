@@ -1,11 +1,11 @@
 {
-    "indexTitle": "Anne Brontë Poems Diplomatic Edition",
+    "indexTitle": "Anne Brontë’s Poetry of Childhood: Documentary Edition",
     "webSite": "",
     "logoUrl": "",
     
-    "dataUrl": "data/text/dip_anthology.xml",
-    "sourcesUrl": "data/text/sources.xml",
-    "analoguesUrl": "data/text/analogues.xml",
+    "dataUrl": "data/text/documentary.xml",
+    "sourcesUrl": "",
+    "analoguesUrl": "",
     "sourcesTextsUrl": "data/text/sources/",
     "singleImagesUrl": "",
     "enableXMLdownload": true,
