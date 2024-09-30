@@ -52,6 +52,13 @@
 .DEL {
   text-decoration: line-through;
 }
+.del.ng-scope {
+  text-decoration: line-through;
+}
+.add.ng-scope {
+  vertical-align: super;
+  font-size: smaller;
+}
 .term {
 	background-color: coral;
 }

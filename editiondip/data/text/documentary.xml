@@ -173,7 +173,7 @@
             <div type="stanza">
                 <l n="43">'Tis mournful to look back upon</l>
                 <l n="44">Those <add>long</add> departed joys and cares,</l>
-                <l n="45">And I <hi rend="underline">will</hi> weep since thou alone</l>
+                <l n="45">And I <hi rend="underline">will</hi> weep since thou <add>alone</add></l>
                 <l n="46">Art witness to my <add>streaming</add> tears,</l>
                 <l n="47">This lingering love will not depart,</l>
                 <l n="48">I can not bannish from my heart,</l>
@@ -264,7 +264,7 @@
                 <l n="29">The speaking eye the changing lip</l>
                 <l n="30">The ready blushing cheek</l>
                 <l n="31">The smiling or beclouded brow</l>
-                <l n="32">Their differnt feelings speak</l>
+                <l n="32">Their different feelings speak</l>
             </div>
 
             <div type="stanza">
@@ -530,7 +530,7 @@
             </div>
 
             <div type="stanza">
-                <l n="45">Where shall I fina a heart like thine</l>
+                <l n="45">Where shall I find a heart like thine</l>
                 <l n="46">While life remains to me</l>
                 <l n="47">And where shall I bestow the <add>(love</add></l>
                 <l n="48">I ever bore for thee.</l>
@@ -580,7 +580,7 @@
 
             <div type="stanza">
                 <l n="13">And these bright flowers I love so <add>well,</add></l>
-                <l n="14">Verbina<note>Sic Verbina</note> - Rose and sweet bluebell</l>
+                <l n="14">Vebina<note>Sic: Verbena</note> - Rose and sweet bluebell</l>
                 <l n="15">Must droop and die away.</l>
                 <l n="16">Those thick green leaves with all their shade</l>
                 <l n="17">And rustling musick they must <add>(fade</add></l>
@@ -654,7 +654,7 @@
             <div type="stanza">
                 <l n="19">When night the holy time of peace</l>
                 <l n="20">Was dreaded as the parting hour</l>
-                <l n="21">When firendly intercourse must cease</l>
+                <l n="21">When friendly intercourse must cease</l>
                 <l n="22">And Silence must resume her power</l>
                 <l n="23">Though ever free from pains and woes</l>
                 <l n="24">She only brought calm repose.</l>
@@ -708,7 +708,7 @@
             <div type="stanza">
                 <l n="7">But what were all these charms to me</l>
                 <l n="8">When one sweet breath of memory,</l>
-                <l n="9">Came gently wafting by <del>e</del>,</l>
+                <l n="9">Came gently wafting by<del>e</del>,</l>
                 <l n="10">I closed my eyes against the day,</l>
                 <l n="11">And called <del>wi</del> my willing soul away</l>
                 <l n="12">From earth and air and sky;</l>
@@ -741,7 +741,7 @@
 
             <div type="stanza">
                 <l n="25">Still in the wall-flower's fragrance dwell</l>
-                <l n="26">And hover round the slight bluebell <del>s</del></l>
+                <l n="26">And hover round the slight bluebell<del>s</del></l>
                 <l n="27">My childhood's darling flower.</l>
                 <l n="28">Smile on the little daisy still,</l>
                 <l n="29">The buttercup's bright goblet fill,</l>
@@ -861,12 +861,13 @@
                     <l n="26">Creator thou hast given to me,</l>
                     <l n="27">And am I only thus to know,</l>
                     <l n="28">How sweet the joys of love would be?</l>
-                    <note>This stanza features a pencil X inicating hesitancy on Bronte's part as to
-                        whether or not to include this stanza. Bronte is usually emphatic and
-                        unmistakable when marking sections for deletion within her Manuscripts,
-                        underscoring the authorial uncertainty about leaving the poem on this
-                        disconsolate note.</note>
                 </div>
+                <note>This stanza features a pencil X inicating hesitancy on Bronte's part as to
+                    whether or not to include this stanza. Bronte is usually emphatic and
+                    unmistakable when marking sections for deletion within her Manuscripts,
+                    underscoring the authorial uncertainty about leaving the poem on this
+                    disconsolate note.</note>
+
             </div>
 
             <div>
@@ -973,7 +974,7 @@
             <div type="stanza">
                 <l n="40">Fond dreamer! little does she know,</l>
                 <l n="41">The anxious toil the suffering,</l>
-                <l n="42">The blasted hopes the burnig wo-</l>
+                <l n="42">The blasted hopes the burning wo-</l>
                 <l n="43">The object of her joy will bring</l>
             </div>
 
@@ -1112,8 +1113,7 @@
                 <l n="118">Stern prophet! cease thy boding dire &#x2014;</l>
                 <l n="119">Thou canst not quench the ardent fire,</l>
                 <l n="120">That warms the breast of youth.</l>
-                <l n="121"><del>And</del>
-                    <hi rend="underline">O!</hi> let it cheer him while it may,</l>
+                <l n="121"><del>And</del>O! let it cheer him while it may,</l>
                 <l n="122">And gently, gently die away,</l>
                 <l n="123">Chilled by the damps of truth.</l>
             </div>
@@ -1326,8 +1326,7 @@
                 <l n="78">But tenderness with me was rare,</l>
                 <l n="79">And I must take a rougher part:</l>
                 <l n="80">I seized him in my boistrous mirth;</l>
-                <l n="81"><del>As</del> I <del>sto</del> bore him
-                    struggling to the earth,</l>
+                <l n="81"><del>As</del> I <del>sto</del> bore him struggling to the earth,</l>
                 <l n="82">And grappling, strength for strength we strove, &#x2014;</l>
 
                 <pb n="44" xml:id="ZDR_6" facs="data/images/single/ZDR_6.jpg"/>
@@ -1346,7 +1345,7 @@
                 <l n="91">To watch the shadows pass away.</l>
                 <l n="92">I grasped his hand, and it <hi rend="underline">was</hi><add>had</add>
                     fled;-</l>
-                
+
                 <l n="93">A smile - a laugh - and all was well</l>
                 <l n="94">Upon my breast he bent his head</l>
                 <l n="95">And into graver talk we fell, &#x2014;</l>

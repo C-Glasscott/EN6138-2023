@@ -152,7 +152,7 @@
 
             <div type="stanza">
                 <l n="29">O <del> Mary</del>
-                    <note>Bronte changes the name here</note> those were <add>calm and</add> happy
+                    <note>Bront&#235; changes the name here</note> those were <add>calm and</add> happy
                     days, </l>
                 <l n="30">We loved each other fondly then</l>
 
@@ -183,7 +183,7 @@
             <div type="stanza">
                 <l n="43">'Tis mournful to look back upon</l>
                 <l n="44">Those <add>long</add> departed joys and cares,</l>
-                <l n="45">And I <hi rend="underline">will</hi> weep since thou alone</l>
+                <l n="45">And I <hi rend="underline">will</hi> weep since thou <add>alone</add></l>
                 <l n="46">Art witness to my <add>streaming</add> tears,</l>
                 <l n="47">This lingering love will not depart,</l>
                 <l n="48">I can not bannish from my heart,</l>
@@ -738,7 +738,7 @@
             </div>
 
             <div type="stanza">
-                <l n="45">Where shall I fina a heart like thine</l>
+                <l n="45">Where shall I find a heart like thine</l>
                 <l n="46">While life remains to me</l>
                 <l n="47">And where shall I bestow the <add>(love</add></l>
                 <l n="48">I ever bore for thee.</l>
@@ -796,7 +796,7 @@
 
             <div type="stanza">
                 <l n="13">And these bright flowers I love so <add>well,</add></l>
-                <l n="14">Verbina<note>Sic Verbina</note> - Rose and sweet bluebell</l>
+                <l n="14">Vebina<note>Sic Verbena</note> - Rose and sweet bluebell</l>
                 <l n="15">Must droop and die away.</l>
                 <l n="16">Those thick green leaves with all their shade</l>
                 <l n="17">And rustling musick they must <add>(fade</add></l>
@@ -1047,7 +1047,7 @@
                 <l n="8">When one sweet breath of memory<app>
                         <lem wit="#MS-V">,</lem>
                     </app></l>
-                <l n="9">Came gently wafting by <app>
+                <l n="9">Came gently wafting by<app>
                         <lem wit="#MS-V"><del>e</del>,</lem>
                         <rdg wit="#ACE">?</rdg>
                     </app></l>
@@ -1541,7 +1541,7 @@
                     </app> the suffering,</l>
                 <l n="39">The blasted hopes<app>
                         <rdg wit="#ACE">,</rdg>
-                    </app> the burnig <app>
+                    </app> the burning <app>
                         <lem wit="#MS-R">wo-</lem>
                         <rdg wit="#ACE">woe,</rdg>
                     </app></l>
@@ -1893,8 +1893,7 @@
                     </app></l>
                 <l n="117">That warms the breast of youth.</l>
                 <l n="118"><app>
-                        <lem wit="#MS-R"><del>And</del>
-                            <hi rend="underline">O!</hi></lem>
+                        <lem wit="#MS-R"><del>And</del>O!</lem>
                         <rdg wit="#ACE">Oh,</rdg>
                     </app> let it cheer him while it may,</l>
                 <l n="119">And gently, gently die away<app>
