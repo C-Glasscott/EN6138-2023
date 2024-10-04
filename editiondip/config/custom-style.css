@@ -45,6 +45,10 @@
 }
 /* xout ends */
 
+.add {
+  vertical-align: super;
+  font-size: smaller;
+}
 .ADD {
   vertical-align: super;
   font-size: smaller;

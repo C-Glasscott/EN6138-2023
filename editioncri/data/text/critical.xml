@@ -134,7 +134,7 @@
                 <l n="15">Just then thou didst recall to me </l>
                 <l n="16">A distant long forgotten scene:</l>
                 <l n="17">One smile and one sweet word from <add>(thee</add></l>
-                <l n="18">Dispelled the years rhat rolled between,</l>
+                <l n="18">Dispelled the years that rolled between,</l>
                 <l n="19">I was a little child again, </l>
                 <l n="20">And every after joy and pain,</l>
                 <l n="21">Seemed never to have been. </l>
@@ -152,8 +152,8 @@
 
             <div type="stanza">
                 <l n="29">O <del> Mary</del>
-                    <note>Bront&#235; changes the name here</note> those were <add>calm and</add> happy
-                    days, </l>
+                    <note>Bront&#235; changes the name here</note> those were <add>calm and</add>
+                    happy days, </l>
                 <l n="30">We loved each other fondly then</l>
 
                 <pb n="3" xml:id="VER_3" facs="data/images/single/VER_3.jpg"/>
@@ -587,7 +587,8 @@
 
             <div type="stanza">
                 <l n="33">O that <del>Bluebell</del>
-                    <add>lone flower</add><note>Change in framing here</note> recalled to me</l>
+                    <add>lone flower</add><note>Brontë's change here invokes Romantic solitude,
+                        enhancing the poignancy of the reminiscence.</note> recalled to me</l>
                 <l n="34">My happy childhood's hours</l>
                 <l n="35">When blue bells <del>were</del>
                     <add>seemed</add>
@@ -608,8 +609,9 @@
                 <l n="41">I had not then <del>to spend my days</del>
                     <add><del>mid icy hearts</del></add>
                     <add>mid heartless crowds</add></l>
-                <l n="42">To spend a thankless life<note>Bronte's rewrites here change the
-                        emphasis</note></l>
+                <l n="42">To spend a thankless life<note>These revisions show Brontë heightening the
+                        disjunction between the speaker's current cold and overcrowded situation and
+                        the sustaining so</note></l>
                 <l n="43">In seaking after others' weal</l>
                 <!-- sic seaking -->
                 <l n="44">With anxious toil and strife</l>
@@ -658,8 +660,8 @@
             <div type="stanza">
                 <l n="1">She's gone - and twice the summer's <add>(sun</add></l>
                 <l n="2">Has gilt Regina's towers</l>
-                <l n="3">And melted wild Angora's snows</l>
-                <l n="4">And warmed Exina's bowers</l>
+                <l n="3">And melted wild Angora's snows,</l>
+                <l n="4">And warmed Exina's bowers,</l>
             </div>
 
             <div type="stanza">
@@ -788,7 +790,7 @@
                 <l n="7">And this soft whispering breeze that now,</l>
                 <l n="8">So gently cools my fevered brow,</l>
                 <l n="9">This too Alas! must turn &#x2014;</l>
-                
+
                 <l n="10">To a wild blast whose icy dart,</l>
                 <l n="11">Pierces and chills me to the heart</l>
                 <l n="12">Before I cease to mourn.</l>
@@ -824,12 +826,13 @@
             <div type="editor's_note">
                 <head>Editor's Note</head>
                 <p>"Lines Written at Thorp Green" is a short 1841 poem not published by Bront&#235;
-                    (and not to be confused with an 1840 poem published by Brontë under the new
-                    title "Appeal" in 1846) and is held at the Morgan Library and Museum. This poem
-                    shows a speaker's instinctive enjoyment of natural beauty being overtaken by the
-                    desire to be among family, linking nature, memory and nostalgia. The slightly
-                    unconventional capitalisations of the flower names 'Verbina' [sic] and 'Rose'
-                    enhance their importance to the speaker and the overall message of the poem.</p>
+                    (and not to be confused with an 1840 poem which originally shared the name
+                    before being retitled to "Appeal" by Bront&#235; in 1846) and is held at the
+                    Morgan Library and Museum. This poem shows a speaker's instinctive enjoyment of
+                    natural beauty being overtaken by the desire to be among family, linking nature,
+                    memory and nostalgia. The slightly unconventional capitalisations of the flower
+                    names 'Verbina' [sic] and 'Rose' enhance their importance to the speaker and the
+                    overall message of the poem.</p>
             </div>
         </body>
     </text>
@@ -846,7 +849,7 @@
                 <l n="1">'Tis strange to think there <app>
                         <lem wit="#MS-Q">was</lem>
                         <rdg wit="#ACE">WAS</rdg>
-                      
+
                     </app> a time</l>
                 <l n="2"> When mirth was not an empty name<app>
                         <rdg wit="#ACE">,</rdg>
@@ -1084,7 +1087,10 @@
                         <lem wit="#MS-V"><del>pure</del>
                             <add>strange</add></lem>
                         <rdg wit="#ACE">strange</rdg>
-                    </app> delight.<note> </note></l>
+                    </app> delight.<note>This change from 'pure' to 'strange' shows Brontë
+                        recalibrating her poetry's alignment with Romantic language and actively
+                        undermining the imagined 'purity' of the delights of nature in favour of
+                        more sceptical language.</note></l>
             </div>
 
             <div type="stanza">
@@ -1179,7 +1185,7 @@
                         <lem wit="#MS-V">all divine,<del>for childhood's</del>
                             <add>its pangs of</add> grief</lem>
                         <rdg wit="#ACE">ALL divine; its pangs of grief</rdg>
-                    </app><note/></l>
+                    </app></l>
                 <l n="41"><app>
                         <rdg wit="#ACE">(</rdg>
                     </app>Although<app>
@@ -1192,7 +1198,7 @@
                             <add>their stay is <del>are</del></add> brief,</lem>
                         <rdg wit="#ACE">(Although, perchance, their stay be brief)</rdg>
                     </app></l>
-               
+
                 <l n="42"><app>
                         <lem wit="#MS-V"><del>Was</del>
                             <add>Are</add></lem>
@@ -1232,7 +1238,7 @@
             <div>
                 <ab>48 lines</ab>
                 <closer><signed>Anne Bront&#235;</signed>
-                    <dateline>May 29th 1849</dateline></closer>
+                    <dateline>May 29th 1844</dateline></closer>
             </div>
             <div type="editor's_note">
                 <head>Editor's Note</head>
@@ -1348,7 +1354,7 @@
 
         <body>
             <pb n="30" xml:id="VOL_1" facs="data/images/single/VOL_1.jpg"/>
-            <head></head>
+            <head/>
 
             <ab>166 lines</ab>
             <ab>Wrote <add>the</add> first few verses Feb. or March 1844</ab>
@@ -1404,7 +1410,7 @@
                     </app>,</l>
             </div>
 
-         
+
             <pb n="31" xml:id="VOL_12" facs="data/images/single/VOL_2.jpg"/>
             <div type="stanza">
                 <l n="13">I lately saw a sunset sky,</l>
@@ -1459,7 +1465,7 @@
             </div>
 
             <div type="stanza">
-               
+
 
                 <l n="25">Dull clouds remained of <app>
                         <lem wit="#MS-R">somber hue</lem>
@@ -1907,7 +1913,7 @@
             </div>
 
             <pb n="37" xml:id="VOL_8" facs="data/images/single/VOL_8.jpg"/>
-           
+
             <div type="stanza">
                 <l n="121">Tell him, that earth is not our <app>
                         <lem wit="MS-S">rest!</lem>
@@ -2009,7 +2015,7 @@
                         <lem wit="#MS-R"><del>The flowerets <add>that smile beneath</add> smiling at
                                 our feet</del></lem>
                     </app></l>
-               
+
                 <l n="149">The smiling flowerets<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> bright and sweet<app>
@@ -2128,7 +2134,7 @@
                 <l n="2">My boyhood's heart was mine again;</l>
                 <l n="3">These latter years did nothing seem</l>
                 <l n="4">With all their mingled joy and pain,</l>
-                <l n="5">Their thousand deeds if good and ill,</l>
+                <l n="5">Their thousand deeds of good and ill,</l>
                 <l n="6">Their hopes that life did not fulfil,</l>
                 <l n="7">Their glorious moments of success,</l>
                 <l n="8">Their love that closed in bitterness,</l>
@@ -2210,7 +2216,7 @@
                 <l n="64">And chased the clouds accross the sky,</l>
                 <l n="65">And waved his locks in passing by,</l>
                 <l n="66"><del>And I</del>And fanned my cheek, (as real did seem</l>
-                <l n="67">This strange, untrue, but truthlike dream;)<note/></l>
+                <l n="67">This strange, untrue, but truthlike dream;)</l>
 
                 <pb n="43" xml:id="ZDR_5" facs="data/images/single/ZDR_5.jpg"/>
 
