@@ -136,7 +136,7 @@
             <div type="stanza">
                 <l n="22">Tall forest trees waved over me,</l>
                 <l n="23">To hide me from the heat of day,</l>
-                <l n="24">And by my side a child like thee</l>
+                <l n="24">And by my side a child like thee,</l>
                 <l n="25">Among the summer flowerets lay.</l>
                 <l n="26">He was thy sire thou merry child.</l>
                 <l n="27">Like thee he spoke, like thee he <add>(smiled</add>,</l>
@@ -383,8 +383,8 @@
             <div type="stanza">
                 <l n="29">Whence came that rising in my <add>(throat</add></l>
                 <l n="30">That dimness in my eyes?</l>
-                <l n="31">Why did those burning drops <del>distill</del>
-                    <add>distill&#x2014;</add></l>
+                <l n="31">Why did those burning drops <add><del>distill</del><add>
+                    distill&#x2014;</l>
                 <l n="32">Those bitter feeling rise?</l>
             </div>
 
@@ -394,7 +394,7 @@
                         personifcation of the Bluebell and refining the Romantic potency of her
                         image</note> recalled to me</l>
                 <l n="34">My happy childhood's hours</l>
-                <l n="35">When blue bells <del>were</del>
+                <l n="35">When blue bells <del>were as</del>
                     <add>seemed</add> like fairy gifts</l>
                 <l n="36">A prize among the flowers</l>
             </div>
