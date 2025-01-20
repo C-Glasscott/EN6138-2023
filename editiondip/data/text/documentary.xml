@@ -448,7 +448,7 @@
 
             <div type="stanza">
                 <l n="1">She's gone - and twice the summer's <add>(sun</add></l>
-                <l n="2">Has gilt Regina's towers</l>
+                <l n="2">Has gilt Regina's towers,</l>
                 <l n="3">And melted wild Angora's snows,</l>
                 <l n="4">And warmed Exina's bowers,</l>
             </div>
@@ -465,7 +465,7 @@
             <div type="stanza">
                 <l n="9">And thrice stern winter's icy hand</l>
                 <l n="10">Has checked the river's flow,</l>
-                <l n="11">And thrice times o'er the mountains <add>(thrown</add></l>
+                <l n="11">And three times o'er the mountains <add>(thrown</add></l>
                 <l n="12">His spotless robe of snow.</l>
             </div>
 
@@ -524,7 +524,7 @@
             <pb n="16" xml:id="ORP_4" facs="data/images/single/ORP_4.jpg"/>
             <div type="stanza">
                 <l n="41">Thy loss can never be repaired</l>
-                <l n="42">I shall not <del>see</del><add>know</add>again</l>
+                <l n="42"><del>A>/del>I shall not <del>see</del><add>know</add>again</l>
                 <l n="43">While life remains the peaceful joy</l>
                 <l n="44">That filled my spirit then</l>
             </div>
@@ -562,12 +562,12 @@
                     spirit so,</l>
                 <l n="3">Must cold and distant be,</l>
                 <l n="4">And only light our northern clime</l>
-                <l n="5">With feeble ray, before the time</l>
+                <l n="5">With feeble ray, before the time &#x2014;</l>
                 <l n="6">I long so much to see. </l>
             </div>
 
             <pb n="18" xml:id="LTG_2" facs="data/images/single/LTG_2.jpg"/>
-
+ 
             <div type="stanza">
                 <l n="7">And this soft whispering breeze that now,</l>
                 <l n="8">So gently cools my fevered brow,</l>
@@ -630,7 +630,7 @@
             </div>
 
             <div type="stanza">
-                <l n="7">When speech expressed the inward thought</l>
+                <l n="7">When speech expressed the in-ward thought</l>
                 <l n="8">And heart, to kindred heart was bare</l>
                 <l n="9">And Summer days were far too short</l>
                 <l n="10">For all the pleasures crowded there</l>
