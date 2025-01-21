@@ -706,7 +706,7 @@
             </div>
 
             <div type="stanza">
-                <l n="7">But what were all these charms to me</l>
+                <l n="7">But what were all these charmes to me</l>
                 <l n="8">When one sweet breath of memory,</l>
                 <l n="9">Came gently wafting by<del>e</del>,</l>
                 <l n="10">I closed my eyes against the day,</l>
@@ -740,11 +740,11 @@
             </div>
 
             <div type="stanza">
-                <l n="25">Still in the wall-flower's fragrance dwell</l>
+                <l n="25">Still in the wall-flower's fragrance dwell,</l>
                 <l n="26">And hover round the slight bluebell<del>s</del></l>
                 <l n="27">My childhood's darling flower.</l>
                 <l n="28">Smile on the little daisy still,</l>
-                <l n="29">The buttercup's bright goblet fill,</l>
+                <l n="29"> <del>IN</del> The buttercup's bright goblet fill,</l>
                 <l n="30">With all thy former power,</l>
             </div>
 
@@ -754,7 +754,7 @@
                 <l n="31">Forever hang thy dreamy spell,</l>
                 <l n="32">Round golden star and heatherbell,</l>
                 <l n="33">And <add>do</add> not pass away.</l>
-                <l n="34">From sparking frost, or wreathed snow,</l>
+                <l n="34">From sparkling frost, or wreathed snow,</l>
                 <l n="35">And whisper when the wild winds blow,</l>
                 <l n="36">Or rippling waters play.</l>
             </div>
@@ -808,7 +808,7 @@
 
             <div type="stanza">
                 <l n="1">While on my lonely couch I lie </l>
-                <l n="2">I seldome feel myself alone</l>
+                <l n="2">I seldom<del>e<del> feel myself alone</l>
                 <l n="3">For fancy fills my dreaming eye</l>
                 <l n="4">With scenes and pleasures of its own</l>
             </div>
@@ -833,7 +833,7 @@
 
             <div type="stanza">
                 <l n="13">And glances then may meet my eyes,</l>
-                <l n="14">That daylight never showed to me,</l>
+                <l n="14">That daylight never shewed to me,</l>
                 <l n="15">What raptures in my bosom<del>e</del> rise,</l>
                 <l n="16">Those earnest looks of love to see.</l>
             </div>
@@ -900,7 +900,7 @@
 
             <div type="stanza">
                 <l n="5">In vain, you talk of morbid dreams,</l>
-                <l n="6">In vain, you <del>we</del> gaily smiling say.</l>
+                <l n="6">In vain, you <del>we</del> gaily smiling say,</l>
                 <l n="7">That <del>wht</del> what to me so dreary seems,</l>
                 <l n="8">The healthy mind deems bright and gay.</l>
             </div>
@@ -941,7 +941,7 @@
             <div type="stanza">
 
                 <l n="25">Dull clouds remained of somber hue</l>
-                <l n="26">Grey clouds remained of a gloomy <add>hue,</add></l>
+                <l n="26">Grey clouds remained of gloomy <add>hue,</add></l>
                 <l n="27">Their <add>
                         <del>brightest</del></add>
                     <add>borrowed</add> glory now was o'er: </l>
@@ -952,7 +952,7 @@
 
 
                 <l n="29">The sky grew dull and charmless too </l>
-                <l n="30">And cold and dim the very blue</l>
+                <l n="30">And cold and dim the very blue,</l>
                 <l n="31">That smiled so softly <del>and</del> bright before.</l>
             </div>
 
@@ -1017,7 +1017,7 @@
 
             <div>
                 <l n="64">Nor how despairing and alone,</l>
-                <l n="65">He<del>s</del> then must wear his life away</l>
+                <l n="65">He<del>s</del> then must wear his life away,</l>
                 <l n="66">And linger feebly toiling on;</l>
                 <l n="67">And fainting <del>sing</del>
                     <add>sink</add> into decay.</l>
@@ -1049,7 +1049,7 @@
                 <l n="80">When in the time of early spring,</l>
                 <l n="81">Too chill the winds that o'er me past,</l>
                 <l n="82">She said each coming day would bring,</l>
-                <l n="83">A fairer heaven a gentler blast</l>
+                <l n="83">A fairer heaven a gentler blast.</l>
             </div>
 
             <div>
@@ -1062,7 +1062,7 @@
             <div type="stanza">
                 <l n="88">She told me summer's glorious ray,</l>
                 <l n="89">Would chase those vapours all away,</l>
-                <l n="90">And scatter glories round</l>
+                <l n="90">And scatter glories round.</l>
                 <l n="91">With sweetest music fill the trees,</l>
                 <l n="92">Load with rich scent the gentle breeze</l>
                 <l n="93">And strew with flowers the ground.</l>
@@ -1080,7 +1080,7 @@
 
             <div type="stanza">
                 <l n="100">Wait, <del>b</del> but a little while, she said,</l>
-                <l n="101">Till summer's burning days are fled</l>
+                <l n="101">Till summer's burning days are fled.</l>
                 <l n="102">And Autumn shall restore,</l>
 
                 <pb n="36" xml:id="VOL_7" facs="data/images/single/VOL_7.jpg"/>
@@ -1095,22 +1095,22 @@
                 <l n="107">That freshness never came again,</l>
                 <l n="108">Though summer passed away,</l>
                 <l n="109">Though Autumn's mists hung cold and chill</l>
-                <l n="110">And dropping nature languished still</l>
+                <l n="110">And dropping nature languished still,</l>
                 <l n="111">And <del>sung</del>
                     <add>sunk</add> into decay.</l>
             </div>
 
             <div>
                 <l n="112">Till wintry blasts foreboding blew,</l>
-                <l n="113">Through leafless tress and then I knew</l>
+                <l n="113">Through leafless tress and then I knew,</l>
                 <l n="114">That hope was all a dream,</l>
                 <l n="115">But thus fond youth she cheated me.</l>
                 <l n="116">And she will prove as false to thee,</l>
-                <l n="117">Though sweet her words may seem.</l>
+                <l n="117">Though sweet her words may seem."</l>
             </div>
 
             <div>
-                <l n="118">Stern prophet! cease thy boding dire &#x2014;</l>
+                <l n="118">Stern prophet! ceace thy boding dire &#x2014;</l>
                 <l n="119">Thou canst not quench the ardent fire,</l>
                 <l n="120">That warms the breast of youth.</l>
                 <l n="121"><del>And</del>O! let it cheer him while it may,</l>
@@ -1124,7 +1124,7 @@
                 <l n="124">Tell him, that earth is not our rest!</l>
                 <l n="125">Its joys are empty &#x2014; frail at best;</l>
                 <l n="126">And point beyond the sky;</l>
-                <l n="127">But gleams of light may reach us here,</l>
+                <l n="127">But gleams of light may reach us <add>(here,</add></l>
                 <l n="128">And hope the <hi rend="underline">roughest</hi> path can cheer,</l>
                 <l n="129">Then do not <del>f</del> bid it fly.</l>
             </div>
@@ -1150,7 +1150,7 @@
             <div type="stanza">
                 <l n="142">Or if they come it oft appears,</l>
                 <l n="143">Our woes are lighter than our fears,</l>
-                <l n="144">And far more strongly born</l>
+                <l n="144">And far more strongly born.</l>
                 <l n="145">Then let us not enhance our doom,</l>
                 <l n="146">But e'en in midnight's blackest gloom,</l>
                 <l n="147">Expect the rising morn.</l>
@@ -1194,7 +1194,7 @@
                 <l n="168">Beyond it smiles that blessed shore;</l>
                 <l n="169">Where none shall suffer, none shall weep</l>
                 <l n="170">And <del>peace</del>
-                    <add>bliss</add> shall rule for evermore</l>
+                    <add>bliss</add> shall reign for evermore</l>
             </div>
 
             <div>
@@ -1263,7 +1263,7 @@
                 <l n="34">Had I not trod them oft before.</l>
                 <l n="35">A younger boy was with me there</l>
                 <l n="36">His hand upon my shoulder leant;<!-- sic leant --></l>
-                <l n="37">His heart, like mine, was free from care,</l>
+                <l n="37">His heart, like mine, was free from <add><del>care</del></add>care,</l>
                 <l n="38">His <del>strength</del>
                     <add>breath,</add> with sportive toil, was spent;</l>
                 <l n="39">For my rough pastimes he would share,</l>
@@ -1315,7 +1315,7 @@
                 <l n="72">Nor words portray;- but <hi rend="underline">earnest</hi>
                     <del>mi</del>
                     <add>(mirth</add></l>
-                <l n="73">And truthful love I there decried;</l>
+                <l n="73">And truthful love I there descried;</l>
                 <l n="74">And, while I thought upon his worth,</l>
                 <l n="75">My bosom<del>e</del> glowed with joy and <add>(pride.</add></l>
             </div>
@@ -1346,8 +1346,8 @@
                 <l n="92">I grasped his hand, and it <hi rend="underline">was</hi><add>had</add>
                     fled;-</l>
 
-                <l n="93">A smile - a laugh - and all was well</l>
-                <l n="94">Upon my breast he bent his head</l>
+                <l n="93">A smile - a laugh - and all was well:&#x2014;</l>
+                <l n="94">Upon my breast he bent his head,</l>
                 <l n="95">And into graver talk we fell, &#x2014;</l>
                 <l n="96">More serious - yet so blest did seem</l>
                 <l n="97">That calm communion <add><del>quiet conference</del></add> then,</l>
@@ -1432,7 +1432,7 @@
                 <l n="148">And, much I doubt, this work of <add>strife,</add></l>
                 <l n="149">In blood and death begun,</l>
                 <l n="150">Will call for many a victim more</l>
-                <l n="151">Before the cause is won.-</l>
+                <l n="151">Before the cause is won.&#x2014;</l>
                 <l n="152">Well! my own life, I'd freely give</l>
                 <l n="153"><del>E</del> Ere I would fail in my design;-</l>
                 <l n="154">The cause must prosper if I live,</l>
