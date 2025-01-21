@@ -1044,8 +1044,8 @@
             </div>
 
             <div type="stanza">
-                <l n="7">But what were all these charms to me<app>
-                        <rdg wit="#ACE">,</rdg>
+                <l n="7">But what were all these charms to me<app><lem wit="#MS-V">charmes to me</lem>
+                        <rdg wit="#ACE">charms to me,</rdg>
                     </app></l>
                 <l n="8">When one sweet breath of memory<app>
                         <lem wit="#MS-V">,</lem>
@@ -1122,7 +1122,7 @@
                 <l n="25">Still in the <app>
                         <lem wit="#MS-V">wall-flower's</lem>
                         <rdg wit="#ACE">wallflower's</rdg>
-                    </app> fragrance dwell<app>
+                    </app> fragrance dwell<app><lem wit="#MS-V">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
                 <l n="26">And hover round the slight <app>
@@ -1131,7 +1131,7 @@
                     </app></l>
                 <l n="27">My childhood's darling flower.</l>
                 <l n="28">Smile on the little daisy still,</l>
-                <l n="29">The buttercup's bright goblet fill<app>
+                <l n="29"><del>IN</del> The buttercup's bright goblet fill<app>
                         <lem wit="#MS-V">,</lem>
                     </app></l>
                 <l n="30">With all thy former power<app>
@@ -1156,10 +1156,7 @@
                 <l n="33">And <add>do</add> not pass away<app>
                         <lem wit="#MS-V">.</lem>
                     </app></l>
-                <l n="34">From <app>
-                        <lem wit="#MS-V">sparking</lem>
-                        <rdg wit="#ACE">sparkling</rdg>
-                    </app> frost, or wreathed snow,</l>
+                <l n="34">From sparkling frost, or wreathed snow,</l>
                 <l n="35">And whisper when the wild winds blow,</l>
                 <l n="36">Or rippling waters play.</l>
             </div>
@@ -1269,7 +1266,7 @@
 
             <div type="stanza">
                 <l n="1">While on my lonely couch I lie </l>
-                <l n="2">I seldome feel myself alone</l>
+                <l n="2">I seldom<del>e</del> feel myself alone</l>
                 <l n="3">For fancy fills my dreaming eye</l>
                 <l n="4">With scenes and pleasures of its own</l>
             </div>
@@ -1294,7 +1291,7 @@
 
             <div type="stanza">
                 <l n="13">And glances then may meet my eyes,</l>
-                <l n="14">That daylight never showed to me,</l>
+                <l n="14">That daylight never shewed to me,</l>
                 <l n="15">What raptures in my bosom<del>e</del> rise,</l>
                 <l n="16">Those earnest looks of love to see.</l>
             </div>
