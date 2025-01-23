@@ -1379,10 +1379,7 @@
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
-                <l n="6">In vain, you <del>we</del> gaily smiling say<app>
-                        <lem wit="#MS-R">.</lem>
-                        <rdg wit="#ACE">,</rdg>
-                    </app></l>
+                <l n="6">In vain, you <del>we</del> gaily smiling say,</l>
                 <l n="7">That <del>wht</del> what to me so dreary seems,</l>
                 <l n="8">The healthy mind deems bright and gay.</l>
             </div>
@@ -1469,7 +1466,7 @@
                         <rdg wit="#ACE">sombre hue,</rdg>
                     </app></l>
                 <l><app>
-                        <lem wit="#MS-R">Grey clouds remained of a gloomy <add>hue,</add></lem>
+                        <lem wit="#MS-R">Grey clouds remained of gloomy <add>hue,</add></lem>
                     </app></l>
 
                 <l><app>
@@ -1489,7 +1486,7 @@
                     </app>
                 </l>
                 <l><app>
-                        <lem wit="#MS-R">And cold and dim the very blue</lem>
+                        <lem wit="#MS-R">And cold and dim the very blue,</lem>
                     </app></l>
                 <l n="28">That smiled so softly <app>
                         <lem wit="#MS-R"><del>and</del></lem>
@@ -1650,7 +1647,7 @@
                 <l n="61">Nor how<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> despairing and alone,</l>
-                <l n="62">He<del>s</del> then must wear his life away<app>
+                <l n="62">He<del>s</del> then must wear his life away<app><lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
                 <l n="63">And linger <app>
@@ -1737,9 +1734,7 @@
                     </app> each coming day would bring,</l>
                 <l n="80">A fairer heaven<app>
                         <rdg wit="#ACE">,</rdg>
-                    </app> a gentler blast<app>
-                        <rdg wit="#ACE">.</rdg>
-                    </app></l>
+                    </app> a gentler blast.</l>
             </div>
 
             <div>
@@ -1771,7 +1766,7 @@
                         <lem wit="#MS-R">,</lem>
                     </app>,</l>
                 <l n="86">Would chase those vapours all away,</l>
-                <l n="87">And scatter glories round<app>
+                <l n="87">And scatter glories round<app><lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
                 <l n="88">With sweetest music fill the trees,</l>
@@ -1818,7 +1813,7 @@
                 <l n="98">Till <app>
                         <lem wit="#MS-R">summer's</lem>
                         <rdg wit="#ACE">Summer's</rdg>
-                    </app> burning days are fled<app>
+                    </app> burning days are fled<app><lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
                 <l n="99">And Autumn shall restore,</l>
@@ -1847,9 +1842,8 @@
                 <l n="106">Though Autumn's mists hung cold and chill<app>
                         <rdg wit="#ACE">.</rdg>
                     </app></l>
-                <l n="107">And dropping nature languished still<app>
-                        <rdg wit="#ACE">,</rdg>
-                    </app></l>
+                <l n="107">And dropping nature languished still,
+                    </l>
                 <l n="108">And<app>
                         <lem wit="#MS-R">
                             <del>sung</del>
@@ -1866,7 +1860,7 @@
                     </app></l>
                 <l n="110">Through leafless tress <app>
                         <rdg wit="#ACE">&#x2014;</rdg>
-                    </app>and then I knew</l>
+                    </app>and then I knew<add><lem wit="#MS-R">.</lem></add></l>
                 <l n="111">That <app>
                         <lem wit="#MS-R">hope</lem>
                         <rdg wit="#ACE">Hope</rdg>
@@ -1883,12 +1877,12 @@
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
                 <l n="113">And she will prove as false to thee,</l>
-                <l n="114">Though sweet her words may seem.</l>
+                <l n="114">Though sweet her words may seem.<app><lem wit="#MS-R">"</lem></app></l>
             </div>
 
             <div>
                 <l n="115">Stern prophet! cease<app>
-                        <lem wit="#MS-R">cease</lem>
+                        <lem wit="#MS-R">ceace</lem>
                         <rdg wit="#ACE">Cease</rdg>
                     </app> thy boding dire &#x2014;</l>
                 <l n="116">Thou canst not quench the ardent fire,<app>
@@ -1988,7 +1982,7 @@
                     </app> it oft appears,</l>
                 <l n="140">Our woes are lighter than our fears,</l>
                 <l n="141">And far more <app>
-                        <lem wit="#MS-S">strongly born</lem>
+                        <lem wit="#MS-S">strongly born.</lem>
                         <rdg wit="#ACE">bravely borne.</rdg>
                     </app></l>
                 <l n="142">Then let us not enhance our doom<app>
@@ -2083,7 +2077,7 @@
                         <lem wit="#MS-R"><del>peace</del>
                             <add>bliss</add></lem>
                         <rdg wit="#ACE">bliss</rdg>
-                    </app> shall rule for evermore<app>
+                    </app> shall reign for evermore<app>
                         <rdg wit="#ACE">!</rdg>
                     </app></l>
             </div>
