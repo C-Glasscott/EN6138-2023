@@ -1171,8 +1171,7 @@
                 <l n="38">Or <app>
                         <lem wit="#MS-V">memory</lem>
                         <rdg wit="#ACE">Memory,</rdg>
-                    </app>is the <app>
-                        <rdg wit="#ACE">,</rdg>
+                    </app>is the
                     </app>glory thine <app><rdg wit="#ACE">,</rdg>
                     </app></l>
                 <l n="39">That <app>
@@ -1187,8 +1186,8 @@
                     </app></l>
                 <l n="41">
                     <app>
-                        <lem wit="#MS-V">Although perchance <del>its pangs were</del>
-                            <add>their stay is <del>are</del></add> brief,</lem>
+                        <lem wit="#MS-V">Although perchance <del> its pangs were</del>
+                            <add>their stay is <del>are</del> </add> brief,</lem>
                         <rdg wit="#ACE">(Although, perchance, their stay be brief)</rdg>
                     </app></l>
 
