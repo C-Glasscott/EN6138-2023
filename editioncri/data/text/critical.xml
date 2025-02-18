@@ -312,7 +312,7 @@
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
                 <l n="16">And years move swiftly on<app>
-                        <rdg wit="#ACE">.</rdg>
+                        <rdg wit="#ACE">:</rdg>
                     </app></l>
             </div>
 
@@ -409,7 +409,7 @@
                         <rdg wit="#ACE">,</rdg>
                     </app> approaching <add>steps</add></l>
                 <l n="40">Of one well known to me<app>
-                        <lem>.</lem>
+                        <lem wit="#MS-P">.</lem>
                         <rdg wit="#ACE">!</rdg>
                     </app></l>
             </div>
@@ -867,7 +867,10 @@
                     </app></l>
             </div>
             <div type="stanza">
-                <l n="7">When speech expressed the in&#x2014; ward thought<app>
+                <l n="7">When speech expressed the <app>
+                        <lem wit="#MS-Q">in&#x2014; ward</lem>
+                        <rdg wit="#ACE">inward</rdg>
+                    </app> thought<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
                 <l n="8">And heart<app>
@@ -888,18 +891,18 @@
                 <l n="11">And <app>
                         <lem wit="#MS-Q">Silence, Solitude</lem>
                         <rdg wit="#ACE">silence, solitude,</rdg>
-                    </app> and rest<note>Changes to caapitals here</note><app>
+                    </app> and rest<note>Changes to capitals here</note><app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
                 <l n="12">Now welcome to the weary breast<app>
-                        <rdg wit="#ACE">---</rdg>
+                        <rdg wit="#ACE">&#x2014;</rdg>
                     </app></l>
             </div>
             <div type="stanza">
                 <l n="13">Were all unprized<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> uncourted then<app>
-                        <rdg wit="#ACE">---</rdg>
+                        <rdg wit="#ACE">&#x2014;</rdg>
                     </app></l>
                 <l n="14">And all the joy one spirit showed<app>
                         <rdg wit="#ACE">,</rdg>
@@ -944,9 +947,7 @@
                 <l n="23">Though ever free from pains and woes<app>
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
-                <l n="24">She only brought us calm repose<app>
-                        <lem wit="#MS-Q #ACE">.</lem>
-                    </app></l>
+                <l n="24">She only brought us calm repose.</l>
             </div>
             <div type="stanzs">
                 <l n="25">And when that blessed dawn <app>
@@ -1044,7 +1045,7 @@
             </div>
 
             <div type="stanza">
-                <l n="7">But what were all these charms to me<app><lem wit="#MS-V">charmes to me</lem>
+                <l n="7">But what were all these <app><lem wit="#MS-V">charmes to me</lem>
                         <rdg wit="#ACE">charms to me,</rdg>
                     </app></l>
                 <l n="8">When one sweet breath of memory<app>
@@ -1096,7 +1097,7 @@
             <div type="stanza">
                 <l n="19">Sweet <app>
                         <lem wit="#MS-V">memory</lem>
-                        <rdg wit="#ACE">Memory</rdg>
+                        <rdg wit="#ACE">Memory!</rdg>
                     </app> ever smile on me<app>
                         <lem wit="#MS-V">,</lem>
                         <rdg wit="#ACE">;</rdg>
@@ -1172,7 +1173,8 @@
                         <rdg wit="#ACE">Memory,</rdg>
                     </app>is the <app>
                         <rdg wit="#ACE">,</rdg>
-                    </app>glory thine</l>
+                    </app>glory thine <app><rdg wit="#ACE">,</rdg>
+                    </app></l>
                 <l n="39">That <app>
                         <lem wit="#MS-V"><del>hallows</del>
                             <add>haloes</add></lem>
@@ -1183,13 +1185,7 @@
                             <add>its pangs of</add> grief</lem>
                         <rdg wit="#ACE">ALL divine; its pangs of grief</rdg>
                     </app></l>
-                <l n="41"><app>
-                        <rdg wit="#ACE">(</rdg>
-                    </app>Although<app>
-                        <rdg wit="#ACE">,</rdg>
-                    </app> perchance<app>
-                        <rdg wit="#ACE">,</rdg>
-                    </app>
+                <l n="41">
                     <app>
                         <lem wit="#MS-V">Although perchance <del>its pangs were</del>
                             <add>their stay is <del>are</del></add> brief,</lem>
