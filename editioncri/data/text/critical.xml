@@ -1352,9 +1352,8 @@
 
             <div type="stanza">
                 <l n="1">When sinks my heart in <app>
-                        <lem wit="MS-R">hope-less gloom:</lem>
-                        <note>Poem not titled in MS but called "Views of Life" in 1846</note>
-                    </app></l>
+                        <lem wit="MS-R">hope-less gloom:</lem><rdg wit="#ACE">hopeless gloom,</rdg>
+                    </app><note>Poem not titled in MS but called "Views of Life" in 1846</note></l>
                 <l n="2">When life can <app>
                         <lem wit="#MS-R">shew</lem>
                         <rdg wit="#ACE">show</rdg>
@@ -1387,9 +1386,12 @@
                 <l n="11"><app>
                         <lem wit="#MS-R">My present thoughts <del>are all too</del>
                             <add>I know are</add> true,</lem>
-                        <rdg wit="#ACE">TRUTH led me to the present view,&amp;</rdg>
+                        <rdg wit="#ACE">TRUTH led me to the present view,&#x2014;</rdg>
                     </app></l>
-                <l n="12">I'm waking, now, 'twas <app>
+                <l n="12">I'm waking, now<app>
+			<lem wit="#MS-R">,</lem>
+			<rdg wit="#ACE">&#x2014;</rdg></app>
+			'twas <app>
                         <lem wit="#MS-R">then</lem>
                         <rdg wit="#ACE">THEN</rdg>
                     </app> I dreamed<app>
@@ -1476,7 +1478,7 @@
 
                 <l n="27"><app>
                         <lem wit="#MS-R">The sky grew dull and charmless too</lem>
-                        <rdg wit="#ACE">The azure sky had faded too</rdg>
+                        <rdg wit="#ACE">The azure sky had faded too,</rdg>
                     </app>
                 </l>
                 <l><app>
