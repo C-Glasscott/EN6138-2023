@@ -1873,20 +1873,20 @@
                         <rdg wit="#ACE">,</rdg>
                     </app> fond youth<app>
                         <rdg wit="#ACE">,</rdg>
-                    </app> she cheated me.<app>
+                    </app> she cheated me<app>
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
                 <l n="113">And she will prove as false to thee,</l>
-                <l n="114">Though sweet her words may seem.<app><lem wit="#MS-R">"</lem></app></l>
+                <l n="114">Though sweet her words may seem<app><lem wit="#MS-R">"</lem></app></l>
             </div>
 
             <div>
-                <l n="115">Stern prophet! cease<app>
+                <l n="115">Stern prophet! <app>
                         <lem wit="#MS-R">ceace</lem>
                         <rdg wit="#ACE">Cease</rdg>
                     </app> thy boding dire &#x2014;</l>
-                <l n="116">Thou canst not quench the ardent fire,<app>
+                <l n="116">Thou canst not quench the ardent fire<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
                 <l n="117">That warms the breast of youth.</l>
@@ -1898,7 +1898,7 @@
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">&#x2014;</rdg>
                     </app></l>
-                <l n="120">Chilled by the damps of truth.<app>
+                <l n="120">Chilled by the damps of truth<app>
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">!</rdg>
                     </app></l>
@@ -1923,9 +1923,9 @@
                 <l n="125">And hope the <app>
                         <lem wit="#MS-S"><hi rend="underline">roughest</hi></lem>
                         <rdg wit="#ACE">ROUGHEST</rdg>
-                    </app> path can cheer,<app>
+                    </app> path can cheer<app>
                         <lem wit="#MS-S">,</lem>
-                        <rdg wit="#ACE">;</rdg>
+                        <rdg wit="#ACE">:</rdg>
                     </app></l>
                 <l n="126">Then do not <del>f</del> bid it fly<app>
                         <lem wit="#MS-S">.</lem>
@@ -1936,7 +1936,7 @@
             <div type="stanza">
                 <l n="127">Though hope may promise joys<app>
                         <rdg wit="#ACE">,</rdg>
-                    </app> that still,<app>
+                    </app> that still<app>
                         <lem wit="#MS-S">,</lem>
                     </app></l>
                 <l n="128">Unkindly time will ne'er fulfill<app>
@@ -1944,7 +1944,7 @@
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
                 <l n="129">Or if they never come <app>
-                        <lem wit="#Ms-S">atall;</lem>
+                        <lem wit="#MS-S">atall;</lem>
                         <rdg wit="#ACE">at all,</rdg>
                     </app></l>
                 <l n="130">We never find them unalloyed,<app>
@@ -1961,7 +1961,9 @@
                 <l n="133">Yet hope <app>
                         <lem wit="#MS-S">itself</lem>
                         <rdg wit="#ACE">ITSELF</rdg>
-                    </app> a brightness throws,</l>
+                    </app> a brightness throws<app>
+                        <lem wit="#MS-S">,</lem>
+                    </app></l>
                 <l n="134">O'er all our labours, and our woes;</l>
                 <l n="135">While dark foreboding <app>
                         <lem wit="#MS-S">care,</lem>
@@ -2033,7 +2035,10 @@
                 <l n="155">No<app>
                         <rdg wit="#ACE">!</rdg>
                     </app> while we journey on our way,</l>
-                <l n="156">We'll notice every lovely thing<app>
+                <l n="156">We'll <app>
+                        <lem wit="#MS-S">notice</lem>
+                        <rdg wit="#ACE">smile on</rdg>
+                    </app> every lovely thing<app>
                         <lem wit="#MS-S">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
@@ -2060,7 +2065,7 @@
 
             <div type="stanza">
                 <l n="163">Though <app>
-                        <lem><del>icy</del> icey</lem>
+                        <lem wit="#MS-S"><del>icy</del> icey</lem>
                         <rdg wit="#ACE">icy</rdg>
                     </app> cold, and dark<app>
                         <rdg wit="#ACE">,</rdg>
