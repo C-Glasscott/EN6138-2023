@@ -1522,9 +1522,9 @@
                         <rdg wit="#ACE">first-born</rdg>
                     </app> darling of her heart,</l>
                 <l n="35">Her bosom glows with warmest love,</l>
-                <l n="36">While tears of speechless rapture start<app>
-                        <lem wit="#MS-R">:</lem>
-                        <rdg wit="#ACE">.</rdg>
+                <l n="36">While tears of <app>
+                        <lem wit="#MS-R">speechless rapture start:</lem>
+                        <rdg wit="#ACE">silent transport start.</rdg>
                     </app></l>
             </div>
 
@@ -1617,7 +1617,7 @@
                         <rdg wit="#ACE">,</rdg>
                     </app></l>
                 <l n="56">The rending of the <app>
-                        <lem>earthbound(heart</lem>
+                        <lem with="#MS-R">earthbound(heart</lem>
                         <rdg wit="#ACE">earth-bound heart,&#x2014;</rdg>
                     </app></l>
             </div>
@@ -1629,7 +1629,10 @@
                     <app>
                         <lem wit="#MS-R">Err</lem>
                         <rdg wit="#ACE">Ere</rdg>
-                    </app> she may sink to her repose,</l>
+                    </app> she may sink to her repose <app>
+                        <lem wit="#MS-R">,</lem>
+                        <rdg wit="#ACE">.</rdg>
+                    </app></l>
                 <l n="59"> The sad survivor cannot see<app>
                         <lem wit="#MS-R">,</lem>
                     </app></l>
@@ -1701,7 +1704,7 @@
                     </app></l>
                 <l n="74"><app>
                         <rdg wit="#ACE">"</rdg>
-                    </app>For thus she whispered once to me,<app>
+                    </app>For thus she whispered once to me<app>
                         <lem wit="#MS-R">,</lem>
                         <rdg wit="#ACE">;</rdg>
                     </app></l>
@@ -1724,7 +1727,7 @@
                 <l n="78">Too chill the winds that o'er me <app>
                         <lem wit="#MS-R">past</lem>
                         <rdg wit="#ACE">pass'd</rdg>
-                    </app>past,</l>
+                    </app>,</l>
                 <l n="79">She said<app>
                         <rdg wit="#ACE">,</rdg>
                     </app> each coming day would bring,</l>
@@ -1746,7 +1749,9 @@
                 <l n="83">The <app>
                         <lem wit="#MS-R">frequent</lem>
                         <rdg wit="#ACE">soaking</rdg>
-                    </app> rain, too constant streamed;</l>
+                    </app> rain <app>
+                        <lem wit="#MS-R">,</lem>
+                    </app> too constant streamed;</l>
                 <l n="84">And mists too dreary gathered round<app>
                         <lem wit="#MS-R">.</lem>
                         <rdg wit="#ACE">;</rdg>
