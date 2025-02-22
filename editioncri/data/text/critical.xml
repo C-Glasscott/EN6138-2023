@@ -1186,7 +1186,7 @@
                 <l n="41">
                     <app>
                         <lem wit="#MS-V">Although perchance <del> its pangs were</del>
-                            <add>their stay is <del>are</del> </add> brief,</lem>
+                            <add> their stay is </add> <add><del>are</add></del> brief,</lem>
                         <rdg wit="#ACE">(Although, perchance, their stay be brief)</rdg>
                     </app></l>
 
@@ -2006,8 +2006,9 @@
                         <rdg wit="#ACE">,</rdg>
                     </app> with reckless feet.</l>
                 <l><app>
-                        <lem wit="#MS-R"><del>The flowerets <add>that smile beneath</add> smiling at
-                                our feet</del></lem>
+                        <lem wit="#MS-R"><del>The flowerets <add> that smile beneath </add> smiling at
+                                our feet</del> 
+			</lem>
                     </app></l>
 
                 <l n="149">The smiling flowerets<app>
